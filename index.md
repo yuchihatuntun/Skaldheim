@@ -2,40 +2,40 @@
 layout: home
 sidebar: false
 
-title: 菅原命の知恵
-titleTemplate: 菅原命的智慧
+title: Insight Vault
+titleTemplate: Unlocking Knowledge, Sharing Insights
 
 hero:
   name: Tuntun Yuchiha
-  text: 神秘而庄严，这里浸润着菅原命流传下来的智慧与赐福
-  tagline: 以菅原命之名，承千年智慧，启未来之光
+  text: Explore the vault of knowledge, where wisdom flows endlessly
+  tagline: Unlocking insights, shaping the future
   image:
     src: /logo.svg
     alt: Vitest
   actions:
     - theme: brand
-      text: 开始阅读
+      text: Access to Knowledge Base
       link: /笔记/index
     - theme: alt
-      text: 加入 Discord 服务器
+      text: join our Discord
       link: https://discord.gg/XuNFDcDZGj
     - theme: alt
-      text: GitHub 上浏览
+      text: Browse on GitHub
       link: https://github.com/yuchihatuntun/nolebase-template
 
 features:
-  - title: 丰富多彩，由 tuntun 撰写
-    details: 在这里，每一页都由热情洋溢的创作者精心打造，涵盖生活百态与心灵瞬间，让回忆与创见在文字间闪耀。
+  - title: A Kaleidoscope of Stories, by tuntun
+    details: Dive into a vibrant world where every page is crafted with passion, capturing the essence of life and the fleeting moments of the soul. Let memories and creativity shine through words.
     icon: 🌈
-  - title: 纯净优雅，由 Markdown 编写
-    details: 每篇文章采用 Markdown 及其扩展语法书写，简洁之中透露无限可能，让文字舞动出优美的韵律。
-    icon: 📃
-  - title: 动感加速，由 VitePress 驱动
-    details: 借助 VitePress 极速构建与动态渲染，知识库焕发出前所未有的流畅与活力，为每次浏览注入动力。
-    icon: 🚀
-  - title: 智慧闪耀，由 Obsidian 助力
-    details: 利用 Obsidian 强大的知识管理体系，你的灵感与思考将被巧妙捕捉，每个插件都点燃智慧火花，让知识璀璨生辉。
-    icon: 🪨
+  - title: Elegant Simplicity, Powered by Markdown
+    details: Every article is meticulously written in Markdown, where simplicity meets endless possibilities. Watch words dance with grace and rhythm.
+    icon: ✨
+  - title: Lightning Speed, Driven by VitePress
+    details: Harnessing the power of VitePress, this knowledge base comes alive with blazing-fast builds and dynamic rendering, making every visit a seamless and exhilarating experience.
+    icon: ⚡
+  - title: Spark of Wisdom, Enhanced by Obsidian
+    details: With Obsidian’s robust knowledge management, your ideas and thoughts are effortlessly captured. Every plugin ignites a spark of wisdom, turning knowledge into a radiant constellation.
+    icon: 💡
 ---
 
 <HomePage />
