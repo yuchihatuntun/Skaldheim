@@ -2,7 +2,7 @@
 layout: home
 sidebar: false
 
-title: Insight Vault
+title: Skaldheim
 titleTemplate: Unlocking Knowledge, Sharing Insights
 
 hero:
