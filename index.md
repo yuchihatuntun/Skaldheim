@@ -17,7 +17,7 @@ hero:
       text: Access to Knowledge Base
       link: /笔记/index
     - theme: alt
-      text: Back to the blog
+      text: Visit the author
       link: https://filio-topaz.vercel.app
 
 features:
