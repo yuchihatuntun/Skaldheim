@@ -7,7 +7,7 @@ export const siteDescription = 'A place to record memories, knowledge and ideas'
 export const include = ['笔记', '生活']
 
 /** Repo */
-export const githubRepoLink = 'https://github.com/yuchihatuntun/nolebase-template'
+export const githubRepoLink = 'https://github.com/yuchihatuntun/Skaldheim'
 /** Discord */
 export const discordLink = 'https://discord.gg/XuNFDcDZGj'
 
