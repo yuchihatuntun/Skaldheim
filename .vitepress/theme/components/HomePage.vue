@@ -10,7 +10,7 @@ import { siteName } from '../../../metadata'
       <main class="main">
         <div class="vp-doc" mt-10 flex flex-col items-center>
           <h2 id="meet-the-team" font-normal op50 p="t-10 b-2">
-            {{ siteName }} 的创作者
+            The creator of the knowledge base
           </h2>
           <div w-full p-10>
             <VPTeamMembers size="small" :members="creators" flex justify-center />
