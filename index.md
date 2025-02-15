@@ -7,7 +7,7 @@ titleTemplate: Unlocking Knowledge, Sharing Insights
 
 hero:
   name: Tuntun Yuchiha
-  text: Knowledge is like sex: it's better when it's free.
+  text: Knowledge is like sex, it's better when it's free.
   tagline: Tribute to Linus Torvald
   image:
     src: /logo.svg
