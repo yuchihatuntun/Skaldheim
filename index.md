@@ -17,11 +17,8 @@ hero:
       text: Access to Knowledge Base
       link: /笔记/index
     - theme: alt
-      text: join our Discord
-      link: https://discord.gg/XuNFDcDZGj
-    - theme: alt
-      text: Browse on GitHub
-      link: https://github.com/yuchihatuntun/nolebase-template
+      text: Back to the blog
+      link: https://filio-topaz.vercel.app
 
 features:
   - title: A Kaleidoscope of Stories, by tuntun
