@@ -7,8 +7,8 @@ titleTemplate: Unlocking Knowledge, Sharing Insights
 
 hero:
   name: Tuntun Yuchiha
-  text: Explore the vault of knowledge, where wisdom flows endlessly
-  tagline: Unlocking insights, shaping the future
+  text: Knowledge is like sex: it's better when it's free.
+  tagline: Tribute to Linus Torvald
   image:
     src: /logo.svg
     alt: Vitest
