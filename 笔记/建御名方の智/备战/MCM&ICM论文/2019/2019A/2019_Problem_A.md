@@ -1,0 +1,15 @@
+# Background
+In the fictional television series Game of Thrones, based on the series of epic fantasy novels A Song of Ice and Fire[1], three dragons are raised by Daenerys Targaryen, the “Mother of Dragons.” When hatched, the dragons are small, roughly 10 kg, and after a year grow to roughly 30-40 kg. They continue to grow throughout their life depending on the conditions and amount of food available to them.
+在根据史诗奇幻小说《冰与火之歌》系列改编的虚构电视剧《权力的游戏》中[1]，龙之母丹妮莉丝·坦格利安养育了三条龙。刚孵化出来的龙体型很小，大约 10 公斤，一年后长到大约 30-40 公斤。它们会根据环境和食物量在一生中不断生长。
+
+For the purposes of this problem, consider these three fictional dragons are living today. Assume that the basic biology of dragons described above is accurate. You will need to make some additional assumptions about dragons that might include, for example, that dragons are able to fly great distances, breath fire, and resist tremendous trauma. As you address the problem requirements, it should be clear how your assumptions are related to the physical constraints of the functions, size, diet, changes, or other characteristics associated with the animals.
+为了解决这个问题，==假设这三条虚构的龙现在还活着==。假设上面描述的龙的基本生物学是准确的。你需要对龙做出一些额外的假设，例如，龙能够飞行很远的距离、喷火和抵抗巨大的创伤。在解决问题要求时，应该清楚你的假设与动物的功能、大小、饮食、变化或其他特征的物理限制之间的关系。
+
+# Requirements
+Your team is assigned to analyze dragon characteristics, behavior, habits, diet, and interaction with their environment. To do so, you will have to consider many questions. At a minimum, address the following: What is the ecological impact and requirements of the dragons? What are the energy expenditures of the dragons, and what are their caloric intake requirements? How much area is required to support the three dragons? How large a community is necessary to support a dragon for varying levels of assistance that can be provided to the dragons? Be clear about what factors you are considering when addressing these questions.
+
+As with other animals that migrate, dragons might travel to different regions of the world with very different climates. How important are the climate conditions to your analysis? For example, would moving a dragon between an arid region, a warm temperate region, and an arctic region make a big difference in the resources required to maintain and grow a dragon?
+
+Once your dragon analysis is complete, draft a two-page letter to the author of A Song of Ice and Fire, George R.R. Martin, to provide guidance about how to maintain the realistic ecological underpinning of the story, especially with respect to the movement of dragons from arid regions to temperate regions and to arctic regions.
+
+While your dragon analysis does not directly apply to a real physical situation, the mathematical modeling itself makes use of many realistic features used in modeling a situation. Aside from the modeling activities themselves, describe and discuss a situation outside of the realm of fictional dragons that your modeling efforts might help inform and provide insight?

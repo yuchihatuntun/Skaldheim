@@ -1,0 +1,6 @@
+# Background
+Wordle is a popular puzzle currently offered daily by the New York Times. Players try to solve the puzzle by guessing a five-letter word in six tries or less, receiving feedback with every guess. For this version, each guess must be an actual word in English. Guesses that are not recognized as words by the contest are not allowed. Wordle continues to grow in popularity and versions of the game are now available in over 60 languages.
+Wordle 是纽约时报目前每天推出的一款热门谜题。玩家需要在六次或更少的时间内猜出一个五个字母的单词，以解开谜题，每次猜测都会收到反馈。对于此版本，每次猜测都必须是英文的实际单词。不允许猜测比赛未识别为单词的单词。Wordle 越来越受欢迎，该游戏现已提供 60 多种语言版本。
+
+The New York Times website directions for Wordle state that the color of the tiles will change after you submit your word. A yellow tile indicates the letter in that tile is in the word, but it is in the wrong location. A green tile indicates that the letter in that tile is in the word and is in the correct location. A gray tile indicates that the letter in that tile is not included in the word at all (see Attachment 2)[2]. Figure 1 is an example solution where the correct result was found in three tries
+《纽约时报》网站对 Wordle 的说明指出，提交单词后，方块的颜色会发生变化。黄色方块表示该方块中的字母在单词中，但位置错误。绿色方块表示该方块中的字母在单词中，且位置正确。灰色方块表示该方块中的字母根本不包含在单词中（见附件 2）[2]。图 1 是一个示例解决方案，其中在三次尝试中找到了正确的结果
