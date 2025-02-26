@@ -32,7 +32,7 @@ tags:
 ### 物质认知
 ##### 晶体与非晶体
 **晶体和非晶体的区别**：组成它们的微粒是否是按照规则排列的
-
+![[笔记/pic/MaterialStructure_Composite_AtomicArrangement_20231015.png]]
 - **非晶体**：组成非晶体的微粒的排列是不规则的，指结构无序或者近程有序而长程无序的物质。
 
 - **晶体**：组成它们的原子（也可能是分子或者是离子），是按照一定规则排列的，具有空间上的周期性，
@@ -60,7 +60,7 @@ tags:
 
 ###### 基本关系
 $$点阵+基元=晶体结构$$
-
+![[笔记/pic/MaterialStructure_FormationProcess_Basis_Lattice_Crystal_20231015.png]]
 **简单晶格（布拉菲格子）**：基元只有一个原子的晶体。
 
 **复式晶格**：基元由两个或两个以上的原子构成晶体（两套或多套布拉菲格子构成）
@@ -127,9 +127,9 @@ $$
 \vec{T} = u\vec{a} + v\vec{b} + w\vec{c}
 $$
 
-
+![[笔记/pic/Pasted image 20250224203233.png]]
 布喇非点阵中使用的晶胞，不一定总是初基晶胞，比如：面心立方晶体的初基晶胞是一个**菱面体**，$a_1, a_2, a_3$的轴间夹角为60度。
-
+![[笔记/pic/Pasted image 20250224233641.png]]
 >[!note]+ <span style="font-weight:bold; color:rgb(44, 80, 165)">元胞与晶胞的区别</span>
  ><span style="font-weight:bold; color:rgb(238, 135, 135)">一、形态不同</span>
  >1. **元胞（固体物理学元胞）**：在晶格取一个格点为顶点，以三个不共面的方向上的基矢为边长形成的平行六面体作为重复单元。这个平行六面体沿三个不同的方向进行周期性平移，就可以充满整个晶格形成晶体，这个平行六面体即为元胞。
@@ -143,7 +143,7 @@ $$
  >1. **元胞**：元胞是<span style="font-weight:bold; color:rgb(231, 98, 84)">体积的最小重复单元</span>，它反映的是晶格的周期性，元胞的选取不是唯一的，但是它们的体积都是相等的。
  >2. **晶胞**：为了同时反映晶体的对称性，结晶学上所取的重复单元，<span style="font-weight:bold; color:rgb(231, 98, 84)">体积不一定最小</span>。
 ###### <span style="font-weight:bold; color:rgb(44, 80, 165)">常见半导体晶体结构</span>
-
+![[笔记/pic/CrystalStructures_NaCl_CeCl_Diamond_CubicZincSulfide_20231015.png]]
 
 
 
@@ -236,7 +236,7 @@ $$\vec{C} \cdot \vec{a} = 0, \quad \vec{C} \cdot \vec{b} = 0, \quad \vec{C} \cdo
 
 正格子和倒格子都属于<span style="font-weight:bold; color:rgb(231, 98, 84)">布拉菲点阵</span>，正格子和倒格子在对称性方面相互关联[^1]。
 ##### <span style="color:rgb(44, 80, 165)">维格纳一赛茨初基晶胞</span> 
-
+![[笔记/pic/SolidStatePhysics_WS_PrimitiveCell_RealSpace_ReciprocalSpace_20231015.png]]
 Wigner-Seitz primitive cell（维格纳—赛茨初基晶胞）-- 初基晶胞的另一种选择方式(既仅包含一个原子，又体现出晶体的对称特性)
 
 **分割方法：**
