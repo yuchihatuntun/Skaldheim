@@ -15,13 +15,13 @@ tags:
 参考教材: 半导体物理学第七版 (刘恩科)
 前置知识: 固体物理、量子力学、统计物理
 ---
-### <span style="color:rgb(0, 64, 255)">课程概览</span>
+### 课程概览
 固体物理主要研究晶体和晶体中的电子。在本世纪初期，随着 X 射线衍射的发现以及对晶体性质一系列简明 而成功的计算和预测的公布，固体物理的研究作为原子物理的一个扩充领域，开始发展起来。
 ![[笔记/pic/Physics_Semiconductor_Flowchart_QuantumMechanics_To_IntegratedCircuits_20231015.png]]
 **课程特点**：内容广，概念多，承上启下。
 
 **基本掌握内容**：物理概念，物理图像，物理模型。 基本公式的推导与应用。
-##### <span style="color:rgb(0, 64, 255)">成绩评定方式</span>
+##### 成绩评定方式
 
 | 项目   | 比重  | 考核时间       |
 | ---- | --- | ---------- |
@@ -29,8 +29,8 @@ tags:
 | 平时作业 | 10% | 不定时        |
 | 期中考试 | 20% | 第九周（4月21日） |
 | 期末考试 | 60% | 期末周        |
-### <span style="color:rgb(0, 64, 255)">物质认知</span>
-##### <span style="color:rgb(0, 64, 255)">晶体与非晶体</span>
+### 物质认知
+##### 晶体与非晶体
 **晶体和非晶体的区别**：组成它们的微粒是否是按照规则排列的
 
 ![[笔记/pic/MaterialStructure_Composite_AtomicArrangement_20231015.png]]
@@ -39,16 +39,16 @@ tags:
 - **晶体**：组成它们的原子（也可能是分子或者是离子），是按照一定规则排列的，具有空间上的周期性，
 	- <span style="font-weight:bold; color:rgb(231, 98, 84)">单晶体</span>：整块材料中原子都是规则的周期性排列的，一种结构贯穿了整体。
 	- **多晶体**：由大量微小单晶体（晶粒）随机堆砌而成的整块材料。
-##### <span style="color:rgb(0, 64, 255)">半导体</span>
+##### 半导体
 <span style="font-weight:bold; color:rgb(238, 135, 135)">半导体材料（semiconductor material）</span>是一类具有半导体性能导电能力介于导体与绝缘体之间 、可用来制作半导体器件和集成电路的电子材料 。
 
 半导体的关键是<span style="font-weight:bold; color:rgb(247, 170, 88)">可变性</span>：能在绝缘体与导体之间转化。
-###### <span style="color:rgb(0, 64, 255)">本征半导体</span>
+###### 本征半导体
 本征半导体是理想的单晶，没有杂质与缺陷。
-###### <span style="color:rgb(0, 64, 255)">非本征半导体</span>
+###### 非本征半导体
 即杂质半导体，含有杂质，缺陷的在周期性晶格。
 
-##### <span style="color:rgb(0, 64, 255)">晶体的微观结构</span>
+##### 晶体的微观结构
 理想单晶是由全同的结构单元在空间无限重复而构成的。
 
 **结构单元组成**：
@@ -59,7 +59,7 @@ tags:
 
 具体结构单元内容（<span style="font-weight:bold; color:rgb(247, 170, 88)">每个阵点上的一群原子</span>），称为<span style="font-weight:bold; color:rgb(238, 135, 135)">基元</span>。
 
-###### <span style="color:rgb(0, 64, 255)">基本关系</span>
+###### 基本关系
 $$点阵+基元=晶体结构$$
 ![[笔记/pic/MaterialStructure_FormationProcess_Basis_Lattice_Crystal_20231015.png]]
 **简单晶格（布拉菲格子）**：基元只有一个原子的晶体。
@@ -69,7 +69,7 @@ $$点阵+基元=晶体结构$$
 1. 每个阵点上附加一个基元，就构成晶体结构；
 2. 每个基元的组成、位形和取向都是相同的；
 3. <span style="font-weight:bold; color:rgb(247, 170, 88)">相对一个阵点，将基元放在何处是无关紧要的</span>。（想象一个棋盘（布拉菲点阵），每个格子中心是一个阵点（lattice point）。假设每个格子里放一个棋子（基元，比如一个原子）。无论你把棋子放在格子中心的左、上、右还是下，只要棋子的相对位置在每个格子里保持一致，整个棋盘的模式不会变——它仍然是同一个棋盘，规则和外观没变。这就是平移不变性的体现。）
-###### <span style="color:rgb(0, 64, 255)">严格的数学定义</span>
+###### 严格的数学定义
 给定三个基本平移矢量 $\vec{a}$, $\vec{b}$, $\vec{c}$
 
 $$
@@ -143,7 +143,7 @@ $$
  ><span style="font-weight:bold; color:rgb(238, 135, 135)">三、重复单元不同</span>
  >1. **元胞**：<span style="font-weight:bold; color:rgb(247, 170, 88)">元胞是体积的最小重复单元，它反映的是晶格的周期性</span>，元胞的选取不是唯一的，但是它们的体积都是相等的。
  >2. **晶胞**：为了同时反映晶体的对称性，<span style="font-weight:bold; color:rgb(247, 170, 88)">结晶学上所取的重复单元，体积不一定最小</span>。
-###### <span style="font-weight:bold; color:rgb(44, 80, 165)">常见半导体晶体结构</span>
+###### 常见半导体晶体结构
 ![[笔记/pic/CrystalStructures_NaCl_CeCl_Diamond_CubicZincSulfide_20231015.png]]
 
 
@@ -154,8 +154,8 @@ $$
 
 
 
-### <span style="color:rgb(44, 80, 165)">倒格子与倒空间</span>
-##### <span style="color:rgb(44, 80, 165)">数学定义</span>
+### 倒格子与倒空间
+##### 数学定义
 晶体性质的周期性：
 $$
 \vec{T} = u\vec{a} + v\vec{b} + w\vec{c}
@@ -188,7 +188,7 @@ $$
 $$n(x) = \sum_p n_p e^{i2\pi px/a} \longrightarrow n(\vec{r}) = \sum_{\vec{G}} n_{\vec{G}} e^{i\vec{G}\cdot\vec{r}}$$
 则需寻求一组矢量G，满足 $n(\vec{r} + \vec{T}) = n(\vec{r})$
 
-##### <span style="color:rgb(44, 80, 165)">倒格子的轴矢及其性质</span>
+##### 倒格子的轴矢及其性质
 <span style="font-weight:bold; color:rgb(238, 135, 135)">倒易点阵的轴矢</span>：
 $$\vec{A} = 2\pi \frac{\vec{b} \times \vec{c}}{\vec{a} \cdot \vec{b} \times \vec{c}}$$
 $$\vec{B} = 2\pi \frac{\vec{c} \times \vec{a}}{\vec{a} \cdot \vec{b} \times \vec{c}}$$
@@ -220,7 +220,7 @@ $$\vec{C} \cdot \vec{a} = 0, \quad \vec{C} \cdot \vec{b} = 0, \quad \vec{C} \cdo
 >$$
 \vec{a}^* \cdot \vec{c} = 0$$
 
-###### <span style="color:rgb(44, 80, 165)">倒易轴矢的性质</span>
+###### 倒易轴矢的性质
 - 若$a$，$b$，$c$为初基的，则$A$，$B$，$C$就是倒易点阵的初基矢量
 
 - $A$,$B$,$C$每个矢量与晶体点阵的两个轴矢正交（相互正交）
@@ -232,11 +232,11 @@ $$\vec{C} \cdot \vec{a} = 0, \quad \vec{C} \cdot \vec{b} = 0, \quad \vec{C} \cdo
 
 - 晶体点阵中的矢量具有$length$的量纲，倒易点阵中的矢量具有$length^{-1}$的量纲
 
-###### <span style="color:rgb(44, 80, 165)">倒易空间与晶格的关系</span>
+###### 倒易空间与晶格的关系
 从数学观点看，<span style="font-weight:bold; color:rgb(247, 170, 88)">倒格子是原来晶格的傅里叶变化，傅里叶变化将通常的坐标空间变成了波矢空间</span>，对应于坐标空间中的晶格变换为波矢空间的倒格子。
 
 正格子和倒格子都属于<span style="font-weight:bold; color:rgb(231, 98, 84)">布拉菲点阵</span>，正格子和倒格子在对称性方面相互关联[^1]。
-##### <span style="color:rgb(44, 80, 165)">维格纳一赛茨初基晶胞</span> 
+##### 维格纳一赛茨初基晶胞
 ![[笔记/pic/SolidStatePhysics_WS_PrimitiveCell_RealSpace_ReciprocalSpace_20231015.png]]
 <span style="font-weight:bold; color:rgb(231, 98, 84)">Wigner-Seitz primitive cell</span>（维格纳—赛茨初基晶胞）-- 初基晶胞的另一种选择方式(既仅包含一个原子，又体现出晶体的对称特性)
 
