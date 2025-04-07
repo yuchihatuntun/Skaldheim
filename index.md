@@ -25,7 +25,7 @@ features:
     details: This site is a collection of my notes, blogs and documents, maintained by myself, hosted on GitHub Pages. If you encountered any problems or bugs while visiting the site, please visit GitHub > Tuntun Yuchiha and submit an issue. Sincere thanks.
     icon: 📔
   - title: Notes and Blogs
-    details: Our notes, blogs and documents are written with Goodnotes, Markdown or Latex, following WSETD (Writing Standards of Easy-read Technical Document). Unless otherwise specified, all the blogs, articles, notes and documents are licensed under CC BY-NC 4.0 license agreement. You can freely download and share them but commercial use is prohibited. Please indicate the source when reprinting. By the way, I am trying to write notes in English as a practice.
+    details: Our notes, blogs and documents are written with Goodnotes, Markdown or Latex, following WSETD (Writing Standards of Easy-read Technical Document). You can freely download and share them but commercial use is prohibited. Please indicate the source when reprinting.
     icon: ✨
   - title: Lightning Speed
     details: Harnessing the power of VitePress, this knowledge base comes alive with blazing-fast builds and dynamic rendering, making every visit a seamless and exhilarating experience.
