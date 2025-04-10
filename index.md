@@ -7,8 +7,8 @@ titleTemplate: Unlocking Knowledge, Sharing Insights    # 设置标题模板/副
 
 hero:               # 定义英雄/横幅区域
   name: Tuntun Yuchiha    # 英雄区域的名称
-  text: おかえりなさいっ！(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧    # 英雄区域的主要文本
-  tagline: Ciallo～(∠・ω< )⌒★    # 英雄区域的标语
+  text: Ciallo～    # 英雄区域的主要文本
+  tagline: (∠・ω< )⌒★    # 英雄区域的标语
   image:            # 英雄区域的图片设置
     src: /好奇.svg  # 图片源路径
     alt: Vitest     # 图片替代文本
