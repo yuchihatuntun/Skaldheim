@@ -22,6 +22,7 @@
 
 由于开发板套组不便带回，所以我使用了[WOKWI平台](https://wokwi.com/)初步验证了方案的可行性，由于~~万恶的资本主义（需要开会员延长编译时间）~~，平台的编译时长有限，~~我又懒得去找Arduino UNO的固件文件来本地编译代码~~，于是我编写了一个阉割版的代码，由于流量限制，这里暂不提供视频，可以根据配置自己去平台做一下仿真，功能是已经可以实现的：
 
+具体原理参考[[Principle.md]]文档
 #### 接线
 
 **MPU6050接线:**
@@ -322,150 +323,91 @@ void drawSimpleCube(float pitch, float roll) {
 #### 完整版代码
 
 ```cpp
-// Arduino项目 - 多模式传感器显示系统
-
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <MPU6050.h>
 #include <Servo.h>
 
-// OLED显示屏设置
+// OLED
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 #define OLED_RESET    -1
-#define SCREEN_ADDRESS 0x3C
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-// 引脚定义
 #define JOYSTICK_X_PIN  A0
 #define JOYSTICK_Y_PIN  A1
 #define JOYSTICK_BTN    3
 #define SERVO_PIN       9
 #define TRIG_PIN        4
 #define ECHO_PIN        5
-#define MPU_INT_PIN     2
 
-// 全局变量
 MPU6050 mpu;
 Servo myServo;
-
-int currentMode = 0;  // 0: 雷达模式, 1: 姿态模式
+int currentMode = 0; // 0: 雷达模式, 1: 姿态模式
 bool buttonPressed = false;
 unsigned long lastDebounceTime = 0;
-unsigned long debounceDelay = 200;
 
-// 姿态角度
+// 姿态角
 float pitch = 0;
 float roll = 0;
-float yaw = 0;
 
-// 3D立方体的顶点 (x, y, z)
-float vertices[8][3] = {
-  {-1, -1, -1},
-  {1, -1, -1},
-  {1, 1, -1},
-  {-1, 1, -1},
-  {-1, -1, 1},
-  {1, -1, 1},
-  {1, 1, 1},
-  {-1, 1, 1}
+// 3D立方体顶点坐标
+const int8_t cubeVertices[8][3] = {
+  {-1, -1, -1}, {1, -1, -1}, {1, 1, -1}, {-1, 1, -1},
+  {-1, -1,  1}, {1, -1,  1}, {1, 1,  1}, {-1, 1,  1}
 };
 
-// 立方体的边
-byte edges[12][2] = {
-  {0, 1}, {1, 2}, {2, 3}, {3, 0},  // 底面
-  {4, 5}, {5, 6}, {6, 7}, {7, 4},  // 顶面
-  {0, 4}, {1, 5}, {2, 6}, {3, 7}   // 连接边
+// 立方体边的连接关系
+const uint8_t cubeEdges[12][2] = {
+  {0, 1}, {1, 2}, {2, 3}, {3, 0},
+  {4, 5}, {5, 6}, {6, 7}, {7, 4},
+  {0, 4}, {1, 5}, {2, 6}, {3, 7}
 };
 
 void setup() {
-  Serial.begin(115200);
-  
-  // 初始化OLED
-  if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
-    Serial.println(F("SSD1306分配失败"));
-    for(;;);
+  Serial.begin(9600);
+
+  // OLED初始化部分，保持不变
+  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
+    Serial.println(F("SSD1306 initialization failed"));
+    for (;;);
   }
   display.clearDisplay();
   display.setTextSize(1);
   display.setTextColor(SSD1306_WHITE);
-  display.setCursor(0, 0);
-  display.println(F("启动中..."));
+  display.println("starting up...");
   display.display();
-  
-  // 初始化I2C总线
+
+  // 初始化I2C和MPU6050
   Wire.begin();
-  
-  // 初始化MPU6050
-  Serial.println("初始化MPU6050...");
   mpu.initialize();
-  
-  // 检查MPU6050连接
-  if (!mpu.testConnection()) {
-    Serial.println(F("MPU6050连接失败"));
-    display.clearDisplay();
-    display.setCursor(0, 0);
-    display.println(F("MPU6050连接失败!"));
-    display.display();
-    while(1);
-  }
-  
-  // 配置MPU6050
-  mpu.setFullScaleGyroRange(MPU6050_GYRO_FS_250);
-  mpu.setFullScaleAccelRange(MPU6050_ACCEL_FS_2);
-  
-  // 初始化摇杆
+
+  // 初始化按钮和舵机
   pinMode(JOYSTICK_BTN, INPUT_PULLUP);
-  
-  // 初始化舵机
   myServo.attach(SERVO_PIN);
-  myServo.write(90); // 中间位置
-  
+  myServo.write(90);
+
   // 初始化超声波
   pinMode(TRIG_PIN, OUTPUT);
   pinMode(ECHO_PIN, INPUT);
-  
-  // 可选：使用MPU6050中断
-  pinMode(MPU_INT_PIN, INPUT);
-  
+
   delay(1000);
   display.clearDisplay();
-  display.setCursor(0, 0);
-  display.println(F("系统就绪!"));
+  display.println("Ready!");
   display.display();
-  delay(1000);
-  
-  // 校准MPU6050 (可选)
-  display.clearDisplay();
-  display.setCursor(0, 0);
-  display.println(F("将设备放平"));
-  display.println(F("校准中..."));
-  display.display();
-  delay(2000); // 给用户时间将设备放平
-  
-  // 设置零点偏移，这里假设设备放平
-  calibrateMPU6050();
-  
-  display.clearDisplay();
-  display.setCursor(0, 0);
-  display.println(F("校准完成!"));
-  display.display();
-  delay(1000);
 }
 
 void loop() {
   // 检测模式切换按钮
   if (digitalRead(JOYSTICK_BTN) == LOW) {
-    if (!buttonPressed && (millis() - lastDebounceTime) > debounceDelay) {
-      currentMode = 1 - currentMode; // 在0和1之间切换
+    if (!buttonPressed && (millis() - lastDebounceTime) > 200) {
+      currentMode = 1 - currentMode;
       buttonPressed = true;
       lastDebounceTime = millis();
-      
+
       display.clearDisplay();
-      display.setCursor(0, 0);
-      display.print(F("切换至模式: "));
-      display.println(currentMode == 0 ? F("雷达") : F("姿态"));
+      display.println(currentMode == 0 ? "Mode: Radar" : "Mode: 3D Attitude");
       display.display();
       delay(500);
     }
@@ -473,220 +415,136 @@ void loop() {
     buttonPressed = false;
   }
 
-  // 根据当前模式运行相应功能
+  // 根据模式执行功能
   if (currentMode == 0) {
     radarMode();
   } else {
     attitudeMode();
   }
-}
-
-// 校准MPU6050
-void calibrateMPU6050() {
-  long accelX = 0, accelY = 0, accelZ = 0;
-  long gyroX = 0, gyroY = 0, gyroZ = 0;
-  int samples = 100;
-  
-  // 收集多个样本求平均值
-  for (int i = 0; i < samples; i++) {
-    int16_t ax, ay, az, gx, gy, gz;
-    mpu.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
-    accelX += ax;
-    accelY += ay;
-    accelZ += az - 16384; // 假设Z轴向下，约16384 (1g)
-    gyroX += gx;
-    gyroY += gy;
-    gyroZ += gz;
-    delay(10);
-  }
-  
-  // 计算偏移量
-  accelX /= samples;
-  accelY /= samples;
-  accelZ /= samples;
-  gyroX /= samples;
-  gyroY /= samples;
-  gyroZ /= samples;
-  
-  // 设置偏移量
-  mpu.setXAccelOffset(-accelX);
-  mpu.setYAccelOffset(-accelY);
-  mpu.setZAccelOffset(-accelZ);
-  mpu.setXGyroOffset(-gyroX);
-  mpu.setYGyroOffset(-gyroY);
-  mpu.setZGyroOffset(-gyroZ);
+  delay(15); // 提高刷新率
 }
 
 void radarMode() {
-  // 获取摇杆X轴读数控制舵机
-  int joystickValue = analogRead(JOYSTICK_X_PIN);
-  int servoAngle = map(joystickValue, 0, 1023, 0, 180);
+  // 读取摇杆的X轴，用来控制舵机角度
+  int joystickX = analogRead(JOYSTICK_X_PIN);
+  int servoAngle = map(joystickX, 0, 1023, 0, 180);
   myServo.write(servoAngle);
-  
+
   // 测量距离
+  int distance = measureDistance();
+
+  // 绘制雷达显示
+  drawRadar(servoAngle, distance);
+
+  delay(20); // 控制刷新速度
+}
+
+int measureDistance() {
   digitalWrite(TRIG_PIN, LOW);
   delayMicroseconds(2);
   digitalWrite(TRIG_PIN, HIGH);
   delayMicroseconds(10);
   digitalWrite(TRIG_PIN, LOW);
-  
-  // 读取脉冲时间并计算距离
-  long duration = pulseIn(ECHO_PIN, HIGH);
-  float distance = duration * 0.034 / 2; // 距离（厘米）
-  
-  // 限制距离范围，最大显示为200cm
-  distance = constrain(distance, 0, 200);
-  
-  // 绘制雷达界面
+
+  long duration = pulseIn(ECHO_PIN, HIGH, 30000); // 超声波回响时间，最大30ms
+  if (duration == 0) return 100; // 超时返回最大距离
+
+  int distance = duration * 0.034 / 2; // 根据时间计算距离
+  return constrain(distance, 0, 100);
+}
+
+void drawRadar(int angle, int distance) {
   display.clearDisplay();
-  
-  // 绘制半圆轮廓
+
+  // 绘制雷达背景
   int centerX = SCREEN_WIDTH / 2;
   int centerY = SCREEN_HEIGHT - 1;
-  int radius = SCREEN_HEIGHT - 2;
-  
-  display.drawFastHLine(0, centerY, SCREEN_WIDTH, SSD1306_WHITE);
-  
-  // 绘制雷达扫描线
-  float radAngle = radians(servoAngle);
-  int lineX = centerX + round(radius * cos(PI - radAngle));
-  int lineY = centerY - round(radius * sin(PI - radAngle));
+  int radius = SCREEN_HEIGHT - 10;
+
+  display.drawCircle(centerX, centerY, radius, SSD1306_WHITE);
+  display.drawCircle(centerX, centerY, radius * 2 / 3, SSD1306_WHITE);
+  display.drawCircle(centerX, centerY, radius / 3, SSD1306_WHITE);
+
+  // 绘制扫描线
+  float radAngle = radians(angle);
+  int lineX = centerX + radius * cos(PI - radAngle);
+  int lineY = centerY - radius * sin(PI - radAngle);
   display.drawLine(centerX, centerY, lineX, lineY, SSD1306_WHITE);
-  
-  // 绘制距离点
-  float scaledDistance = map(distance, 0, 200, 0, radius);
-  int pointX = centerX + round(scaledDistance * cos(PI - radAngle));
-  int pointY = centerY - round(scaledDistance * sin(PI - radAngle));
-  display.fillCircle(pointX, pointY, 3, SSD1306_WHITE);
-  
-  // 画出圆弧（雷达范围指示器）
-  for (int i = 0; i <= 180; i += 30) {
-    float rad = radians(i);
-    int arcX = centerX + round(radius * cos(PI - rad));
-    int arcY = centerY - round(radius * sin(PI - rad));
-    display.drawPixel(arcX, arcY, SSD1306_WHITE);
-  }
-  
-  // 绘制半圆弧线（距离指示器）
-  for (int r = radius/3; r <= radius; r += radius/3) {
-    for (int i = 0; i <= 180; i += 5) {
-      float rad = radians(i);
-      int arcX = centerX + round(r * cos(PI - rad));
-      int arcY = centerY - round(r * sin(PI - rad));
-      display.drawPixel(arcX, arcY, SSD1306_WHITE);
-    }
-  }
-  
-  // 显示角度和距离
+
+  // 绘制目标点
+  float scaledDistance = map(distance, 0, 100, 0, radius);
+  int targetX = centerX + scaledDistance * cos(PI - radAngle);
+  int targetY = centerY - scaledDistance * sin(PI - radAngle);
+  display.fillCircle(targetX, targetY, 3, SSD1306_WHITE);
+
+  // 显示角度和距离信息
   display.setCursor(0, 0);
-  display.print(F("角度: "));
-  display.print(servoAngle);
-  display.print(F(" 距离: "));
-  display.print((int)distance);
-  display.println(F("cm"));
-  
+  display.print("Angle: ");
+  display.print(angle);
+  display.print(" Dist: ");
+  display.print(distance);
+  display.println("cm");
+
   display.display();
-  delay(50);
 }
 
 void attitudeMode() {
-  // 读取MPU6050数据
+  // 获取MPU6050加速度数据
   int16_t ax, ay, az;
-  int16_t gx, gy, gz;
-  mpu.getMotion6(&ax, &ay, &az, &gx, &gy, &gz);
-  
-  // 将加速度数据转换为倾角 (简化版)
-  float accelX = ax / 16384.0;
-  float accelY = ay / 16384.0;
-  float accelZ = az / 16384.0;
-  
-  // 计算姿态角度（只用加速度计）
-  roll = atan2(accelY, accelZ) * 180.0 / PI;
-  pitch = atan2(-accelX, sqrt(accelY * accelY + accelZ * accelZ)) * 180.0 / PI;
-  
-  // 这里省略了陀螺仪集成的复杂方法如互补滤波或卡尔曼滤波
-  // 实际应用中应当结合陀螺仪数据以获得更准确的姿态角度
-  
-  // 清除屏幕
+  mpu.getAcceleration(&ax, &ay, &az);
+
+  // 计算姿态角
+  roll = atan2(ay, az) * 180.0 / PI;
+  pitch = atan2(-ax, sqrt(ay * ay + az * az)) * 180.0 / PI;
+
+  // 清屏并绘制3D立方体
   display.clearDisplay();
-  
-  // 绘制3D立方体
-  drawCube(pitch, roll, yaw);
-  
-  // 显示姿态角度数据
+  draw3DCube(roll, pitch);
+
+  // 显示姿态角数据
   display.setCursor(0, 0);
-  display.print(F("P:"));
+  display.print("Pitch: ");
   display.print(pitch, 1);
-  display.print(F(" R:"));
+  display.setCursor(0, 10);
+  display.print("Roll: ");
   display.print(roll, 1);
-  display.print(F(" Y:"));
-  display.print(yaw, 1);
-  
+
   display.display();
-  delay(50);
 }
 
-void drawCube(float pitch, float roll, float yaw) {
-  // 创建旋转后的顶点副本
-  float rotated[8][3];
-  
-  // 旋转立方体
+void draw3DCube(float roll, float pitch) {
+  int centerX = SCREEN_WIDTH / 2;
+  int centerY = SCREEN_HEIGHT / 2;
+
+  float angleX = radians(roll);
+  float angleY = radians(pitch);
+
+  int projectedX[8];
+  int projectedY[8];
+
   for (int i = 0; i < 8; i++) {
-    float x = vertices[i][0];
-    float y = vertices[i][1];
-    float z = vertices[i][2];
-    
-    // 应用旋转 - X轴 (Pitch)
-    float temp_y = y;
-    float temp_z = z;
-    y = temp_y * cos(radians(pitch)) - temp_z * sin(radians(pitch));
-    z = temp_y * sin(radians(pitch)) + temp_z * cos(radians(pitch));
-    
-    // 应用旋转 - Y轴 (Roll)
-    float temp_x = x;
-    temp_z = z;
-    x = temp_x * cos(radians(roll)) + temp_z * sin(radians(roll));
-    z = -temp_x * sin(radians(roll)) + temp_z * cos(radians(roll));
-    
-    // 应用旋转 - Z轴 (Yaw)
-    temp_x = x;
-    temp_y = y;
-    x = temp_x * cos(radians(yaw)) - temp_y * sin(radians(yaw));
-    y = temp_x * sin(radians(yaw)) + temp_y * cos(radians(yaw));
-    
-    // 保存旋转后的坐标
-    rotated[i][0] = x;
-    rotated[i][1] = y;
-    rotated[i][2] = z;
+    float x = cubeVertices[i][0];
+    float y = cubeVertices[i][1];
+    float z = cubeVertices[i][2];
+
+    // 旋转变换
+    float tempY = y * cos(angleX) - z * sin(angleX);
+    float tempZ = y * sin(angleX) + z * cos(angleX);
+    float tempX = x * cos(angleY) + tempZ * sin(angleY);
+    z = -x * sin(angleY) + tempZ * cos(angleY);
+    y = tempY;
+
+    // 投影变换
+    float scale = 64 / (64 + z); // 简单透视投影
+    projectedX[i] = centerX + int(tempX * scale * 10);
+    projectedY[i] = centerY + int(y * scale * 10);
   }
-  
-  // 3D -> 2D投影点
-  int projections[8][2];
-  
-  // 将旋转后的3D点投影到2D屏幕
-  for (int i = 0; i < 8; i++) {
-    float scale = 18.0; // 缩放因子
-    float distanceFromViewer = 5.0;
-    
-    // 透视投影
-    float z1 = 1 / (distanceFromViewer - rotated[i][2]);
-    float px = rotated[i][0] * z1 * scale;
-    float py = rotated[i][1] * z1 * scale;
-    
-    // 转换到屏幕坐标
-    int screenX = SCREEN_WIDTH / 2 + px;
-    int screenY = SCREEN_HEIGHT / 2 + py;
-    
-    projections[i][0] = screenX;
-    projections[i][1] = screenY;
-  }
-  
-  // 绘制立方体边缘
+
+  // 绘制立方体的12条边
   for (int i = 0; i < 12; i++) {
-    display.drawLine(
-      projections[edges[i][0]][0], projections[edges[i][0]][1],
-      projections[edges[i][1]][0], projections[edges[i][1]][1],
-      SSD1306_WHITE);
+    int start = cubeEdges[i][0];
+    int end = cubeEdges[i][1];
+    display.drawLine(projectedX[start], projectedY[start], projectedX[end], projectedY[end], SSD1306_WHITE);
   }
 }
 ```
