@@ -1,20 +1,19 @@
 ### 项目概览
 
-本项目基于Arduino开发板，结合多个传感器和外设（MPU6050、摇杆、舵机、超声波传感器和OLED屏幕），实现了两种主要功能模式：
+本项目基于Arduino开发板，结合多个传感器和外设（MPU6050、摇杆、舵机、超声波传感器和OLED屏幕），实现了雷达&警告功能：
 
-1. **雷达模式**：通过摇杆控制舵机旋转，改变超声波传感器的方向，实时测量距离并在OLED屏幕上显示雷达扫描效果。
-2. **姿态模式**：通过MPU6050传感器获取设备的姿态数据（俯仰角和横滚角），并在OLED屏幕上显示一个模拟当前姿态的立方体。
+**雷达模式**：通过摇杆控制舵机旋转，改变超声波传感器的方向，实时测量距离并在OLED屏幕上显示雷达扫描效果。
 
 ### 主要设计架构
 | 组件           | 功能角色    | 创新点             |
 | ------------ | ------- | ----------------- |
 | ​**模拟摇杆**    | 双模态切换器  | 下压按键实现"物理-虚拟"模式跃迁 |
-| ​**MPU6050** | 空间姿态采集器 | 三轴融合算法解算三维姿态      |
 | ​**超声波传感器**  | 环境雷达探头  | 扫描数据极坐标可视化        |
 | ​**180°舵机**  | 可编程云台   | 人工操控与自动扫描模式兼容     |
 | ​**OLED屏幕**  | 混合现实显示器 | 同时支持雷达图与3D立方体渲染   |
+| ​**蜂鸣器**  | 发出警报 | ？   |
 
-包含了【**集成三种传感元件**】以及【**连续功能演示**】等要求
+包含了【**集成多种传感元件**】以及【**连续功能演示**】等要求
 
 ![[笔记/pic/sensor_architecture.png]]  
 
@@ -25,13 +24,11 @@
 具体原理参考[[Principle.md]]文档
 #### 接线
 
-**MPU6050接线:**
+**蜂鸣器接线:**
 ```
 VCC -> Arduino 5V
 GND -> Arduino GND
-SCL -> Arduino A5
-SDA -> Arduino A4
-AD0 -> GND（I2C地址设置为0x68）
+IO -> Arduino D6
 ```
 
 **摇杆接线:**
@@ -326,49 +323,26 @@ void drawSimpleCube(float pitch, float roll) {
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-#include <MPU6050.h>
 #include <Servo.h>
 
-// OLED
+// OLED设置
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 #define OLED_RESET    -1
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-#define JOYSTICK_X_PIN  A0
-#define JOYSTICK_Y_PIN  A1
-#define JOYSTICK_BTN    3
-#define SERVO_PIN       9
-#define TRIG_PIN        4
-#define ECHO_PIN        5
+#define JOYSTICK_X_PIN  A0  // 水平轴
+#define SERVO_PIN       9   // 舵机
+#define TRIG_PIN        4   // （超声波）触发引脚
+#define ECHO_PIN        5   // （超声波）回响引脚
+#define BUZZER_PIN      6   // 蜂鸣器引脚
 
-MPU6050 mpu;
 Servo myServo;
-int currentMode = 0; // 0: 雷达模式, 1: 姿态模式
-bool buttonPressed = false;
-unsigned long lastDebounceTime = 0;
-
-// 姿态角
-float pitch = 0;
-float roll = 0;
-
-// 3D立方体顶点坐标
-const int8_t cubeVertices[8][3] = {
-  {-1, -1, -1}, {1, -1, -1}, {1, 1, -1}, {-1, 1, -1},
-  {-1, -1,  1}, {1, -1,  1}, {1, 1,  1}, {-1, 1,  1}
-};
-
-// 立方体边的连接关系
-const uint8_t cubeEdges[12][2] = {
-  {0, 1}, {1, 2}, {2, 3}, {3, 0},
-  {4, 5}, {5, 6}, {6, 7}, {7, 4},
-  {0, 4}, {1, 5}, {2, 6}, {3, 7}
-};
 
 void setup() {
   Serial.begin(9600);
 
-  // OLED初始化部分，保持不变
+  // 初始化（不要动！！！）
   if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
     Serial.println(F("SSD1306 initialization failed"));
     for (;;);
@@ -376,21 +350,20 @@ void setup() {
   display.clearDisplay();
   display.setTextSize(1);
   display.setTextColor(SSD1306_WHITE);
-  display.println("starting up...");
+  display.println("Starting up...");
   display.display();
 
-  // 初始化I2C和MPU6050
-  Wire.begin();
-  mpu.initialize();
-
-  // 初始化按钮和舵机
-  pinMode(JOYSTICK_BTN, INPUT_PULLUP);
+  // 舵机初始化
   myServo.attach(SERVO_PIN);
   myServo.write(90);
 
-  // 初始化超声波
+  // 超声波初始化
   pinMode(TRIG_PIN, OUTPUT);
   pinMode(ECHO_PIN, INPUT);
+
+  // 蜂鸣器初始化
+  pinMode(BUZZER_PIN, OUTPUT);
+  digitalWrite(BUZZER_PIN, LOW);
 
   delay(1000);
   display.clearDisplay();
@@ -399,33 +372,7 @@ void setup() {
 }
 
 void loop() {
-  // 检测模式切换按钮
-  if (digitalRead(JOYSTICK_BTN) == LOW) {
-    if (!buttonPressed && (millis() - lastDebounceTime) > 200) {
-      currentMode = 1 - currentMode;
-      buttonPressed = true;
-      lastDebounceTime = millis();
-
-      display.clearDisplay();
-      display.println(currentMode == 0 ? "Mode: Radar" : "Mode: 3D Attitude");
-      display.display();
-      delay(500);
-    }
-  } else {
-    buttonPressed = false;
-  }
-
-  // 根据模式执行功能
-  if (currentMode == 0) {
-    radarMode();
-  } else {
-    attitudeMode();
-  }
-  delay(15); // 提高刷新率
-}
-
-void radarMode() {
-  // 读取摇杆的X轴，用来控制舵机角度
+  // 读取摇杆的X轴
   int joystickX = analogRead(JOYSTICK_X_PIN);
   int servoAngle = map(joystickX, 0, 1023, 0, 180);
   myServo.write(servoAngle);
@@ -433,10 +380,16 @@ void radarMode() {
   // 测量距离
   int distance = measureDistance();
 
-  // 绘制雷达显示
-  drawRadar(servoAngle, distance);
+  // 如果距离过近，启动蜂鸣器并显示警告
+  if (distance > 0 && distance < 10) {
+    digitalWrite(BUZZER_PIN, HIGH); // 打开蜂鸣器
+    displayWarning(distance);       // 显示警告
+  } else {
+    digitalWrite(BUZZER_PIN, LOW);   // 关闭蜂鸣器
+    drawRadar(servoAngle, distance); // 绘制雷达界面
+  }
 
-  delay(20); // 控制刷新速度
+  delay(20); // 刷新速度
 }
 
 int measureDistance() {
@@ -447,9 +400,9 @@ int measureDistance() {
   digitalWrite(TRIG_PIN, LOW);
 
   long duration = pulseIn(ECHO_PIN, HIGH, 30000); // 超声波回响时间，最大30ms
-  if (duration == 0) return 100; // 超时返回最大距离
+  if (duration == 0) return 100;                  // 超时返回最大距离
 
-  int distance = duration * 0.034 / 2; // 根据时间计算距离
+  int distance = duration * 0.034 / 2;            // 根据时间计算距离
   return constrain(distance, 0, 100);
 }
 
@@ -488,63 +441,18 @@ void drawRadar(int angle, int distance) {
   display.display();
 }
 
-void attitudeMode() {
-  // 获取MPU6050加速度数据
-  int16_t ax, ay, az;
-  mpu.getAcceleration(&ax, &ay, &az);
-
-  // 计算姿态角
-  roll = atan2(ay, az) * 180.0 / PI;
-  pitch = atan2(-ax, sqrt(ay * ay + az * az)) * 180.0 / PI;
-
-  // 清屏并绘制3D立方体
+void displayWarning(int distance) {
   display.clearDisplay();
-  draw3DCube(roll, pitch);
 
-  // 显示姿态角数据
+  // 显示警告信息
+  display.setTextSize(2);
   display.setCursor(0, 0);
-  display.print("Pitch: ");
-  display.print(pitch, 1);
-  display.setCursor(0, 10);
-  display.print("Roll: ");
-  display.print(roll, 1);
-
+  display.println("WARNING!");
+  display.setTextSize(1);
+  display.setCursor(0, 20);
+  display.print("Too close: ");
+  display.print(distance);
+  display.println("cm");
   display.display();
-}
-
-void draw3DCube(float roll, float pitch) {
-  int centerX = SCREEN_WIDTH / 2;
-  int centerY = SCREEN_HEIGHT / 2;
-
-  float angleX = radians(roll);
-  float angleY = radians(pitch);
-
-  int projectedX[8];
-  int projectedY[8];
-
-  for (int i = 0; i < 8; i++) {
-    float x = cubeVertices[i][0];
-    float y = cubeVertices[i][1];
-    float z = cubeVertices[i][2];
-
-    // 旋转变换
-    float tempY = y * cos(angleX) - z * sin(angleX);
-    float tempZ = y * sin(angleX) + z * cos(angleX);
-    float tempX = x * cos(angleY) + tempZ * sin(angleY);
-    z = -x * sin(angleY) + tempZ * cos(angleY);
-    y = tempY;
-
-    // 投影变换
-    float scale = 64 / (64 + z); // 简单透视投影
-    projectedX[i] = centerX + int(tempX * scale * 10);
-    projectedY[i] = centerY + int(y * scale * 10);
-  }
-
-  // 绘制立方体的12条边
-  for (int i = 0; i < 12; i++) {
-    int start = cubeEdges[i][0];
-    int end = cubeEdges[i][1];
-    display.drawLine(projectedX[start], projectedY[start], projectedX[end], projectedY[end], SSD1306_WHITE);
-  }
 }
 ```
