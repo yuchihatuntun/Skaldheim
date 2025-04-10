@@ -38,9 +38,9 @@ AD0 -> GND（I2C地址设置为0x68）
 ```
 VCC -> Arduino 5V
 GND -> Arduino GND
-VERT -> Arduino A0
-HORZ -> Arduino A1
-SEL -> Arduino D3
+VERT（对应VRY） -> Arduino A0
+HORZ（对应VRX） -> Arduino A1
+SEL （对应SW） -> Arduino D3
 ```
 
 **舵机接线:**
