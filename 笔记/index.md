@@ -1,15 +1,44 @@
-### 🧭 Usage Guidelines
-![[笔记/pic/logo.jpg]]
-欢迎来到📔**Skaldheim**，这是一个由中山大学微电子科学与技术专业2023级本科生徐睿琳打造的开创性知识共享平台。
-### ⬇️About Downloads
-由于Markdown语法和网站笔记跳转功能的限制，目前<span style="font-weight:bold; color:rgb(231, 98, 84)">我们暂时无法直接提供PDF格式的下载</span>。所有资料都将以ZIP压缩包的形式提供，例如：[示例文件.zip]。我们正在努力优化这一功能，感谢您的理解。
-### 📞Contact Us
-<span style="font-weight:bold; color:rgb(231, 98, 84)">我们高度重视您的专业见解、技术问询及潜在合作意向，这些要素对推动平台发展进程具有战略价值。</span>如需获得技术说明、运营支持或探讨合作机遇，您可通过以下渠道联系我：
+![[笔记/pic/cover25-04-13(2).png]]
 
-- **电子邮箱**: **[xurlin7@mail2.sysu.edu.cn](mailto:xurlin7@mail2.sysu.edu.cn)**  
+にゃん！📔 **スカルドヘイムへようこそにゃ(Skaidheim)** ～！(≧▽≦)ﾉ 
+
+これは中山大学マイクロエレクトロニクス科学技術専攻2023年度学部生の徐睿琳ちゃんが作り上げた、革新的な知識共有プラットフォームだにゃ～
+
+### About the Site
+
+##### 🧭 What Is This Site
+
+![[笔记/pic/1.png]]
+
+にゃん！このサイトはあたしのノート・ブログ・ドキュメントのコレクションだにゃ～ GitHub Pagesで自分で管理・ホスティングしてるんだよ~ もしサイト閲覧中にバグや問題が見つかったら、GitHubの[yuchihatuntun](https://github.com/yuchihatuntun)リポジトリにアクセスしてイシューを投稿してにゃ～！(｡•̀ᴗ-)✧ 心から感謝するにゃ～！
+
+##### 📓 Notes and Blogs
+
+にゃん！当サイトのノート・ブログ・ドキュメントは<span style="background:rgba(252, 163, 180, 0.55)">Goodnotes</span>や<span style="background:rgba(252, 163, 180, 0.55)">Markdown</span>、<span style="background:rgba(252, 163, 180, 0.55)">Latex</span>で作成されてて、<span style="font-weight:bold; color:rgb(242, 145, 147)">読みやすい技術文書作成基準（WSETD）</span> に準拠してるにゃ～ 特に記載がない限り、すべてのコンテンツは<span style="font-weight:bold; color:rgb(242, 145, 147)">CC BY-NC 4.0ライセンス</span>で公開されてるよ～！自由にダウンロード＆シェアOKだにゃ～（商用利用は禁止にゃ！）転載時は<span style="font-weight:bold; color:rgb(242, 145, 147)">出典明記</span>をお願いするにゃ～♪(≧▽≦)ﾉ
+
+にゃん！ブログはグラフ多用する記事は<span style="background:rgba(144, 167, 255, 0.55)">VSCodeかTypora</span>で<span style="background:rgba(144, 167, 255, 0.55)">Markdown+HTML</span>を使って書いてるにゃ～(｡•̀ᴗ-)✧ 
+
+数式バリバリの導出が必要な記事はVSCodeでLatex書いてPDF化してるんだにゃ～！その他はMarkdownかNotabilityで書いてPDFにしてるにゃ～♪
+
+```latex
+C = \mathbb{E} \left[ \log_2 \det \left( \mathbf{I}_N + \frac{\rho}{M} \mathbf{H} \mathbf{H}^\dagger \right) \right]
+```
+
+$$
+C = \mathbb{E} \left[ \log_2 \det \left( \mathbf{I}_N + \frac{\rho}{M} \mathbf{H} \mathbf{H}^\dagger \right) \right]
+$$
+
+各学習ステージが終わったら、ノートと教科書を圧縮してクラウドにバックアップしちゃうんだよ～！(≧▽≦)ﾉ
+
+そうそう、英語でノート書くのを練習がてらやってるにゃ～！ライティングスキル向上目指して頑張るにゃ～！(๑•̀ㅂ•́)و✧
+
+### Contact Me
+にゃん！皆様の専門的知見や技術相談を超重要視してるにゃ～！(｡•̀ᴗ-)✧ 
+
+これらはプラットフォーム発展の戦略的価値があるにゃ～！技術仕様書のご要望・運営サポート・協業の可能性について以下の連絡先からいつでもコンタクトしてにゃ～
+
+- **电電子メール**: **[xurlin7@mail2.sysu.edu.cn](mailto:xurlin7@mail2.sysu.edu.cn)**  
   
 - **GitHub**: **[https://github.com/yuchihatuntun](https://github.com/yuchihatuntun)**  
   
-- **个人博客**: **[https://filio-topaz.vercel.app/](https://filio-topaz.vercel.app/)**  
-
-您的专业见解对网站的持续优化与功能拓展具有重要价值。我们坚信，通过学术共同体的协同努力，将能够构建一个具有影响力的学术资源共享平台。衷心感谢您为促进学术资源建设所做出的！
+- **個人ブログ**: **[https://filio-topaz.vercel.app/](https://filio-topaz.vercel.app/)**  
