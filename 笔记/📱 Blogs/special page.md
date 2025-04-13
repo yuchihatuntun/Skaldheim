@@ -1,6 +1,6 @@
 ![[笔记/pic/cover25-04-13.png]]  
 
-> **The views expressed in this article are solely those of the author.**
+> [!note]The views expressed in this article are solely those of the author.
 
 にゃん！今日は今年の体力テストの追試を受けました～！<span style="font-weight:bold; color:rgb(242, 145, 147)">(｡･ω･｡)ﾉ♡</span>
 
