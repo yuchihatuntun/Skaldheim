@@ -1,4 +1,4 @@
-![[笔记/pic/Bang Dream GIF.gif]]
+![[笔记/pic/cover-25-04-14(project).png]]
 ### 项目概览
 
 本项目基于Arduino开发板，结合多个传感器和外设（MPU6050、摇杆、舵机、超声波传感器和OLED屏幕），实现了雷达&警告功能：
