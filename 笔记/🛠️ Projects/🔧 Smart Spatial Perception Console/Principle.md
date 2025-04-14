@@ -84,7 +84,11 @@ myServo.write(servoAngle);  // 控制舵机旋转到计算出的角度位置
 
 #### 3. 雷达显示
 
-根据测得的角度和距离，绘制雷达扫描界面。目标点的坐标使用极坐标转换公式： $$ x = \text{centerX} + r \cdot \cos(\theta) $$ $$ y = \text{centerY} - r \cdot \sin(\theta) $$
+根据测得的角度和距离，绘制雷达扫描界面。目标点的坐标使用极坐标转换公式： 
+
+$$ x = \text{centerX} + r \cdot \cos(\theta) $$ 
+
+$$ y = \text{centerY} - r \cdot \sin(\theta) $$
 
 ```cpp
 float radAngle = radians(angle);  // 将角度转换为弧度值，便于三角函数计算

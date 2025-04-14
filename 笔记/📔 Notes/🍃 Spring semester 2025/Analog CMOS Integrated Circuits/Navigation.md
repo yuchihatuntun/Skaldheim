@@ -11,3 +11,4 @@ Since I developed a bit of PTSD from studying last semester, I haven't really do
 - **Course Title**: Analog Integrated Circuit Design
 - **Lecturer**: Gengzhen Qi
 - **Department**: School of Microelectronics Science and Technology
+
