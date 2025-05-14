@@ -4,7 +4,7 @@ In this section, I will focus on the research directions and representative publ
 
 ### SYSU School of Information Science and Technology Overview
 
-##### [School of Integrated Circuits](SIC_Navigation.md)
+##### School of Integrated Circuits
 
 The School of Integrated Circuits of Sun Yat-sen University was established in February 2021. It is one of the first colleges to respond to the national strategy of establishing the first-level discipline of "Integrated Circuit Science and Engineering". It is located in the Shenzhen Campus of Sun Yat-sen University and is a secondary college of the university.
 
