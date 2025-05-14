@@ -121,7 +121,6 @@ This embodies the Unix philosophy:
 
 ```bash
 ROOT DIRECTORY OF THE ENTIRE FILESYSTEM HIERARCHY
-
 ├── /bin/
 │   └── ESSENTIAL USER COMMAND BINARIES
 ├── /boot/
@@ -162,6 +161,39 @@ ROOT DIRECTORY OF THE ENTIRE FILESYSTEM HIERARCHY
 │   └── VIRTUAL FILESYSTEM DOCUMENTING KERNEL AND PROCESS STATUS AS TEXT FILES
 └── (√ represents /home/current-user)
 ```
+
+#### Abundant Tools
+
+##### [Busybox](https://www.busybox.net/) Suite (Contains common Linux command line tools)
+
+Tools are categorized as follows:
+
+- [coreutils](https://www.gnu.org/software/coreutils/) (Basic tools)
+- Network management  
+- Printer management  
+- Editors  
+- System log management  
+- Mail management  
+- Compression/archiving  
+- Login/password management  
+- runit compatibility  
+- Linux system administration  
+- Console management  
+- Debian compatibility  
+- Shell  
+- Startup/shutdown  
+- klibc compatibility  
+- File/text search  
+- Linux Ext2 filesystem  
+- Miscellaneous  
+- Process management  
+- Linux kernel module management  
+
+Standard Linux offers even more tools:  
+The `/bin` directory contains thousands of tools  
+
+*If you need to install a tool but don't know which package contains it, you can search on the [package search page](https://packages.ubuntu.com/)*
+
 
 ### How to learn Linux
 
