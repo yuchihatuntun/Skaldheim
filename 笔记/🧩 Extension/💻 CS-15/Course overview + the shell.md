@@ -58,10 +58,46 @@ When you execute a command in the shell, you're actually executing a short piece
 ```bash
 missing:~$ echo $PATH
 /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-missing:~$ which echo
-/bin/echo
-missing:~$ /bin/echo $PATH
-/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ```
 
-When we execute the `echo` command, the shell knows that we need to execute the `echo` program, and then it searches $PATH for a series of directories separated by : to search for the program based on the name. When the program is found, it is executed (assuming that the file is an executable program, which will be explained in detail in subsequent courses). To determine which specific program a program name represents, you can use the which program. We can also bypass $PATH and execute the program by directly specifying the path to the program to be executed.
+When we execute the `echo` command, the shell knows that we need to execute the `echo` program, and then it searches `$PATH` for a series of directories separated by `:` to search for the program based on the name. When the program is found, it is executed (assuming that the file is an executable program (ELF)). 
+
+```bash
+missing:~$ which echo
+/bin/echo
+```
+
+To determine which specific program a program name represents, you can use the `which` program. 
+
+```bash
+missing:~$ /bin/echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+```
+
+We can also bypass `$PATH` and execute the program by directly specifying the path to the program to be executed.
+
+#### Navigating in the shell
+
+A path in the shell is a set of directories separated by `/` on Linux and macOS and `\` on Windows. 
+
+The path `/` represents the root directory of the system, all folders are included under this path, and each drive has a root directory on Windows (for example: `C:\`). If a path starts with /, it is an absolute path, and all others are relative paths. A relative path is a path relative to the current working directory, which can be obtained using the pwd command. In addition, the cd command is required to switch directories. In the path, . represents the current directory, and .. represents the parent directory:
+
+```bash
+missing:~$ pwd
+/home/missing
+missing:~$ cd /home
+missing:/home$ pwd
+/home
+missing:/home$ cd ..
+missing:/$ pwd
+/
+missing:/$ cd ./home
+missing:/home$ pwd
+/home
+missing:/home$ cd missing
+missing:~$ pwd
+/home/missing
+missing:~$ ../../bin/echo hello
+hello
+```
