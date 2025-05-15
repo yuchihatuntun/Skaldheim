@@ -1,3 +1,5 @@
+![alt text](wallhaven-vq3rk5_2560x1440.png)
+
 ### Motivation
 
 As computer scientists, we all know that computers are great at helping us do repetitive tasks. But we often forget that this also applies to how we use computers, not just to program them to solve problems for us. When we work with computers, we have many tools at our fingertips that can help us solve problems more efficiently. <span style="background:rgba(252, 163, 180, 0.55)">But most of us actually only use a few of these tools</span>, often just memorizing a few commands like incantations, or blindly copying and pasting commands from the Internet when we get stuck.
@@ -42,10 +44,24 @@ hello
 
 In the above example, we let the shell execute `echo` and specify the parameter `hello`. The `echo` program prints the parameter.
 
+>[!note] The `echo` Command
+> The `echo` command itself is its full name. It is not an abbreviation. Its name comes from its function: to <span style="background:rgba(252, 163, 180, 0.55)">"echo back" the input text to the standard output</span>.
+
 The shell splits the command based on <span style="background:rgba(252, 163, 180, 0.55)">spaces</span> and parses it, then executes the program represented by **the first word** and passes the subsequent words as parameters that the program can access. 
 
 If you want to pass an argument that contains spaces (for example, a folder named `My Photos`), you can either wrap it in single quotes, double quotes, or use the escape character `\` to handle it (`My\ Photos`).
 
 But how does the shell know where to look for `date` or `echo`? Well, like `Python` or `Ruby`, the shell is a programming environment, so it has variables, conditionals, loops, and functions. 
 
-When you execute a command in the shell, you're actually executing a short piece of code that the shell can interpret and execute. If you ask the shell to execute something that's not a programming keyword that the shell understands, it consults the environment variable $PATH, which lists the paths that the shell searches for programs when it receives a command:
+When you execute a command in the shell, you're actually executing a short piece of code that the shell can interpret and execute. If you ask the shell to execute something that's not a programming keyword that the shell understands, it consults the environment variable `$PATH`, which lists the paths that the shell searches for programs when it receives a command:
+
+```bash
+missing:~$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+missing:~$ which echo
+/bin/echo
+missing:~$ /bin/echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+```
+
+When we execute the `echo` command, the shell knows that we need to execute the `echo` program, and then it searches $PATH for a series of directories separated by : to search for the program based on the name. When the program is found, it is executed (assuming that the file is an executable program, which will be explained in detail in subsequent courses). To determine which specific program a program name represents, you can use the which program. We can also bypass $PATH and execute the program by directly specifying the path to the program to be executed.
