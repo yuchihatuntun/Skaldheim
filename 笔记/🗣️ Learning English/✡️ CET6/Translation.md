@@ -41,9 +41,25 @@ Correct low-level errors (such as spelling errors, misuse of prepositions) accor
 > The successful research for Beidou satelite navigation system has been an essential scientific achievement since the Reveal and Opening up. The researchers worked out a series of technical problems after continus hard work, making the Beidou system support global cover as well as high accuracy which makes China become one of the countries that own the global satelite navigation system uniquely. Beidou system has been widely used in trasportation, disaster saving, weather report, public security and so on. It has been highly praised over the world, and bocome to provide service for more and more countries and regions.
 
 >[!danger] Self-check
-> > [!note] Completeness Check
-> > Original text: Reform and Opening-up → Your translation: "Reveal and Opening up"
-> > Problem: Wrong terminology, the correct translation is "Reform and Opening-up"
+> > [!danger] Completeness Check
+> > **Original text:** 改革开放 -> Reveal and Opening up
+> > **Correct translation:** Reform and Opening-up
+> > 
+> > **Original text:** 高精度定位 -> high accuracy
+> > **Correct translation:** high-precision positioning
+> > 
+> > **Original text:** 灾害救援 -> disaster saving
+> > **Correct translation:** disaster rescue
+>
+> > [!danger] Grammar and Spelling Check
+> > 1. **spelling**
+> > "satelite" → ​​"satellite"​​
+> > "trasportation" → ​​"transportation"​​
+> > "bocome" → ​​"begun"​
+> > 2. **grammar**
+> > 
+
+
 
 >[!warning] reference translation
 > The successful development of the Beidou satellite navigation system is a major scientific achievement since China's Reform and Opening-up. Through relentless efforts, researchers overcame a series of technical challenges, ultimately enabling the system to achieve global coverage and high-precision positioning. This has made China one of the few countries in the world to independently possess a global satellite navigation system. The Beidou system has been widely applied in transportation, disaster rescue, weather forecasting, public security, and many other fields. It has now gained extensive international recognition and has begun providing high-quality services to an increasing number of countries and regions.
