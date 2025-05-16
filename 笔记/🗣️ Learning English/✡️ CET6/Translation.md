@@ -43,17 +43,17 @@ Correct low-level errors (such as spelling errors, misuse of prepositions) accor
 >[!danger] Self-check
 > > [!danger] Completeness Check
 > > 
-> > **Original text:** 改革开放 -> Reveal and Opening up
+> > > **Original text:** 改革开放 -> Reveal and Opening up
+> > >
+> > > **Correct translation:** Reform and Opening-up
 > > 
-> > **Correct translation:** Reform and Opening-up
+> > > **Original text:** 高精度定位 -> high accuracy
+> > >
+> > > **Correct translation:** high-precision positioning
 > > 
-> > **Original text:** 高精度定位 -> high accuracy
-> > 
-> > **Correct translation:** high-precision positioning
-> > 
-> > **Original text:** 灾害救援 -> disaster saving
-> > 
-> > **Correct translation:** disaster rescue
+> > > **Original text:** 灾害救援 -> disaster saving
+> > >
+> > > **Correct translation:** disaster rescue
 >
 > > [!danger] Grammar and Spelling Check
 > > 1. **spelling**
