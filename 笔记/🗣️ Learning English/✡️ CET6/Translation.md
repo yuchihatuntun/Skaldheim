@@ -40,7 +40,7 @@ Correct low-level errors (such as spelling errors, misuse of prepositions) accor
 >[!note] translation - 13m11s - 8/15
 > The successful research for Beidou satelite navigation system has been an essential scientific achievement since the Reveal and Opening up. The researchers worked out a series of technical problems after continus hard work, making the Beidou system support global cover as well as high accuracy which makes China become one of the countries that own the global satelite navigation system uniquely. Beidou system has been widely used in trasportation, disaster saving, weather report, public security and so on. It has been highly praised over the world, and bocome to provide service for more and more countries and regions.
 
->[!error] Self-check
+>[!danger] Self-check
 > > [!note] Completeness Check
 > > Original text: Reform and Opening-up → Your translation: "Reveal and Opening up"
 > > Problem: Wrong terminology, the correct translation is "Reform and Opening-up"
