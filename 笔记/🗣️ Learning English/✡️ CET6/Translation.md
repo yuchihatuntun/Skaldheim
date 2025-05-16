@@ -2,10 +2,12 @@
 
 #### December
 
->[!note] The first set
+##### The first set
+
+>[!note] question
 > 北斗（Beidou）卫星导航系统的成功研制是中国自改革开放以来取得的一项重大科技成就。研发人员经过不懈努力，攻克了一系列技术难题，北斗系统最终实现了全球覆盖和高精度定位，使中国成为世界上少数几个独立拥有全球卫星导航系统的国家之一。北斗系统已广泛应用于交通运输、灾害救援、天气预报、公共安全等诸多领域。北斗系统现在已经在国际上得到广泛认可，开始为越来越多的国家和地区提供优质服务。
 
->[!info] translation - 13m11s - 8/15
+>[!chat] translation - 13m11s - 8/15
 > The successful research for Beidou satelite navigation system has been an essential scientific achievement since the Reveal and Opening up. The researchers worked out a series of technical problems after continus hard work, making the Beidou system support global cover as well as high accuracy which makes China become one of the countries that own the global satelite navigation system uniquely. Beidou system has been widely used in trasportation, disaster saving, weather report, public security and so on. It has been highly praised over the world, and bocome to provide service for more and more countries and regions.
 
 >[!warning] reference translation
