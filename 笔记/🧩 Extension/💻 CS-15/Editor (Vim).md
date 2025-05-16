@@ -14,4 +14,9 @@ What is the most popular editor right now? According to a Stack Overflow survey 
 
 All the instructors in this course use Vim as their editor. Vim has a long history; it started as the Vi editor in 1976 and is still under development. Vim has many clever design ideas, so many other tools support Vim mode (for example, 1.4 million people have installed Vim emulation for VS code). Even if you end up using another editor, Vim is worth learning.
 
-Since it is impossible to teach all of Vim's features in 50 minutes, we will focus on explaining Vim's design philosophy, teaching you the basics, showing some advanced features, and then giving you the resources you need to master the tool.
+### The philosophy of Vim
+
+When programming, you spend a lot of time reading/editing rather than writing code. Therefore, Vim is a multimodal editor: it has different modes for inserting text and manipulating text. Vim is programmable (using Vimscript or other programming languages ​​like Python), and Vim's interface is also a programming language: typed operations (and their mnemonics) are commands, and these commands are also composable. Vim avoids using the mouse because it is too slow; Vim even avoids using the up, down, left, and right keys because it requires too much finger movement.
+
+This design philosophy makes Vim an editor that can keep up with the speed of your thinking.
+
