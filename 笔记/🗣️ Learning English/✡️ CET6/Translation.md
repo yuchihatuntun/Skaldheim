@@ -1,3 +1,22 @@
+### Process
+
+#### Step 1: Self-check before checking the answers
+
+##### ​Completeness check​​
+
+Whether key words or sentences (such as cultural terms, numbers, logical conjunctions) are omitted.
+
+​##### ​Grammar and spelling check​​
+
+Whether the subject-verb agreement, tense (present tense/perfect tense), singular and plural, and articles (a/an/the) are wrong.
+
+​##### ​Logical coherence check​​
+Whether the word order is adjusted according to English habits (such as the Chinese "causality" is often placed at the end, but the English needs to be placed at the beginning).
+
+
+
+
+
 ### 2024
 
 #### December
