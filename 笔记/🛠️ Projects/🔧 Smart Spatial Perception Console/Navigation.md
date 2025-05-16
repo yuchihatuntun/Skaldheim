@@ -1,61 +1,70 @@
 ![[笔记/pic/cover-25-04-14(project).png]]
-### 项目概览
 
-本项目基于Arduino开发板，结合多个传感器和外设（MPU6050、摇杆、舵机、超声波传感器和OLED屏幕），实现了雷达&警告功能：
+### Project Overview
 
-**雷达模式**：通过摇杆控制舵机旋转，改变超声波传感器的方向，实时测量距离并在OLED屏幕上显示雷达扫描效果。
+This project is based on the Arduino development board and combines multiple sensors and peripherals (MPU6050, joystick, servo, ultrasonic sensor and OLED screen) to realize radar & warning functions:
 
-### 主要设计架构
-| 组件           | 功能角色    | 创新点             |
+**Radar mode**: Use the joystick to control the rotation of the servo, change the direction of the ultrasonic sensor, measure the distance in real time and display the radar scanning effect on the OLED screen.
+
+### Main design architecture
+
+| Components | Functional roles | Innovation points |
 | ------------ | ------- | ----------------- |
-| ​**模拟摇杆**    | 双模态切换器  | 下压按键实现"物理-虚拟"模式跃迁 |
-| ​**超声波传感器**  | 环境雷达探头  | 扫描数据极坐标可视化        |
-| ​**180°舵机**  | 可编程云台   | 人工操控与自动扫描模式兼容     |
-| ​**OLED屏幕**  | 混合现实显示器 | 同时支持雷达图与3D立方体渲染   |
-| ​**蜂鸣器**  | 发出警报 | ？   |
+| ​**Analog joystick** | Dual-mode switcher | Press the button to achieve "physical-virtual" mode transition |
+| ​**Ultrasonic sensor** | Environmental radar probe | Polar coordinate visualization of scan data |
+| ​**180° servo** | Programmable gimbal | Compatible with manual control and automatic scanning modes |
+| ​**OLED screen** | Mixed reality display | Support radar map and 3D cube rendering at the same time |
+| ​**Buzzer** | Alarm | ? |
 
-包含了【**集成多种传感元件**】以及【**连续功能演示**】等要求
+Includes requirements such as [**Integrate multiple sensor elements**] and [**Continuous functional demonstration**]
 
 ![[笔记/pic/sensor_architecture.png]]  
 
-### 仿真平台
+### Simulation platform
 
-由于开发板套组不便带回，所以我使用了[WOKWI平台](https://wokwi.com/)初步验证了方案的可行性，由于~~万恶的资本主义（需要开会员延长编译时间）~~，平台的编译时长有限，~~我又懒得去找Arduino UNO的固件文件来本地编译代码~~，于是我编写了一个阉割版的代码，由于流量限制，这里暂不提供视频，可以根据配置自己去平台做一下仿真，功能是已经可以实现的：
+Since it is inconvenient to bring the development board set back, I used the [WOKWI platform](https://wokwi.com/) to initially verify the feasibility of the solution. Due to ~~evil capitalism (you need to become a member to extend the compilation time)~~, the compilation time of the platform is limited, and ~~I am too lazy to find the firmware file of Arduino UNO to compile the code locally~~, so I wrote a castrated version of the code. Due to traffic restrictions, the video is not provided here for the time being. You can go to the platform to do some simulation according to the configuration. The function is already available:
 
-具体原理参考[[Principle.md]]文档
-#### 接线
+For specific principles, please refer to the [[Principle.md]] document
 
-**蜂鸣器接线:**
+#### Wiring
+
+**Buzzer wiring:**
+
 ```
 VCC -> Arduino 5V
 GND -> Arduino GND
 IO -> Arduino D6
 ```
 
-**摇杆接线:**
+**Joystick wiring:**
+
 ```
 VCC -> Arduino 5V
 GND -> Arduino GND
-VERT（对应VRY） -> Arduino A0
-HORZ（对应VRX） -> Arduino A1
-SEL （对应SW） -> Arduino D3
+VERT (corresponding to VRY) -> Arduino A0
+HORZ (corresponding to VRX) -> Arduino A1
+SEL (corresponding to SW) -> Arduino D3
 ```
 
-**舵机接线:**
+**Servo wiring:**
+
 ```
-红线（VCC） -> Arduino 5V
-棕线（GND） -> Arduino GND
-黄线（信号） -> Arduino D9
+Red wire (VCC) -> Arduino 5V
+Brown wire (GND) -> Arduino GND
+Yellow wire (signal) -> Arduino D9
 ```
 
-**超声波传感器接线:**
+**Ultrasonic sensor wiring:**
+
 ```
 VCC -> Arduino 5V
 GND -> Arduino GND
 TRIG -> Arduino D4
 ECHO -> Arduino D5
 ```
-**OLED屏幕接线:**
+
+**OLED screen wiring:**
+
 ```
 VCC -> Arduino 5V
 GND -> Arduino GND
@@ -123,7 +132,8 @@ SDA -> Arduino A4
 }
 ```
 
-#### 测试代码
+#### Test code
+
 ```cpp
 // 测试版代码
 #include <Wire.h>
@@ -318,7 +328,8 @@ void drawSimpleCube(float pitch, float roll) {
   );
 }
 ```
-#### 完整版代码
+
+#### Full version code
 
 ```cpp
 #include <Wire.h>
