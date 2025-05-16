@@ -34,7 +34,7 @@ Correct low-level errors (such as spelling errors, misuse of prepositions) accor
 
 ##### The first set
 
->[!note] question
+>[!note] original text
 > 北斗（Beidou）卫星导航系统的成功研制是中国自改革开放以来取得的一项重大科技成就。研发人员经过不懈努力，攻克了一系列技术难题，北斗系统最终实现了全球覆盖和高精度定位，使中国成为世界上少数几个独立拥有全球卫星导航系统的国家之一。北斗系统已广泛应用于交通运输、灾害救援、天气预报、公共安全等诸多领域。北斗系统现在已经在国际上得到广泛认可，开始为越来越多的国家和地区提供优质服务。
 
 >[!note] translation - 13m11s - 8/15
