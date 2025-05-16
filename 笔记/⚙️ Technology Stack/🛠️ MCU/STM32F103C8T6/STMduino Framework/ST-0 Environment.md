@@ -8,18 +8,14 @@
 
 We open platformio and create a new project (as for downloading vscode and installing the platformio plug-in, please go to Bilibili to search for it, there are very detailed tutorials and free installation packages)
 
-<p align="center">
-    <img src="1.png" alt="alt text" width="400"/>
-</p>
+![alt text](1.png)
 
 This "`BluePill`" is the minimum system development board. Note that there is also a board option "`STM32F103C8`" in the options, which is not suitable for our board
 
 
 After the project is built, we will see the project directory. What we mainly need to edit is the `main.cpp` file in the "`src`" folder and the `platformio.ini` file.
 
-<p align="center">
-    <img src="2.png" alt="alt text" width="200"/>
-</p>
+![alt text](2.png)
 
 #### STSW-LINK009
 
