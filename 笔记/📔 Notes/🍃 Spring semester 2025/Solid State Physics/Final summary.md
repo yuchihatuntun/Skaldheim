@@ -269,3 +269,24 @@
 > Therefore, $\omega = \left( \frac{ca^2}{M} \right)^{1/2} k$.
 
 #### The Physics Dictionary
+
+### Chapter 04 Band theory
+
+#### Knowledge Summary
+
+> [!info] Learning Objectives
+>
+> 1. Master and apply the Bloch theorem;
+>
+> 2. Understand the characteristics of electron motion in one-dimensional and three-dimensional periodic fields under the approximation of nearly free electrons;
+>
+> 3. Understand and master the method of calculating energy bands using the tight-binding approximation;
+>
+> 4. Understand the symmetry of crystal energy bands;
+>
+> 5. Master the calculation of the density of states;
+>
+> 6. Understand the concepts of Fermi surface, Fermi velocity, Fermi temperature, and Fermi radius;
+>
+> 7. Understand the characteristics of electron states in surface electron states and disordered systems.
+
