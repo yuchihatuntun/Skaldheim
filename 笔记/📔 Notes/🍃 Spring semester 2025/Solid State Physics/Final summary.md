@@ -335,7 +335,10 @@ $$N(E) = \frac{S}{\pi \hbar^2} m \quad (\text{where $S$ is the area of the latti
 
 $$N(E) = \frac{2V}{(2\pi)^2} \left( \frac{2m}{\hbar^2} \right)^{3/2} E^{1/2} \quad (\text{where $V$ is the volume of the lattice})$$
 
-
+>[!warning] Van Hove Singularity
+> Because the energy band function $E_n(\boldsymbol{k})$ is a periodic function in reciprocal space, there are always some $\boldsymbol{k}$ values where $|\nabla_{\boldsymbol{k}}E| = 0$ in each unit cell, leading to a divergence in the integral of the density of states formula. For the three-dimensional case, it is still integrable, giving a finite $N_n(E)$, but the slope $\frac{\mathrm{d}N_n(E)}{\mathrm{d}E}$ diverges, and this divergence of $N_n(E)$ is called the Van Hove singularity.
+>
+> Van Hove singularity (Singularity) arises from **the unique symmetry of crystal materials**, and similar issues are encountered in the density of lattice vibration modes (lattice vibration mode density).
 
 
 
@@ -346,3 +349,46 @@ $$N(E) = \frac{2V}{(2\pi)^2} \left( \frac{2m}{\hbar^2} \right)^{3/2} E^{1/2} \qu
 If there are $N$ electrons in a solid, and the electrons are considered free electrons, $N$ electrons fill a sphere of radius $k_F$ in $k$-space, then we have
 
 $$k_F = 2\pi \left( \frac{3}{8\pi} \right)^{1/3} n^{1/3} \tag{4.29}$$
+
+where $n = \frac{N}{V}$ is **the electron number density**.
+
+Generally, this sphere is called the Fermi sphere, $k_F$ is the Fermi radius, the surface of the sphere is the Fermi surface. The Fermi surface is the boundary between the occupied and unoccupied electron regions in $k$-space. The energy value of the Fermi surface is the Fermi energy $E_F$, the momentum $\boldsymbol{p}_F = \hbar \boldsymbol{k}_F$ is the Fermi momentum, and $\boldsymbol{v}_F = \boldsymbol{p}_F/m$ is the Fermi velocity.
+
+>[!warning] Free Electron Sphere Radius
+> The free electron sphere radius, also often called the **Wigner-Seitz radius**, represents the radius of the spherical space occupied by each free electron on average.
+> The radius of the free electron sphere is defined as
+> $$r_s = \left( \frac{3}{4\pi n} \right)^{1/3}$$
+
+> [!note] Example: Fermi Sphere Radius and Lattice Constant in Different Lattices
+>
+> For a metal with valence electron number $Z_c$ under the free electron approximation, the relationship between the Fermi sphere radius and lattice constant $a$ in simple cubic (sc), body-centered cubic (bcc), and face-centered cubic (fcc) lattices is as follows:
+>
+> $$
+> k_F = \frac{(3\pi^2 Z_c)^{1/3}}{a} = \left\{
+> \begin{array}{ll}
+> (3\pi^2 Z_c)^{1/3}/a, & \text{sc} \\
+> (6\pi^2 Z_c)^{1/3}/a, & \text{bcc} \\
+> (12\pi^2 Z_c)^{1/3}/a, & \text{fcc}
+> \end{array}
+> \right.
+> $$
+>
+> The radius of the free electron sphere is defined as
+>
+> $$
+> r_s = \left( \frac{3}{4\pi n} \right)^{1/3}
+> $$
+>
+> Taking the hydrogen atomic radius $a_0 = \frac{\hbar^2}{me^2} = 0.529\,\text{\AA}$ as the unit of length, $r_s/a_0$ is a dimensionless quantity.
+>
+> $$
+> k_F = \frac{(9\pi/4)^{1/3}}{r_s} = \frac{1.92}{r_s} = \frac{3.63}{(r_s/a_0)}\,\text{\AA}^{-1} \tag{4.30}
+> $$
+>
+> $$
+> v_F = \frac{4.20}{r_s/a_0} \times 10^8\,\text{cm/s}
+> $$
+>
+> $$
+> E_F = \frac{50.1\,\text{eV}}{(r_s/a_0)^2}
+> $$
