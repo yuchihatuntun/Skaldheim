@@ -325,12 +325,24 @@ The density of states for one-dimensional, two-dimensional, and three-dimensiona
 
 **One-dimensional:** 
 
-$$N(E) = \frac{L}{\pi} \left( \frac{2m}{\hbar^2} \right)^{1/2} E^{-1/2} \quad (where $L$ is the length of the lattice)$$
+$$N(E) = \frac{L}{\pi} \left( \frac{2m}{\hbar^2} \right)^{1/2} E^{-1/2} \quad (\text{where $L$ is the length of the lattice})$$
 
 **Two-dimensional:** 
 
-$$N(E) = \frac{S}{\pi \hbar^2} m \quad (where $S$ is the area of the lattice)$$
+$$N(E) = \frac{S}{\pi \hbar^2} m \quad (\text{where $S$ is the area of the lattice})$$
 
 **Three-dimensional:** 
 
-$$N(E) = \frac{2V}{(2\pi)^2} \left( \frac{2m}{\hbar^2} \right)^{3/2} E^{1/2} \quad (where $V$ is the volume of the lattice)$$
+$$N(E) = \frac{2V}{(2\pi)^2} \left( \frac{2m}{\hbar^2} \right)^{3/2} E^{1/2} \quad (\text{where $V$ is the volume of the lattice})$$
+
+
+
+
+
+
+
+##### Fermi Surface and Free Electron Sphere Radius
+
+If there are $N$ electrons in a solid, and the electrons are considered free electrons, $N$ electrons fill a sphere of radius $k_F$ in $k$-space, then we have
+
+$$k_F = 2\pi \left( \frac{3}{8\pi} \right)^{1/3} n^{1/3} \tag{4.29}$$
