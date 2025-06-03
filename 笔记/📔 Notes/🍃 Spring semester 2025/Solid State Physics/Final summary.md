@@ -10,7 +10,7 @@
 >
 > It is known that in a one-dimensional monatomic chain, the displacement caused by the $j$-th phonon at the $n$-th lattice point is $\mu_{nj} = a_j \sin(\omega_j t + naq_j + \delta_j)$, where $\delta_j$ is an arbitrary phase factor, and it is known that at higher temperatures, the average energy of each phonon is $k_B T$, calculate specifically the mean square displacement of each atom.
 
-> [!warning] Solution:
+> [!error] Solution:
 > 
 > According to $\frac{1}{T} \int_0^T \sin^2(\omega_j t + naq_j + \delta_j) dt = \frac{1}{2}$, where $T = \frac{2\pi}{\omega_j}$ is the period of vibration, thus we have
 >
@@ -56,7 +56,7 @@
 >
 > Discuss the one-dimensional diatomic chain of $N$ atoms (with a distance $a$ between adjacent atoms), its $2N$ phonon solutions, and when $M = m$, the results correspond one-to-one with those of a one-dimensional monatomic chain.
 
-> [!warning] Solution:
+> [!error] Solution:
 >
 > In a one-dimensional diatomic chain, the range of the wave vector $q$ is $-\frac{\pi}{2a} < q \leq \frac{\pi}{2a}$. The relationship for the vibrational frequency is given by
 >
