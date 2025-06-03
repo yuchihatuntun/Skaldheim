@@ -290,3 +290,27 @@
 >
 > 7. Understand the characteristics of electron states in surface electron states and disordered systems.
 
+##### The Bloch Theorem
+
+For a periodic potential, i.e.
+
+$$V(\boldsymbol{r} + \boldsymbol{R}_n) = V(\boldsymbol{r})$$
+
+where $\boldsymbol{R}_n$ takes all lattice vectors of the Bravais lattice, the Schrödinger equation for a single electron is
+
+$$\hat{H} \psi(\boldsymbol{r}) = \left[ -\frac{\hbar^2}{2m} \nabla^2 + V(\boldsymbol{r}) \right] \psi(\boldsymbol{r}) = \varepsilon \psi(\boldsymbol{r}) \tag{4.1}$$
+
+The eigenfunctions of $\hat{H}$ are plane wave functions modulated by periodic functions of the Bravais lattice, i.e.
+
+$$\psi_{\boldsymbol{k}}(\boldsymbol{r}) = e^{i\boldsymbol{k} \cdot \boldsymbol{r}} u_{\boldsymbol{k}}(\boldsymbol{r}) \tag{4.2}$$
+
+and
+
+$$u_{\boldsymbol{k}}(\boldsymbol{r} + \boldsymbol{R}_n) = u_{\boldsymbol{k}}(\boldsymbol{r}) \tag{4.3}$$
+
+It is easy to derive from the above that Bloch's theorem can also be expressed as for each eigenvalue problem of the above Schrödinger equation, there exists a wave vector $\boldsymbol{k}$, such that
+
+$$\psi(\boldsymbol{r} + \boldsymbol{R}_n) = e^{i\boldsymbol{k} \cdot \boldsymbol{R}_n} \psi(\boldsymbol{r}) \tag{4.4}$$
+
+##### Energy State Density
+
