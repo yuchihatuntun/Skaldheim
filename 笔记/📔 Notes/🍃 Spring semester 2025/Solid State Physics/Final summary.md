@@ -1,6 +1,6 @@
 ### Little Blue Book (adaptive to teaching materials)
 
-#### Chapter 04
+#### Chapter 03 Lattice Vibration and Crystal Thermodynamics
 
 ##### Knowledge Summary
 
@@ -146,3 +146,24 @@
 > $$
 > \omega_{-} = \sqrt{\frac{2c}{m}}, \quad \omega_{+} = \sqrt{\frac{20c}{m}} \tag{6}
 > $$
+
+> [!note] 3.4
+>
+> Consider a square lattice composed of identical atoms, with $u_{l,m}$ denoting the displacement of the atom at the $l$-th row and $m$-th column from the equilibrium position, each atom having mass $M$, and the force constant between nearest neighboring atoms being $c$.
+>
+> (1) Prove the equation of motion
+>
+> $$
+> M \frac{\mathrm{d}^2 u_{l,m}}{\mathrm{d}t^2} = c[(u_{l+1,m} + u_{l-1,m} - 2u_{l,m}) + (u_{l,m+1} + u_{l,m-1} - 2u_{l,m})]
+> $$
+>
+> (2) Assume the solution is of the form $u_{l,m} = u(0) \exp[i(lk_xa + mk_ya) - \omega t]$, where $a$ is the distance between nearest neighboring atoms, prove that the equation of motion is satisfied if $\omega^2 M = 2c(2 - \cos k_xa - \cos k_ya)$, which is the dispersion relation of the problem.
+>
+> (3) Prove that the $k$-space region where independent solutions exist is a square with side length $\frac{2\pi}{a}$, which is the first Brillouin zone of the square lattice. Construct the $\omega-k$ diagram when $k = k_x$ and $k_y = 0$, and when $k_x = k_y$.
+>
+> (4) For $ka \ll 1$, prove
+>
+> $$
+> \omega = \left( \frac{ca^2}{M} \right)^{1/2} (k_x^2 + k_y^2)^{1/2} = \left( \frac{ca^2}{M} \right)^{1/2} k
+> $$
+
