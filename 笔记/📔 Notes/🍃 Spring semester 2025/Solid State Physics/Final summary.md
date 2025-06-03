@@ -400,6 +400,80 @@ $$
 
 For states $k$ close to $-\frac{n\pi}{a}$, a degenerate perturbation treatment should be applied.
 
+$$
+k = -\frac{n\pi}{a}(1 - \Delta), \, \Delta << 1
+$$
+
+Under the perturbation of a periodic field, the main effect is the mixing with states that have energies close to it:
+$$
+k = \frac{n\pi}{a}(1 + \Delta), \, \Delta << 1
+$$
+
+Using an approximate treatment method, all other mixed states are ignored, and the wave function is written as:
+
+$$
+\psi = a\psi_k^0 + b\psi_{k'}^0
+$$
+
+where $\psi_k^0$ and $\psi_{k'}^0$ satisfy equation (4.7), with corresponding eigenvalues $E_k^0$ and $E_{k'}^0$. From equation (4.7) and the wave equation:
+
+$$
+\left[-\frac{\hbar^2}{2m} \frac{d^2}{dx^2} + V(x) - E\right] \psi(x) = 0
+$$
+
+the eigenvalues can be solved as:
+
+$$
+E_\pm = \frac{1}{2} \left\{(E_k^0 + E_{k'}^0) \pm \left[(E_k^0 - E_{k'}^0)^2 + 4|V_n|^2\right]^{1/2}\right\}
+$$
+
+Now, two cases are discussed:
+
+(1) $|E_k^0 - E_{k'}^0| >> |V_n|$, i.e., state $k$ is far from $-\frac{n\pi}{a}$.
+
+At this point, there is still a significant difference in energy between the $k$ and $k'$ states. Expanding equation (4.10) with respect to $|V_n|/(E_k^0 - E_{k'}^0)$ and taking the first-order approximation yields:
+
+$$
+E_\pm =
+\begin{cases}
+E_{k'}^0 + \frac{|V_n|^2}{E_{k'}^0 - E_k^0} \\
+E_k^0 - \frac{|V_n|^2}{E_{k'}^0 - E_k^0}
+\end{cases}
+$$
+
+Here, it is assumed that $\Delta > 0$ (i.e., $E_{k'}^0 > E_k^0$). From the above equation, it can be seen that the mutual influence results in an increase in the energy of the originally higher-energy $k'$ state and a decrease in the energy of the originally lower-energy $k$ state. This is a general result in quantum mechanics, known as the "repulsion effect" between energy levels.
+
+(2) $|E_k^0 - E_{k'}^0| << |V_n|$, i.e., $k$ is very close to $-\frac{n\pi}{a}$.
+
+Expanding equation (4.10) with respect to $(E_{k'}^0 - E_k^0)/|V_n|$ to the first order and using the relationship between $k$ and $\Delta$ gives:
+
+$$
+E_\pm =
+\begin{cases}
+\bar{V} + T_n + |V_n| + \Delta^2 T_n \left(\frac{2T_n}{|V_n|} + 1\right) \\
+\bar{V} + T_n - |V_n| - \Delta^2 T_n \left(\frac{2T_n}{|V_n|} - 1\right)
+\end{cases}
+$$
+
+where $T_n$ represents the kinetic energy when $k = \frac{n\pi}{a}$:
+$$
+T_n = \frac{\hbar^2}{2m} \left(\frac{n\pi}{a}\right)^2
+$$
+
+When $\Delta \to 0$, $E_\pm$ approaches $\bar{V} + T_n \pm |V_n|$ in a parabolic manner.
+
+##### Energy band and Energy gap
+
+Due to the influence of the periodic potential field, the $E(k)$ function will be discontinuous at $k = \frac{\pi}{a}n$, with an energy jump of $2|V_n|$. According to equation (4.9), for each $l$, there is one quantum state, and its energy can be found from the $E(k)$ graph. By plotting all the energy levels of the quantum states, when $N$ is very large, the values of $k$ become extremely dense, and the corresponding energy levels are also very dense. Therefore, they are sometimes referred to as quasi-continuous.
+
+The quasi-continuous energy levels split into a series of bands $1, 2, 3, \dots$, which correspond to the first Brillouin zone, second Brillouin zone, third Brillouin zone, etc. These bands are called energy bands. The energy levels belonging to one Brillouin zone form an energy band, and different Brillouin zones correspond to different energy bands. Within an energy band, the energy levels are quasi-continuous.
+
+The intervals between the bands are called energy gaps, and no energy levels exist within the gaps. The widths of the various gaps directly correspond to the discontinuities in the $E(k)$ curve at $k = \frac{\pi}{a}n$, i.e., $2|V_1|, 2|V_2|, 2|V_3|, \dots$.
+
+The formation of energy bands by the energy levels of electrons moving in a periodic field is one of the most fundamental results of band theory. Each energy band corresponds to the range of $k$ values within a Brillouin zone, such as $2\pi/a$ in the one-dimensional case. Each energy band contains $k$ values within this range.
+
+
+
 ##### Energy State Density
 
 Corresponding to the density of lattice vibration modes, the concept of density of states is introduced.
@@ -476,3 +550,41 @@ Generally, this sphere is called the Fermi sphere, $k_F$ is the Fermi radius, th
 > $$
 > E_F = \frac{50.1\,\text{eV}}{(r_s/a_0)^2}
 > $$
+
+### Chapter 06 Metal Electron Theory
+
+#### Knowledge Summary
+
+##### Fermi Distribution Function
+
+For the equilibrium state of a system, the basic principle of Fermi-Dirac statistics is summarized as the so-called Fermi distribution function:
+
+$$
+f(E) = \frac{1}{e^{(E - E_\mathrm{F})/k_\mathrm{B}T} + 1} \tag{6.1}
+$$
+
+where $E_\mathrm{F}$ is the Fermi energy level, which can be determined by the following equation ($N$ is the total number of electrons in the system):
+
+$$
+\sum_i f(E_i) = N
+$$
+
+Using the density of states function $N(E)$, the above equation can be written as:
+
+$$
+N = \int_0^\infty f(E) N(E) \, \mathrm{d}E \tag{6.2}
+$$
+
+Introducing the function $Q(E)$ (representing the total number of quantum states below energy $E$):
+
+$$
+Q(E) = \int_0^E N(E) \, \mathrm{d}E
+$$
+
+By performing integration by parts and rewriting the limits of integration, expanding $Q(E)$ near the Fermi energy level to the second order, we obtain:
+
+$$
+N = Q(E_\mathrm{F}) + \frac{\pi^2}{6} Q''(E_\mathrm{F}) (k_\mathrm{B}T)^2 \tag{6.3}
+$$
+
+
