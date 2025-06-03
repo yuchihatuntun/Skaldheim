@@ -6,11 +6,11 @@
 
 ##### Practice
 
-> [!note] **3.1**
+> [!note] 3.1
 >
 > It is known that in a one-dimensional monatomic chain, the displacement caused by the $j$-th phonon at the $n$-th lattice point is $\mu_{nj} = a_j \sin(\omega_j t + naq_j + \delta_j)$, where $\delta_j$ is an arbitrary phase factor, and it is known that at higher temperatures, the average energy of each phonon is $k_B T$, calculate specifically the mean square displacement of each atom.
 
-> [!warning] **Solution:**
+> [!warning] Solution:
 > 
 > According to $\frac{1}{T} \int_0^T \sin^2(\omega_j t + naq_j + \delta_j) dt = \frac{1}{2}$, where $T = \frac{2\pi}{\omega_j}$ is the period of vibration, thus we have
 >
@@ -51,3 +51,35 @@
 > $$
 > \overline{\mu_n^2} = \sum_j \overline{\mu_{nj}^2} = \frac{k_B T}{N m} \sum_j \frac{1}{\omega_j^2} \tag{4}
 > $$
+
+> [!note] 3.2
+>
+> Discuss the one-dimensional diatomic chain of $N$ atoms (with a distance $a$ between adjacent atoms), its $2N$ phonon solutions, and when $M = m$, the results correspond one-to-one with those of a one-dimensional monatomic chain.
+
+> [!warning] Solution:
+>
+> In a one-dimensional diatomic chain, the range of the wave vector $q$ is $-\frac{\pi}{2a} < q \leq \frac{\pi}{2a}$. The relationship for the vibrational frequency is given by
+>
+> $$
+> \omega_{\pm}^2 = \beta \frac{M+m}{Mm} \left\{ 1 \pm \sqrt{1 - \frac{4Mm}{M+m} \sin^2 aq} \right\} \tag{1}
+> $$
+>
+> When $M = m$, for optical branches we have
+>
+> $$
+> \omega_{+}^2 = \beta \frac{2}{m} (1 + \cos aq) = \frac{4\beta}{m} \cos^2 \frac{aq}{2}, \quad -\frac{\pi}{2a} < q \leq \frac{\pi}{2a}
+> $$
+>
+> When $M = m$, for acoustic branches we have
+>
+> $$
+> \omega_{-}^2 = \beta \frac{2}{m} (1 - \cos aq) = \frac{4\beta}{m} \sin^2 \frac{aq}{2}, \quad -\frac{\pi}{2a} < q \leq \frac{\pi}{2a}
+> $$
+>
+> which corresponds to the solution of a one-dimensional monatomic chain
+>
+> $$
+> \omega^2 = \frac{4\beta}{m} \sin^2 \frac{aq}{2}, \quad -\frac{\pi}{a} < q \leq \frac{\pi}{a}
+> $$
+>
+> is one-to-one as shown in Figure 3.1. If the left half of the range $-\frac{\pi}{2a} < q \leq \frac{\pi}{2a}$ for $\omega_{+}$ is shifted to the range $\frac{\pi}{2a} < q \leq \frac{\pi}{a}$, and the left half of $\omega_{+}$ is shifted to the range $-\frac{\pi}{a} < q \leq -\frac{\pi}{2a}$, then the curve of the one-dimensional diatomic chain becomes the curve of the one-dimensional monatomic chain.
