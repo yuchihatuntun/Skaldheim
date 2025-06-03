@@ -174,6 +174,7 @@
 > The force exerted by $(l+1, m)$ on the $(l, m)$ atom is: $c(u_{l+1,m} - u_{l,m})$  
 >  
 > The force exerted by $(l-1, m)$ on the $(l, m)$ atom is: $c(u_{l,m} - u_{l-1,m})$
+>
 > Considering the forces exerted by $(l+1, m)$ and $(l-1, m)$ atoms on the $(l, m)$ atom, as well as the forces exerted by $(l, m+1)$ and $(l, m-1)$ atoms in the opposite direction, the equation of motion can be written as
 >
 > $$
@@ -185,3 +186,85 @@
 > $$
 > M \frac{\mathrm{d}^2 u_{l,m}}{\mathrm{d}t^2} = c[(u_{l+1,m} + u_{l-1,m} - 2u_{l,m}) + (u_{l,m+1} + u_{l,m-1} - 2u_{l,m})] \tag{1}
 > $$
+>
+> (2) Substitute $u_{l,m} = u(0) \exp[i(lk_xa + mk_ya) - \omega t]$ into equation (1), at this time the left side of the equation is $-\omega^2 M u_{l,m}$, and the right side is
+>
+> $$
+> c \left[ u_{l+1,m} + u_{l-1,m} - 2u_{l,m} + u_{l,m+1} + u_{l,m-1} - 2u_{l,m} \right]
+> $$
+>
+> Substitute the assumed solution:
+>
+> $$
+> u_{l+1,m} = u_{l,m} e^{ik_x a}, \quad u_{l-1,m} = u_{l,m} e^{-ik_x a}
+> $$
+> $$
+> u_{l,m+1} = u_{l,m} e^{ik_y a}, \quad u_{l,m-1} = u_{l,m} e^{-ik_y a}
+> $$
+>
+> So the right side becomes:
+>
+> $$
+> c \left[ (e^{ik_x a} + e^{-ik_x a} - 2) u_{l,m} + (e^{ik_y a} + e^{-ik_y a} - 2) u_{l,m} \right]
+> $$
+> $$
+> = c \left[ (2\cos k_x a - 2) + (2\cos k_y a - 2) \right] u_{l,m}
+> $$
+> $$
+> = 2c (\cos k_x a + \cos k_y a - 2) u_{l,m}
+> $$
+> $$
+> = -2c (2 - \cos k_x a - \cos k_y a) u_{l,m}
+> $$
+>
+> Therefore, the equation of motion is satisfied if
+>
+> $$
+> \omega^2 M = 2c(2 - \cos k_x a - \cos k_y a) \tag{2}
+> $$
+>
+> (3)
+>
+> In $u_{l,m} = u(0) \exp[i(lk_xa + mk_ya) - \omega t]$, replace $k_x$ with $k_x + \frac{2\pi}{a}n_1$, and $k_y$ with $k_y + \frac{2\pi}{a}n_2$, where $n_1$, $n_2$ are integers, then we have
+>
+> $$
+> u_{l,m} = u(0) \exp \left\{ i \left[ l \left( k_x + \frac{2\pi}{a}n_1 \right) a + m \left( k_y + \frac{2\pi}{a}n_2 \right) a \right] - \omega t \right\}
+> $$
+>
+> $$
+> = u(0) \exp[i(lk_xa + mk_ya - \omega t)] \cdot \exp[i2\pi(n_1l + n_2m)] = u_{l,m}
+> $$
+>
+> So $u_{l,m}$ and $\omega^2$ are periodic functions of $k_x$ and $k_y$ with period $\frac{2\pi}{a}$, hence $k_x$ and $k_y$ can be limited to the range
+>
+> $$
+> -\frac{\pi}{a} \leq k_x < \frac{\pi}{a}, \quad -\frac{\pi}{a} \leq k_y < \frac{\pi}{a}
+> $$
+>
+> This region, where all independent solutions are located, is a square region in $k$-space with side length $\frac{2\pi}{a}$, known as the first Brillouin zone of the two-dimensional square lattice.
+>
+> Taking $k_x = k, k_y = 0$, from equation (2) we get
+>
+> $$
+> \omega^2 = \frac{2c(1 - \cos ka)}{M} = \frac{4c}{M} \sin^2 \left( \frac{ka}{2} \right)
+> $$
+>
+> $$
+> \omega = \sqrt{\frac{4c}{M}} \left| \sin \left( \frac{ka}{2} \right) \right| \tag{3}
+> $$
+>
+> Taking $k_x = k_y$, from equation (2) we get
+>
+> $$
+> \omega^2 = \frac{4c(1 - \cos k_xa)}{M} = \frac{8c}{M} \sin^2 \left( \frac{\sqrt{2}}{4} ka \right)
+> $$
+>
+> (4)
+>
+> Using the approximation $\cos x \approx 1 - \frac{1}{2}x^2$ for small $x$, when $ka \ll 1$, we have
+>
+> $$
+> \omega^2 = \frac{2c}{M} \left[ 2 - \left( 1 - \frac{(k_xa)^2}{2} \right) - \left( 1 - \frac{(k_ya)^2}{2} \right) \right] = \frac{ca^2}{M} (k_x^2 + k_y^2) = \frac{ca^2}{M} k^2
+> $$
+>
+> Therefore, $\omega = \left( \frac{ca^2}{M} \right)^{1/2} k$.
