@@ -314,3 +314,23 @@ $$\psi(\boldsymbol{r} + \boldsymbol{R}_n) = e^{i\boldsymbol{k} \cdot \boldsymbol
 
 ##### Energy State Density
 
+Corresponding to the density of lattice vibration modes, the concept of density of states is introduced.
+Considering the spin, the general expression for the density of states is
+
+$$
+N_n(E) = \frac{V}{4\pi^3} \int \frac{\mathrm{d}S}{|\nabla_{\boldsymbol{k}} E_n(\boldsymbol{k})|} \tag{4.28}
+$$
+
+The density of states for one-dimensional, two-dimensional, and three-dimensional free electron gases are respectively
+
+**One-dimensional:** 
+
+$$N(E) = \frac{L}{\pi} \left( \frac{2m}{\hbar^2} \right)^{1/2} E^{-1/2} \quad (where $L$ is the length of the lattice)$$
+
+**Two-dimensional:** 
+
+$$N(E) = \frac{S}{\pi \hbar^2} m \quad (where $S$ is the area of the lattice)$$
+
+**Three-dimensional:** 
+
+$$N(E) = \frac{2V}{(2\pi)^2} \left( \frac{2m}{\hbar^2} \right)^{3/2} E^{1/2} \quad (where $V$ is the volume of the lattice)$$
