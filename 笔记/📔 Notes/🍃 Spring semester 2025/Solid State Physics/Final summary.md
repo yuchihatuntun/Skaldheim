@@ -167,3 +167,21 @@
 > \omega = \left( \frac{ca^2}{M} \right)^{1/2} (k_x^2 + k_y^2)^{1/2} = \left( \frac{ca^2}{M} \right)^{1/2} k
 > $$
 
+> **Solution:**
+>
+> (1) As shown in Figure 3.4, considering only the influence of the nearest neighboring atoms, the $(l, m)$ atom is affected by the four atoms $(l+1, m)$, $(l-1, m)$, $(l, m+1)$, and $(l, m-1)$. The forces are represented as  
+>  
+> The force exerted by $(l+1, m)$ on the $(l, m)$ atom is: $c(u_{l+1,m} - u_{l,m})$  
+>  
+> The force exerted by $(l-1, m)$ on the $(l, m)$ atom is: $c(u_{l,m} - u_{l-1,m})$
+> Considering the forces exerted by $(l+1, m)$ and $(l-1, m)$ atoms on the $(l, m)$ atom, as well as the forces exerted by $(l, m+1)$ and $(l, m-1)$ atoms in the opposite direction, the equation of motion can be written as
+>
+> $$
+> M \frac{\mathrm{d}^2 u_{l,m}}{\mathrm{d}t^2} = c[(u_{l+1,m} - u_{l,m}) - (u_{l,m} - u_{l-1,m})] + c[(u_{l,m+1} - u_{l,m}) - (u_{l,m} - u_{l,m-1})]
+> $$
+>
+> Simplifying, we get
+>
+> $$
+> M \frac{\mathrm{d}^2 u_{l,m}}{\mathrm{d}t^2} = c[(u_{l+1,m} + u_{l-1,m} - 2u_{l,m}) + (u_{l,m+1} + u_{l,m-1} - 2u_{l,m})] \tag{1}
+> $$
