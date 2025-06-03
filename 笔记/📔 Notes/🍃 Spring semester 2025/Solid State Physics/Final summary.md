@@ -88,3 +88,61 @@
 >
 > Consider the lattice vibration of a diatomic chain, where the force constants between the nearest neighboring atoms alternate between $c$ and $10c$. Let the masses of the two types of atoms be the same, and the nearest neighboring distance be $a/2$. Find the $\omega(k)$ at $k=0$ and $k=\frac{\pi}{a}$, and sketch the dispersion relation. This problem simulates a diatomic molecular crystal, such as $H_2$.
 
+> **Solution:**
+>
+> Let $x_{2n}$ represent the displacement of the $2n$-th atom, and $x_{2n+1}$ represent the displacement of the $(2n+1)$-th atom. The equations of motion are
+>
+> $$
+> m\ddot{x}_{2n} = 10c(x_{2n+1} - x_{2n}) - c(x_{2n} - x_{2n-1})
+> $$
+>
+> $$
+> m\ddot{x}_{2n+1} = c(x_{2n+2} - x_{2n+1}) - 10c(x_{2n+1} - x_{2n})
+> $$
+>
+> Simplifying, we get
+>
+> $$
+> m\ddot{x}_{2n} = c(10x_{2n+1} + x_{2n-1} - 11x_{2n}) \tag{1}
+> $$
+>
+> $$
+> m\ddot{x}_{2n+1} = c(x_{2n+2} + 10x_{2n} - 11x_{2n+1})
+> $$
+>
+> Let $x_{2n} = Ae^{i[(2n)\frac{aq}{2}-\omega t]}$, $x_{2n+1} = Be^{i[(2n+1)\frac{aq}{2}-\omega t]}$, substituting into (1) gives
+>
+> $$
+> -m\omega^2 A = c \left( e^{-i\frac{aq}{2}} + 10e^{i\frac{aq}{2}} \right) B - 11cA \tag{2}
+> $$
+>
+> $$
+> -m\omega^2 A = c(10e^{-i\frac{aq}{2}} + e^{i\frac{aq}{2}}) - 11cB
+> $$
+>
+> Simplifying to the condition for non-zero solutions of $A$, $B$
+>
+> $$
+> \left| \begin{array}{cc}
+> m\omega^2 - 11c & ce^{i\frac{aq}{2}} + 10ce^{-i\frac{aq}{2}} \\
+> 10ce^{i\frac{aq}{2}} + ce^{-i\frac{aq}{2}} & m\omega^2 - 11c
+> \end{array} \right| = 0 \tag{3}
+> $$
+>
+> Solving, we get
+>
+> $$
+> \omega_{\pm}^2(k) = \frac{11c \pm c\sqrt{20\cos ka + 101}}{m} \tag{4}
+> $$
+>
+> When $k=0$, $\cos ka = 1$, so
+>
+> $$
+> \omega_{-} = 0, \quad \omega_{+} = \sqrt{\frac{22c}{m}} \tag{5}
+> $$
+>
+> When $k=\frac{\pi}{a}$, $\cos ka = -1$, at this time
+>
+> $$
+> \omega_{-} = \sqrt{\frac{2c}{m}}, \quad \omega_{+} = \sqrt{\frac{20c}{m}} \tag{6}
+> $$
