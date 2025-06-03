@@ -10,7 +10,7 @@
 >
 > It is known that in a one-dimensional monatomic chain, the displacement caused by the $j$-th phonon at the $n$-th lattice point is $\mu_{nj} = a_j \sin(\omega_j t + naq_j + \delta_j)$, where $\delta_j$ is an arbitrary phase factor, and it is known that at higher temperatures, the average energy of each phonon is $k_B T$, calculate specifically the mean square displacement of each atom.
 
-> [!error] Solution:
+> **Solution:**
 > 
 > According to $\frac{1}{T} \int_0^T \sin^2(\omega_j t + naq_j + \delta_j) dt = \frac{1}{2}$, where $T = \frac{2\pi}{\omega_j}$ is the period of vibration, thus we have
 >
@@ -56,7 +56,7 @@
 >
 > Discuss the one-dimensional diatomic chain of $N$ atoms (with a distance $a$ between adjacent atoms), its $2N$ phonon solutions, and when $M = m$, the results correspond one-to-one with those of a one-dimensional monatomic chain.
 
-> [!error] Solution:
+> **Solution:**
 >
 > In a one-dimensional diatomic chain, the range of the wave vector $q$ is $-\frac{\pi}{2a} < q \leq \frac{\pi}{2a}$. The relationship for the vibrational frequency is given by
 >
@@ -83,3 +83,8 @@
 > $$
 >
 > is one-to-one as shown in Figure 3.1. If the left half of the range $-\frac{\pi}{2a} < q \leq \frac{\pi}{2a}$ for $\omega_{+}$ is shifted to the range $\frac{\pi}{2a} < q \leq \frac{\pi}{a}$, and the left half of $\omega_{+}$ is shifted to the range $-\frac{\pi}{a} < q \leq -\frac{\pi}{2a}$, then the curve of the one-dimensional diatomic chain becomes the curve of the one-dimensional monatomic chain.
+
+> [!note] 3.3
+>
+> Consider the lattice vibration of a diatomic chain, where the force constants between the nearest neighboring atoms alternate between $c$ and $10c$. Let the masses of the two types of atoms be the same, and the nearest neighboring distance be $a/2$. Find the $\omega(k)$ at $k=0$ and $k=\frac{\pi}{a}$, and sketch the dispersion relation. This problem simulates a diatomic molecular crystal, such as $H_2$.
+
