@@ -1,10 +1,9 @@
-### Little Blue Book (adaptive to teaching materials)
 
-#### Chapter 03 Lattice Vibration and Crystal Thermodynamics
+### Chapter 03 Lattice Vibration and Crystal Thermodynamics
 
-##### Knowledge Summary
+#### Knowledge Summary
 
-##### Practice
+#### The Blue Book
 
 > [!note] 3.1
 >
@@ -268,3 +267,5 @@
 > $$
 >
 > Therefore, $\omega = \left( \frac{ca^2}{M} \right)^{1/2} k$.
+
+#### The Physics Dictionary
