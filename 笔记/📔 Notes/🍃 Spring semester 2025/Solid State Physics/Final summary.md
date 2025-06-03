@@ -312,6 +312,94 @@ It is easy to derive from the above that Bloch's theorem can also be expressed a
 
 $$\psi(\boldsymbol{r} + \boldsymbol{R}_n) = e^{i\boldsymbol{k} \cdot \boldsymbol{R}_n} \psi(\boldsymbol{r}) \tag{4.4}$$
 
+It holds for all lattice vectors $R_n$ of the Bravais lattice. $\psi_{\boldsymbol{k}}(\boldsymbol{r})$ is called the Bloch function.
+
+Bloch's theorem is derived from the translational symmetry of the crystal, and any wave in a periodic structure should have the form of a Bloch function.
+
+##### Hasaya
+
+The value of the wave vector $\boldsymbol{k}$ is determined by the periodic boundary conditions (Bloch-Fermi boundary conditions), i.e.
+
+$$
+\left\{
+\begin{array}{l}
+\psi(\boldsymbol{r} + N_1 \boldsymbol{a}_1) = \psi(\boldsymbol{r}) \\
+\psi(\boldsymbol{r} + N_2 \boldsymbol{a}_2) = \psi(\boldsymbol{r}) \\
+\psi(\boldsymbol{r} + N_3 \boldsymbol{a}_3) = \psi(\boldsymbol{r})
+\end{array}
+\right. \tag{4.5}
+$$
+
+where $\boldsymbol{a}_i (i = 1, 2, 3)$ are the three lattice vectors of the Bravais lattice, $N = N_1 N_2 N_3$ is the total number of unit cells in the crystal, and $N_i$ is an integer of order $N^{1/3}$.
+
+##### Three Basic Approximations
+
+1. **Adiabatic approximation**
+
+Due to the huge mass difference between electrons and atomic nuclei, the velocity of electrons is much greater than that of atomic nuclei, allowing the treatment of electrons and nuclei as two separate systems without energy exchange. When considering the motion of electrons, the nuclei can be considered stationary.
+
+2. **Single electron approximation**
+
+The influence of the solid's ions and the remaining electrons can be replaced by an average field, simplifying the wave equation problem of many electrons to that of a single electron.
+
+3. **Periodic field approximation**
+
+Regardless of the interaction between a single electron and the ions in the crystal or the interaction among the remaining electrons, it is assumed that the total potential field experienced by a single electron in the crystal is a periodic field.
+
+In short, by using the adiabatic approximation, the problem of many particles composed of a large number of atomic nuclei (ions) and electrons is transformed into a problem of many electrons. Using the single electron approximation, it is further transformed into a problem of a single electron. Then, using the periodic field (average field) approximation, the motion of a single electron in the crystal is considered as the motion of the electron in the "field formed by the average charge distribution of positive ions and other electrons."
+
+##### Near-free electron approximation for electron motion in a one-dimensional periodic field
+
+The so-called near-free electron approximation is: *assuming that the periodic field is small, the average value $\bar{V}$ of the potential can be used to replace $V(x)$, and the periodic potential $[V(x) - \bar{V}]$ is treated as a perturbation.* 
+
+The wave equation for the zeroth-order approximation is
+
+$$
+-\frac{\hbar^2}{2m} \frac{\mathrm{d}^2}{\mathrm{d}x^2} \psi^0 + \bar{V} \psi^0 = E^0 \psi^0 \tag{4.7}
+$$
+
+The solution for the free particle in the constant field $\bar{V}$ is:
+
+$$
+\psi_k^0(x) = \frac{1}{\sqrt{L}} e^{ikx}, \quad E_k^0 = \frac{\hbar^2 k^2}{2m} + \bar{V} \tag{4.8}
+$$
+
+where the lattice length $L = Na$, $N$ is the number of unit cells, $a$ is the lattice constant (interatomic distance). The value of $k$ is determined by the periodic boundary conditions
+
+$$
+k = \frac{l}{Na} (2\pi) \quad (l \in \mathbb{Z}) \tag{4.9}
+$$
+
+The wave function satisfies the normalization condition. It is because the zeroth-order approximate solution corresponds to free electrons that this approximation is called the nearly-free electron approximation.
+
+Under general perturbation theory (without degeneracy), the first and second-order corrections to the eigenvalues are given by:
+
+$$
+E_k^{(1)} = \langle k | \Delta V | k \rangle = 0
+$$
+
+$$
+E_k^{(2)} = \sum_{k'} \frac{|\langle k' | \Delta V | k \rangle|^2}{E_k^0 - E_{k'}^0}
+$$
+
+The first-order correction to the wave function is:
+
+$$
+\psi_k^{(1)} = \sum_{k'} \frac{\langle k' | \Delta V | k \rangle}{E_k^0 - E_{k'}^0} \psi_{k'}^0
+$$
+
+It can be proven that:
+
+$$
+\langle k' | \Delta V | k \rangle = \langle k' | V(x) | k \rangle =
+\begin{cases}
+\displaystyle \frac{1}{a} \int_0^a e^{-i 2\pi \frac{n}{a} \xi} V(\xi) d\xi = V_n, & k' = k + \frac{n}{a} 2\pi \\
+0, & \text{otherwise}
+\end{cases}
+$$
+
+For states $k$ close to $-\frac{n\pi}{a}$, a degenerate perturbation treatment should be applied.
+
 ##### Energy State Density
 
 Corresponding to the density of lattice vibration modes, the concept of density of states is introduced.
@@ -339,10 +427,6 @@ $$N(E) = \frac{2V}{(2\pi)^2} \left( \frac{2m}{\hbar^2} \right)^{3/2} E^{1/2} \qu
 > Because the energy band function $E_n(\boldsymbol{k})$ is a periodic function in reciprocal space, there are always some $\boldsymbol{k}$ values where $|\nabla_{\boldsymbol{k}}E| = 0$ in each unit cell, leading to a divergence in the integral of the density of states formula. For the three-dimensional case, it is still integrable, giving a finite $N_n(E)$, but the slope $\frac{\mathrm{d}N_n(E)}{\mathrm{d}E}$ diverges, and this divergence of $N_n(E)$ is called the Van Hove singularity.
 >
 > Van Hove singularity (Singularity) arises from **the unique symmetry of crystal materials**, and similar issues are encountered in the density of lattice vibration modes (lattice vibration mode density).
-
-
-
-
 
 ##### Fermi Surface and Free Electron Sphere Radius
 
@@ -379,10 +463,10 @@ Generally, this sphere is called the Fermi sphere, $k_F$ is the Fermi radius, th
 > r_s = \left( \frac{3}{4\pi n} \right)^{1/3}
 > $$
 >
-> Taking the hydrogen atomic radius $a_0 = \frac{\hbar^2}{me^2} = 0.529\,\text{\AA}$ as the unit of length, $r_s/a_0$ is a dimensionless quantity.
+> Taking the hydrogen atomic radius $a_0 = \frac{\hbar^2}{me^2} = 0.529\,\text{A}$ as the unit of length, $r_s/a_0$ is a dimensionless quantity.
 >
 > $$
-> k_F = \frac{(9\pi/4)^{1/3}}{r_s} = \frac{1.92}{r_s} = \frac{3.63}{(r_s/a_0)}\,\text{\AA}^{-1} \tag{4.30}
+> k_F = \frac{(9\pi/4)^{1/3}}{r_s} = \frac{1.92}{r_s} = \frac{3.63}{(r_s/a_0)}\,\text{A}^{-1} \tag{4.30}
 > $$
 >
 > $$
