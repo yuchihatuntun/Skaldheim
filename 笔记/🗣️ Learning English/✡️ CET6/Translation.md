@@ -77,7 +77,43 @@ Correct low-level errors (such as spelling errors, misuse of prepositions) accor
 
 ##### Series Corpus
 
+**Core Corpus of Classical Works Translation:**
 
+1. 四大名著统称
+
+| 表达维度     | 基础版                          | 学术版                          | 文化负载版                     |
+|--------------|---------------------------------|---------------------------------|--------------------------------|
+| 书名统称     | the Four Great Classical Novels | the Four Epochal Masterpieces   | China's literary tetralogy     |
+| 作品地位     | most influential work          | culturally seminal masterpiece  | cornerstone of Chinese literary canon |
+
+2. 三大名著特征术语
+
+《西游记》
+
+| 中文概念   | 基础表达                 | 学术表达                     | 文学修辞                     |
+|------------|--------------------------|------------------------------|------------------------------|
+| 取经       | obtain Buddhist scriptures | pilgrimage for sacred texts  | quest for enlightenment      |
+| 随从       | companions               | disciples/protagonists        | pilgrimage retinue           |
+| 妖魔       | monsters                 | malevolent spirits           | supernatural adversaries     |
+| 脍炙人口   | widely known             | etched in collective memory  | permeating cultural consciousness |
+
+《水浒传》
+
+| 中文概念   | 基础表达             | 学术表达                     | 文学修辞                     |
+|------------|----------------------|------------------------------|------------------------------|
+| 农民起义   | peasant uprising      | insurrection against oppression | rebellion against tyranny    |
+| 兄弟结义   | swarm brothers        | sworn brotherhood             | blood-oath fellowship        |
+| 逼上梁山   | forced to rebel       | driven to outlawry            | compelled to righteous banditry |
+| 官府压迫   | government oppression | imperial persecution          | bureaucratic subjugation     |
+
+《三国演义》
+
+| 中文概念   | 基础表达           | 学术表达                     | 文学修辞                     |
+|------------|--------------------|------------------------------|------------------------------|
+| 群雄逐鹿   | warlords fighting  | rival factions vying for supremacy | heroes contesting the empire |
+| 忠义精神   | loyalty            | fealty and honor             | unswerving allegiance        |
+| 军事谋略   | military tactics   | stratagem in warfare         | chessboard-like battlefield maneuvers |
+| 历史演义   | historical stories | fictionalized chronicles     | literary reenactment of history |
 
 ##### The First Set
 
