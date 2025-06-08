@@ -1,3 +1,5 @@
+![alt text](wallhaven-1pvr23_2560x1440.png)
+
 ### T1: China has announced that it will allow couples to have up to <span style="font-weight:bold; color:rgb(255, 177, 10)">three children</span>. To what extent will this policy <span style="font-weight:bold; color:rgb(255, 177, 10)">boost birth rates</span>? Provide reasons to support your answer
 
 ### Deep dive into the topic
