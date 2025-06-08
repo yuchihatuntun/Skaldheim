@@ -12,19 +12,21 @@
 
 ### Prepared manuscripts
 
+![alt text](34011092123c4.png)
+
 #### Introduction: directly express my opinion: It has an effect, but it is <span style="font-weight:bold; color:rgb(255, 177, 10)">very limited</span>
 
-Thank you for the question. The introduction of the three-child policy is indeed a significant move by the Chinese government to address/solve its demographic challenges（人口挑战）, namely the aging population（人口老龄化）.
+Thank you for the question. The introduction of the three-child policy is indeed a significant move by the Chinese government to address/solve its demographic challenges, namely the aging population.
 
-However, **in my opinion, this policy, on its own, will likely have a very limited impact on boosting the nation's birth rates.** （非常有限的效果）
+However, in my opinion, this policy, on its own, will likely have a very limited impact on <span style="font-weight:bold; color:rgb(255, 177, 10)">boosting the nation's birth rates</span>. 
 
 I hold this view for several critical **socio-economic** reasons.
 
-#### Reason 1: 经济压力 (Economic Pressures)
+#### Reason 1: Economic Pressures
 
- **First and foremost, the primary obstacle is the prohibitive(high) cost of raising children in modern China.** （养孩子开销很大）
+ **First and foremost, the primary obstacle is the prohibitive(high) cost of raising children in modern China.** (Raising children is very expensive)
 
-For many urban families, the financial burden of housing, healthcare, and particularly education, is already immense.（房子，医疗，教育已经开销很大了）
+For many urban families, the financial(economic) burden of housing, healthcare, and particularly education, is already immense.（房子，医疗，教育已经开销很大了）
 
 The competition in education is incredibly fierce, forcing parents to invest heavily in extracurricular activities for even one child. （为课外辅导出钱）
   
