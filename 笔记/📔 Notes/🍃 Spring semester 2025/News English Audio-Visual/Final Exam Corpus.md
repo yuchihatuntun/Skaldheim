@@ -16,11 +16,19 @@
 
 #### Introduction: directly express my opinion: It has an effect, but it is <span style="font-weight:bold; color:rgb(255, 177, 10)">very limited</span>
 
-Thank you for the question. The introduction of the three-child policy is indeed a significant move by the Chinese government to address/solve its demographic challenges, namely the aging population.
+> [!note] Oral answer type
+> Thank you for the question. The introduction of the three-child policy is indeed a significant move by the Chinese government to address/solve its demographic challenges, namely the aging population.
+>
+> However, in my opinion, this policy, on its own, will likely have a very limited impact on <span style="font-weight:bold; color:rgb(255, 177, 10)">boosting the nation's birth rates</span>.
+>
+> I hold this view for several critical **socio-economic** reasons.
 
-However, in my opinion, this policy, on its own, will likely have a very limited impact on <span style="font-weight:bold; color:rgb(255, 177, 10)">boosting the nation's birth rates</span>. 
-
-I hold this view for several critical **socio-economic** reasons.
+> [!note] News broadcast type
+> China recently announced a major policy change, now allowing couples to have up to three children. This policy is designed to address serious population challenges, especially the country's aging population.
+>
+> However, many experts agree that this policy by itself will likely have a very limited impact on raising the birth rate.
+>
+> There are several strong social and economic reasons for this view.
 
 #### Reason 1: Economic Pressures
 
@@ -32,7 +40,7 @@ The competition in education is incredibly fierce, forcing parents to invest hea
   
 Therefore, the idea of stretching these finite resources to raise two, let alone three children, is simply not a viable option for the majority of couples.
 
-#### Reason 2: 社会观念转变 (Shifting Social Norms)
+#### Reason 2: Shifting Social Norms
 
 **Secondly, we've witnessed a profound shift in societal norms and individual aspirations.** Unlike previous generations, many young people today prioritize their careers, personal freedom, and quality of life. The traditional value of having a large family has faded. Furthermore, the burden of childcare still disproportionately falls on women. Many women are reluctant to have more children for fear of sacrificing their career progression, a phenomenon often referred to as the 'motherhood penalty'. Without adequate institutional support, like affordable childcare and longer paternity leave, this remains a major deterrent.
 
