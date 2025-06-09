@@ -1,6 +1,6 @@
 ### Electrostatics
 
-### Chapter05 Propagation of Uniform Plane Waves in Unbounded Space
+### <span style="font-weight:bold; color:rgb(255, 177, 10)">Chapter 05</span> Propagation of Uniform Plane Waves in Unbounded Space
 
 #### Exercise Answers
 
@@ -20,3 +20,16 @@
 >
 >$$= - e_x 2 \cdot 65 \sin(\omega t - \beta z) \ \mathrm{A/m}$$
 
+> [!note] 5.2
+>
+> In an ideal medium (parameters $\mu = \mu_0$, $\varepsilon = \varepsilon_r \varepsilon_0$, $\sigma = 0$) there is a uniform plane wave propagating along the $x$ direction, and its electric field instantaneous value expression is known as  
+>
+> $$E(x,t) = e_y\ 377 \cos(10^9 t - 5x)\ \mathrm{V/m}$$  
+>
+> Find:  
+>
+> (1) The relative permittivity of this ideal medium;  
+>
+> (2) The magnetic field $H(x,t)$ accompanying $E(x,t)$;  
+>
+> (3) The average power density of this plane wave.
