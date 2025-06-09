@@ -28,11 +28,14 @@
 >
 > Find:  
 >
-> (1) The relative permittivity of this ideal medium;  
+> <span style="font-weight:bold; color:rgb(10, 112, 255)">(1)</span> The relative permittivity of this ideal medium;  
 >
 > (2) The magnetic field $H(x,t)$ accompanying $E(x,t)$;  
 >
 > (3) The average power density of this plane wave.
+
+>[!error] Notice
+> The first question is too complex to solve those partial differential equations directly. You need to remember the relationship between the propagation speed of electromagnetic waves and the relative dielectric constant (see <span style="font-weight:bold; color:rgb(255, 177, 10)">Example 5.1.2</span> for details).
 
 > **Solution:**
 >
@@ -56,3 +59,7 @@
 >
 > The average Poynting vector is  
 > $$S_{av} = \frac{1}{2} \text{Re}[E \times H^*] = \frac{1}{2} \text{Re}[e_y 377 e^{-j5x} \times e_z 1.5 e^{j5x}] = e_x 282.75 \ \mathrm{W/m^2}$$
+
+> [!note] 5.3
+> In air, a uniform plane wave propagates along the $e_y$ direction with a frequency $f = 400$ MHz. When $y = 0.5$ m, $t = 0.2$ ns, the maximum value of the electric field strength $E$ is $250$ V/m, and the unit vector indicating its direction is $e_x 0.6 - e_z 0.8$. Find the instantaneous expressions for the electric field $E$ and the magnetic field $H$.
+
