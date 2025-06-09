@@ -7,7 +7,7 @@
 > [!note] 5.1
 > In free space, given the electric field $E(z,t) = e_y 10^3 \sin(\omega t - \beta z)$ V/m, find the magnetic field strength $H(z,t)$.
 
-> Solution:
+> **Solution:**
 >  
 > Taking the cosine as the basis, rewrite the known electric field expression:  
 > $$E(z,t) = e_y 10^3 \cos\left(\omega t - \beta z - \frac{\pi}{2}\right) \ \mathrm{V/m}$$  
@@ -33,3 +33,26 @@
 > (2) The magnetic field $H(x,t)$ accompanying $E(x,t)$;  
 >
 > (3) The average power density of this plane wave.
+
+> **Solution:**
+>
+>(1)
+>
+> Observing the given electric field expression, it represents a uniform plane wave propagating along the $+x$ direction, with a phase velocity of  
+> $$v_p = \frac{\omega}{k} = \frac{10^9}{5} \ \mathrm{m/s} = 2 \times 10^8 \ \mathrm{m/s}$$  
+>
+> Also,  
+> $$v_p = \frac{1}{\sqrt{\mu \varepsilon}} = \frac{1}{\sqrt{\mu_0 \varepsilon_r \varepsilon_0}} = \frac{1}{\sqrt{\varepsilon_r}} \frac{1}{\sqrt{\mu_0 \varepsilon_0}} = \frac{1}{\sqrt{\varepsilon_r}} \times 3 \times 10^8$$  
+>
+> Therefore,  
+> $$\varepsilon_r = \left(\frac{3}{2}\right)^2 = 2.25$$
+>
+> (2)
+>
+> It can also be directly obtained from the relationship $H = \frac{1}{\eta} e_n \times E$ to get $H$  
+> $$H = \frac{1}{\eta} e_x \times e_y 377 e^{-j5x} = e_z \frac{\sqrt{\varepsilon_r}}{\eta_0} \times 377 e^{-j5x} = e_z 1.5 e^{-j5x} \ \mathrm{A/m}$$
+>
+> (3)
+>
+> The average Poynting vector is  
+> $$S_{av} = \frac{1}{2} \text{Re}[E \times H^*] = \frac{1}{2} \text{Re}[e_y 377 e^{-j5x} \times e_z 1.5 e^{j5x}] = e_x 282.75 \ \mathrm{W/m^2}$$
