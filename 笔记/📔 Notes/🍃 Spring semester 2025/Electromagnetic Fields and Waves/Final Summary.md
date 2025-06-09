@@ -4,7 +4,7 @@
 
 #### Exercise Answers
 
-Jump to Exercise [5.3](#exercise_5.3)
+Jump to Exercise <a href="#exercise_5.3">5.3</a>
 
 > [!note] 5.1
 > In free space, given the electric field $E(z,t) = e_y 10^3 \sin(\omega t - \beta z)$ V/m, find the magnetic field strength $H(z,t)$.
@@ -62,7 +62,7 @@ Jump to Exercise [5.3](#exercise_5.3)
 > The average Poynting vector is  
 > $$S_{av} = \frac{1}{2} \text{Re}[E \times H^*] = \frac{1}{2} \text{Re}[e_y 377 e^{-j5x} \times e_z 1.5 e^{j5x}] = e_x 282.75 \ \mathrm{W/m^2}$$
 
-<a id="exercise_5.3"></a>
+<h2 id="exercise_5.3"></h2>
 
 > [!note] 5.3
 > In air, a uniform plane wave propagates along the $e_y$ direction with a frequency $f = 400$ MHz. When $y = 0.5$ m, $t = 0.2$ ns, the maximum value of the electric field strength $E$ is $250$ V/m, and the unit vector indicating its direction is $e_x 0.6 - e_z 0.8$. Find the instantaneous expressions for the electric field $E$ and the magnetic field $H$.(Same as <span style="font-weight:bold; color:rgb(255, 177, 10)">Example 5.1.1</span>)
