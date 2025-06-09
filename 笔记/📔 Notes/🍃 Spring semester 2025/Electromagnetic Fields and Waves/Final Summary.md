@@ -4,7 +4,9 @@
 
 #### Exercise Answers
 
-Jump to Exercise <a href="#exercise_5.3">5.3</a>
+
+
+<h2 id="exercise_5.1"></h2>
 
 > [!note] 5.1
 > In free space, given the electric field $E(z,t) = e_y 10^3 \sin(\omega t - \beta z)$ V/m, find the magnetic field strength $H(z,t)$.
@@ -22,6 +24,8 @@ Jump to Exercise <a href="#exercise_5.3">5.3</a>
 >
 >$$= - e_x 2 \cdot 65 \sin(\omega t - \beta z) \ \mathrm{A/m}$$
 
+<h2 id="exercise_5.2"></h2>
+
 > [!note] 5.2
 >
 > In an ideal medium (parameters $\mu = \mu_0$, $\varepsilon = \varepsilon_r \varepsilon_0$, $\sigma = 0$) there is a uniform plane wave propagating along the $x$ direction, and its electric field instantaneous value expression is known as  
@@ -36,7 +40,7 @@ Jump to Exercise <a href="#exercise_5.3">5.3</a>
 >
 > (3) The average power density of this plane wave.
 
->[!error] Notice
+>[!tip] Notice
 > The first question is too complex to solve those partial differential equations directly. You need to remember the relationship between the propagation speed of electromagnetic waves and the relative dielectric constant (see <span style="font-weight:bold; color:rgb(255, 177, 10)">Example 5.1.2</span> for details).
 
 > **Solution:**
