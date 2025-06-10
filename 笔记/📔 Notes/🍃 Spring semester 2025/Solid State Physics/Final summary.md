@@ -44,17 +44,50 @@ $$
 
 > From the reciprocal lattice formula $b_1 = \frac{2\pi}{v_c} \boldsymbol{a}_2 \times \boldsymbol{a}_3$, $b_2 = \frac{2\pi}{v_c} \boldsymbol{a}_3 \times \boldsymbol{a}_1$, $b_3 = \frac{2\pi}{v_c} \boldsymbol{a}_1 \times \boldsymbol{a}_2$, we can obtain its reciprocal lattice vectors as
 
+<h2 id="equation1_2"></h2>
+
 $$
 b_1 = \frac{2\pi}{a}(\boldsymbol{j} + \boldsymbol{k}), \quad b_2 = \frac{2\pi}{a}(\boldsymbol{k} + \boldsymbol{i}), \quad b_3 = \frac{2\pi}{a}(\boldsymbol{i} + \boldsymbol{j})
+\tag{(1)}
 $$
 
 > And the primitive vectors of the face-centered cubic lattice can be taken as
 
 $$
 \boldsymbol{a}_1 = \frac{a}{2}(\boldsymbol{j} + \boldsymbol{k}), \quad \boldsymbol{a}_2 = \frac{a}{2}(\boldsymbol{i} + \boldsymbol{k}), \quad \boldsymbol{a}_3 = \frac{a}{2}(\boldsymbol{i} + \boldsymbol{j})
+\tag{(2)}
 $$
 
-> Equations (1) and (2) differ only by a constant factor, which indicates that the reciprocal lattice of the body-centered cubic is face-centered cubic. Similarly, it can be proven that the reciprocal lattice of the face-centered cubic is body-centered cubic.
+> <a href="#equation1_2">Equations (1) and (2)</a> differ only by a constant factor, which indicates that the reciprocal lattice of the body-centered cubic is face-centered cubic. Similarly, it can be proven that the reciprocal lattice of the face-centered cubic is body-centered cubic.
+
+<h2 id="exercise_1.4"></h2>
+
+>[!note] 1.4
+> Prove: The volume of the reciprocal lattice cell is $(2\pi)^3/v_c$, where $v_c$ is the volume of the original lattice cell.
+
+> Let $\boldsymbol{a}_1, \boldsymbol{a}_2, \boldsymbol{a}_3$ be the primitive vectors of the original lattice, and $\boldsymbol{b}_1, \boldsymbol{b}_2, \boldsymbol{b}_3$ be the primitive vectors of the reciprocal lattice. They satisfy
+
+$$
+\boldsymbol{b}_1 = 2\pi \frac{\boldsymbol{a}_2 \times \boldsymbol{a}_3}{v_c}, \quad \boldsymbol{b}_2 = 2\pi \frac{\boldsymbol{a}_3 \times \boldsymbol{a}_1}{v_c}, \quad \boldsymbol{b}_3 = 2\pi \frac{\boldsymbol{a}_1 \times \boldsymbol{a}_2}{v_c}
+$$
+
+> Therefore, the volume $v^*$ of the reciprocal lattice is
+
+$$
+v^* = \boldsymbol{b}_1 \cdot (\boldsymbol{b}_2 \times \boldsymbol{b}_3) = \frac{(2\pi)^3}{v_c^3} (\boldsymbol{a}_2 \times \boldsymbol{a}_3) \cdot [(\boldsymbol{a}_3 \times \boldsymbol{a}_1) \times (\boldsymbol{a}_1 \times \boldsymbol{a}_2)]
+$$
+
+> Using the vector calculation formula $\boldsymbol{A} \times (\boldsymbol{B} \times \boldsymbol{C}) = (\boldsymbol{A} \cdot \boldsymbol{C})\boldsymbol{B} - (\boldsymbol{A} \cdot \boldsymbol{B})\boldsymbol{C}$, we get
+
+$$
+(\boldsymbol{a}_3 \times \boldsymbol{a}_1) \times (\boldsymbol{a}_1 \times \boldsymbol{a}_2) = [(\boldsymbol{a}_3 \times \boldsymbol{a}_1) \cdot \boldsymbol{a}_2]\boldsymbol{a}_1 - [(\boldsymbol{a}_3 \times \boldsymbol{a}_1) \cdot \boldsymbol{a}_1]\boldsymbol{a}_2 = v_c \boldsymbol{a}_1
+$$
+
+> Therefore,
+
+$$
+v^* = \frac{(2\pi)^3}{v_c^3} (\boldsymbol{a}_2 \times \boldsymbol{a}_3) \cdot \boldsymbol{a}_1 v_c = \frac{(2\pi)^3}{v_c}
+$$
 
 ### Chapter 03 Lattice Vibration and Crystal Thermodynamics
 
