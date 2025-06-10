@@ -39,3 +39,37 @@ Then, we propose <span style="font-weight:bold; color:rgb(255, 177, 10)">the unc
 
 In addition, RT-DETR supports <span style="font-weight:bold; color:rgb(255, 177, 10)">flexible speed tuning</span> by adjusting the number of decoder layers to adapt to various scenarios without retraining.
 
+#### RT-DETR Core Performance Comparison Table
+
+![alt text](image.png)
+
+| Model | Comparison Target | Dataset | Accuracy (AP) | Speed (FPS) | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **RT-DETR-R50** | Advanced YOLOs | COCO | 53.1% | 108 | Outperforms YOLOs in both speed and accuracy. |
+| **RT-DETR-R101** | Advanced YOLOs | COCO | 54.3% | 74 | Outperforms YOLOs in both speed and accuracy. |
+| **RT-DETR-R50** | DINO-R50 | COCO | **2.2%** higher | ~**21x** faster | |
+| **RT-DETR-R50** | (Performance Showcase) | Objects365 (pre-training) | 55.3% | - | Accuracy after pre-training on a larger dataset. |
+| **RT-DETR-R101** | (Performance Showcase) | Objects365 (pre-training) | 56.2% | - | Accuracy after pre-training on a larger dataset. |
+
+### Introduction
+
+NMS not only slows down the inference speed, but worse, it introduces <span style="font-weight:bold; color:rgb(255, 177, 10)">hyperparameters</span> that need to be set manually. These hyperparameters can cause instability in the speed and accuracy of the model.
+
+>[!tip] hyperparameters
+> Hyperparameters (such as learning rate, number of neural network layers) are teaching rules set by the teacher in advance, such as "review your notes several times a day"
+
+### <span style="font-weight:bold; color:rgb(255, 177, 10)">End-to-end Speed of Detectors</span>
+
+#### Analysis of NMS
+
+>[!note] Experiment 1: Sensitivity of NMS to “Confidence Threshold” (Corresponding to Figure 2)
+>
+> >[!tip] Confidence threshold
+> > Before NMS processing, the model will filter out some prediction boxes with very low scores. This "score threshold" is the confidence threshold.
+>
+> ![alt text](image-1.png)
+>
+> The results are clear at a glance. When the confidence threshold is set very low (such as 0.001), there are tens of thousands of boxes to process, while when the threshold is increased, the number of boxes to process decreases dramatically.
+> >[!tip] Conclusion
+> > This proves that the computational load of NMS is extremely sensitive to this "threshold" setting.
+
