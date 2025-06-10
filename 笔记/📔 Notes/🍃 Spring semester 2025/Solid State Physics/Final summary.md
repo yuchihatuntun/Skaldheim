@@ -1,3 +1,21 @@
+### Chapter 01 Crystal Structure
+
+
+#### The Blue Book
+
+> [!note] <h2 id="exercise_1.1">1.1</h2>
+>
+> If equal volume spheres are arranged into the following structures, let $x$ represent the ratio of the volume occupied by the spheres to the total volume, prove
+
+Structure | $x$
+---|---
+Simple cubic | $\pi/6 \approx 0.52$
+Body-centered cubic | $\sqrt{3}\pi/8 \approx 0.68$
+Face-centered cubic | $\sqrt{2}\pi/6 \approx 0.74$
+Hexagonal close-packed | $\sqrt{2}\pi/6 \approx 0.74$
+Diamond cubic | $\sqrt{3}\pi/16 \approx 0.34$
+
+>[!tip] This is a high school question. Just remember it as a conclusion.
 
 ### Chapter 03 Lattice Vibration and Crystal Thermodynamics
 
