@@ -1,0 +1,41 @@
+### Abstract
+
+The YOLO series has become the most popular framework for real-time object detection due to its reasonable trade-off between speed and accuracy.  
+
+However, we observe that the speed and accuracy of <span style="font-weight:bold; color:rgb(255, 177, 10)">YOLOs are negatively affected by the NMS</span>. 
+
+>[!tip] The Trouble with YOLO:  
+> It relies on a post-processing step called NMS (Non-Maximum Suppression). You can think of YOLO as "casting a net to catch fish"—it throws out many overlapping boxes at once, and NMS is used to filter out the redundant ones, keeping only the best. This filtering process slows down the overall speed and affects performance.
+
+Recently, <span style="font-weight:bold; color:rgb(255, 177, 10)">end-to-end</span> Transformer-based detectors (DETRs) have provided an alternative to eliminating NMS.  Nevertheless, the <span style="font-weight:bold; color:rgb(255, 177, 10)">high computational cost limits</span> their practicality and hinders them from fully exploiting the advantage of excluding NMS.
+
+>[!tip] E2E vs Non-E2E
+>
+> **E2E:** 
+>
+> This is a design concept for a model or system. It refers to taking a complex task, from the original input ("one end") directly to the final output ("the other end") in one step, and <span style="font-weight:bold; color:rgb(255, 177, 10)">entrusting all the intermediate processes to a single, unified neural network model to learn and process</span>, without human intervention or splitting into multiple independent modules.
+>
+> **Non-E2E:**
+>
+> It splits a complex task into <span style="font-weight:bold; color:rgb(255, 177, 10)">multiple independent, sequential subtasks (modules)</span>. Each module is responsible for handling a part of the work and uses its output as the input of the next module. <span style="font-weight:bold; color:rgb(255, 177, 10)">These modules are usually designed and trained independently</span>.
+
+In this paper, we propose <span style="font-weight:bold; color:rgb(255, 177, 10)">the Real-Time DEtection TRansformer (RT-DETR)</span>, the first real-time end-to-end object detector to our best knowledge that addresses the above dilemma.  ... 
+
+Specifically, we design <span style="font-weight:bold; color:rgb(255, 177, 10)">an efficient hybrid encoder</span> to expeditiously process multi-scale features... to improve speed.  
+
+>[!tip] Innovation 01 (To speed up)
+>
+> The encoder is the part of the model that is responsible for "reading" and understanding the features of the image. The encoder of traditional DETR is very computationally intensive.
+>
+> RT-DETR is cleverly designed. It decouples the interaction of features at different scales and processes features in a smarter and less computationally expensive way, thereby greatly improving the speed.
+
+Then, we propose <span style="font-weight:bold; color:rgb(255, 177, 10)">the uncertainty-minimal query selection</span> to provide high-quality initial queries to the decoder, thereby improving accuracy.  
+
+>[!tip] Innovation 02 (For accuracy)
+>
+> Think of a query as a "probe" that the model sends out to find an object. The initial quality of the probe determines whether the object can be found quickly and accurately in the end.
+>
+> This method can help the model select very high-quality initial "probes", making subsequent detection more accurate.
+
+In addition, RT-DETR supports <span style="font-weight:bold; color:rgb(255, 177, 10)">flexible speed tuning</span> by adjusting the number of decoder layers to adapt to various scenarios without retraining.
+
