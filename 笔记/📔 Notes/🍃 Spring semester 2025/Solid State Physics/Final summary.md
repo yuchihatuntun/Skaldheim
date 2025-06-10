@@ -3,7 +3,11 @@
 
 #### The Blue Book
 
-> [!note] <h2 id="exercise_1.1">1.1</h2>
+
+
+<h2 id="exercise_1.1"></h2>
+
+> [!note] 1.1
 >
 > If equal volume spheres are arranged into the following structures, let $x$ represent the ratio of the volume occupied by the spheres to the total volume, prove
 
@@ -16,6 +20,41 @@ Hexagonal close-packed | $\sqrt{2}\pi/6 \approx 0.74$
 Diamond cubic | $\sqrt{3}\pi/16 \approx 0.34$
 
 >[!tip] This is a high school question. Just remember it as a conclusion.
+
+<h2 id="exercise_1.3"></h2>
+
+>[!note] 1.3
+>
+> Prove: The reciprocal lattice of body-centered cubic is face-centered cubic; the reciprocal lattice of face-centered cubic is body-centered cubic.
+
+| Bravais Lattice        | Common Choice for Primitive Vectors                                                                                                                                                                                          |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Simple Cubic (SC)** | The conventional and primitive cells are identical.<br>$\vec{a}_1 = a\hat{i}$<br>$\vec{a}_2 = a\hat{j}$<br>$\vec{a}_3 = a\hat{k}$                                                                                              |
+| **Body-Centered Cubic (BCC)** | Vectors from one lattice point to the body-centers of adjacent cells.<br>$\vec{a}_1 = \frac{a}{2}(-\hat{i} + \hat{j} + \hat{k})$<br>$\vec{a}_2 = \frac{a}{2}(\hat{i} - \hat{j} + \hat{k})$<br>$\vec{a}_3 = \frac{a}{2}(\hat{i} + \hat{j} - \hat{k})$ |
+| **Face-Centered Cubic (FCC)** | Vectors from one lattice point to the centers of the three adjacent faces.<br>$\vec{a}_1 = \frac{a}{2}(\hat{j} + \hat{k})$<br>$\vec{a}_2 = \frac{a}{2}(\hat{i} + \hat{k})$<br>$\vec{a}_3 = \frac{a}{2}(\hat{i} + \hat{j})$          |
+| **Simple Hexagonal** | Two vectors with a 120° angle in the basal plane, and one vector perpendicular to this plane.<br>$\vec{a}_1 = a\hat{i}$<br>$\vec{a}_2 = a(\frac{1}{2}\hat{i} + \frac{\sqrt{3}}{2}\hat{j})$<br>$\vec{a}_3 = c\hat{k}$          |
+
+*In these formulas, $a$ and $c$ represent the lattice constants, and $\hat{i}, \hat{j}, \hat{k}$ are the Cartesian unit vectors.*
+
+> Let the unit vectors parallel to the crystal axes be $i, j, k$. The primitive vectors of the body-centered cubic lattice can be taken as
+
+$$
+\boldsymbol{a}_1 = \frac{a}{2}(-\boldsymbol{i} + \boldsymbol{j} + \boldsymbol{k}), \quad \boldsymbol{a}_2 = \frac{a}{2}(\boldsymbol{i} - \boldsymbol{j} + \boldsymbol{k}), \quad \boldsymbol{a}_3 = \frac{a}{2}(\boldsymbol{i} + \boldsymbol{j} - \boldsymbol{k})
+$$
+
+> From the reciprocal lattice formula $b_1 = \frac{2\pi}{v_c} \boldsymbol{a}_2 \times \boldsymbol{a}_3$, $b_2 = \frac{2\pi}{v_c} \boldsymbol{a}_3 \times \boldsymbol{a}_1$, $b_3 = \frac{2\pi}{v_c} \boldsymbol{a}_1 \times \boldsymbol{a}_2$, we can obtain its reciprocal lattice vectors as
+
+$$
+b_1 = \frac{2\pi}{a}(\boldsymbol{j} + \boldsymbol{k}), \quad b_2 = \frac{2\pi}{a}(\boldsymbol{k} + \boldsymbol{i}), \quad b_3 = \frac{2\pi}{a}(\boldsymbol{i} + \boldsymbol{j})
+$$
+
+> And the primitive vectors of the face-centered cubic lattice can be taken as
+
+$$
+\boldsymbol{a}_1 = \frac{a}{2}(\boldsymbol{j} + \boldsymbol{k}), \quad \boldsymbol{a}_2 = \frac{a}{2}(\boldsymbol{i} + \boldsymbol{k}), \quad \boldsymbol{a}_3 = \frac{a}{2}(\boldsymbol{i} + \boldsymbol{j})
+$$
+
+> Equations (1) and (2) differ only by a constant factor, which indicates that the reciprocal lattice of the body-centered cubic is face-centered cubic. Similarly, it can be proven that the reciprocal lattice of the face-centered cubic is body-centered cubic.
 
 ### Chapter 03 Lattice Vibration and Crystal Thermodynamics
 
