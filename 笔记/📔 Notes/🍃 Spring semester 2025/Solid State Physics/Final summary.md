@@ -1,6 +1,23 @@
 ### Chapter 01 Crystal Structure
 
 
+#### Homework
+
+<h2 id="homework_1"></h2>
+
+>[!note] T1
+>
+> Each unit cell in graphene (two-dimensional) contains <span style="font-weight:bold; color:rgb(255, 177, 10)">two unequal carbon atoms</span> (called chirality in chemistry). Therefore, a single carbon atom cannot serve as a unit cell of two-dimensional graphene.
+
+<h2 id="homework_2"></h2>
+
+>[!note] T2
+>
+> Briefly describe the similarities and differences between unit cells and primitive cells
+
+> 晶胞强调晶体的<span style="font-weight:bold; color:rgb(255, 177, 10)">对称性</span>，是可以完整反映原子排列和对称性的重复单元，其内部可能含有多个原胞。
+>
+> 原胞强调周期性，是晶体最小的重复单元，仅仅反映了晶体的平移对称性。
 #### The Blue Book
 
 
@@ -48,14 +65,14 @@ $$
 
 $$
 b_1 = \frac{2\pi}{a}(\boldsymbol{j} + \boldsymbol{k}), \quad b_2 = \frac{2\pi}{a}(\boldsymbol{k} + \boldsymbol{i}), \quad b_3 = \frac{2\pi}{a}(\boldsymbol{i} + \boldsymbol{j})
-\tag{(1)}
+\tag{1}
 $$
 
 > And the primitive vectors of the face-centered cubic lattice can be taken as
 
 $$
 \boldsymbol{a}_1 = \frac{a}{2}(\boldsymbol{j} + \boldsymbol{k}), \quad \boldsymbol{a}_2 = \frac{a}{2}(\boldsymbol{i} + \boldsymbol{k}), \quad \boldsymbol{a}_3 = \frac{a}{2}(\boldsymbol{i} + \boldsymbol{j})
-\tag{(2)}
+\tag{2}
 $$
 
 > <a href="#equation1_2">Equations (1) and (2)</a> differ only by a constant factor, which indicates that the reciprocal lattice of the body-centered cubic is face-centered cubic. Similarly, it can be proven that the reciprocal lattice of the face-centered cubic is body-centered cubic.
@@ -88,6 +105,8 @@ $$
 $$
 v^* = \frac{(2\pi)^3}{v_c^3} (\boldsymbol{a}_2 \times \boldsymbol{a}_3) \cdot \boldsymbol{a}_1 v_c = \frac{(2\pi)^3}{v_c}
 $$
+
+
 
 ### Chapter 03 Lattice Vibration and Crystal Thermodynamics
 
