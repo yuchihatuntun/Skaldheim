@@ -17,7 +17,6 @@
 
 <!-- Simulation.vue -->
 <template>
-  <!-- 引入Tailwind所需的基础样式（通常在主CSS文件中，这里为方便演示保留） -->
   <div class="simulation-container p-4 my-8 bg-slate-100 rounded-lg">
     <h2 class="text-3xl font-bold text-center mb-8 text-slate-900">核心功能模拟</h2>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -27,6 +26,8 @@
         <h3 class="text-xl font-bold mb-4 text-center">智能避障模拟</h3>
         <div class="relative w-full h-64 bg-slate-100 rounded-md flex justify-center items-center">
           <div class="w-16 h-24 bg-slate-800 rounded-md relative flex justify-center items-center text-white font-bold">CAR</div>
+          
+          <!-- FIX: Added closing </div> tags to the following divs -->
           <div 
             class="absolute top-0 w-full h-8 transition-all duration-300" 
             :class="obstacleVisible ? 'bg-red-500/30' : 'bg-green-500/20'"
@@ -34,6 +35,7 @@
           ></div>
           <div class="absolute bottom-0 w-full h-8 bg-green-500/20 transition-all duration-300" style="clip-path: polygon(0 0, 100% 0, 70% 100%, 30% 100%); bottom:-32px;"></div>
           <div v-show="obstacleVisible" class="absolute w-24 h-4 bg-slate-400 rounded-sm" style="top: 10px;"></div>
+        
         </div>
         <div 
           class="mt-4 text-center font-semibold text-lg"
@@ -52,7 +54,6 @@
       <div class="bg-white p-6 rounded-lg shadow-lg">
         <h3 class="text-xl font-bold mb-4 text-center">音频分析仪</h3>
         <div class="chart-container">
-          <!-- ref="audioCanvas" 用于在<script>中获取这个canvas元素 -->
           <canvas ref="audioCanvas"></canvas>
         </div>
         <div class="flex justify-center mt-4 space-x-4">
@@ -69,18 +70,14 @@
 import { ref, onMounted, onUnmounted } from 'vue';
 import { Chart, LineController, BarController, CategoryScale, LinearScale, PointElement, LineElement, BarElement, Tooltip } from 'chart.js';
 
-// 注册Chart.js需要的模块
 Chart.register(LineController, BarController, CategoryScale, LinearScale, PointElement, LineElement, BarElement, Tooltip);
 
-// --- 智能避障模拟逻辑 ---
 const obstacleVisible = ref(false);
-
-function toggleObstacle() {
+const toggleObstacle = () => {
   obstacleVisible.value = !obstacleVisible.value;
-}
+};
 
-// --- 音频分析仪逻辑 ---
-const audioCanvas = ref(null); // 创建一个ref来引用canvas元素
+const audioCanvas = ref(null);
 let audioChart = null;
 let chartInterval = null;
 
@@ -88,7 +85,7 @@ const chartConfigBase = {
   options: {
     responsive: true,
     maintainAspectRatio: false,
-    animation: { duration: 200 },
+    animation: { duration: 0 },
     scales: {
       y: { beginAtZero: true, ticks: { color: '#64748b' } },
       x: { ticks: { color: '#64748b' } }
@@ -103,8 +100,7 @@ const generateFFTData = () => Array.from({length: 9}, () => Math.random() * 100)
 function createChart(type) {
   if (audioChart) audioChart.destroy();
   if (chartInterval) clearInterval(chartInterval);
-
-  if (!audioCanvas.value) return; // 确保canvas已经准备好
+  if (!audioCanvas.value) return;
   const ctx = audioCanvas.value.getContext('2d');
   
   let config;
@@ -154,21 +150,21 @@ function createChart(type) {
   audioChart = new Chart(ctx, config);
 }
 
-// onMounted确保在DOM元素加载完毕后执行脚本
 onMounted(() => {
-  createChart('waveform'); // 默认显示示波器
+  createChart('waveform');
 });
 
-// onUnmounted确保在组件销毁时清理定时器，防止内存泄漏
 onUnmounted(() => {
   if (chartInterval) {
     clearInterval(chartInterval);
+  }
+  if (audioChart) {
+    audioChart.destroy();
   }
 });
 </script>
 
 <style scoped>
-/* 基础字体和图表容器样式 */
 .simulation-container {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -187,6 +183,7 @@ onUnmounted(() => {
   }
 }
 </style>
+
 
 ```c
 # include <Arduino.h>
