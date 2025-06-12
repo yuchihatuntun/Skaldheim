@@ -1,3 +1,5 @@
+![alt text](wallhaven-5gjxq7_2560x1440.png)
+
 ### ESP32多功能智能小车 (v2.0)
 
 一个基于 ESP32 的多功能智能小车平台。`version 2.0`引入了重大的功能升级，集成了**物联网(IoT)数据服务、多传感器融合、红外遥控以及实时音频分析**功能，并通过一块**ST7789彩色128*160LCD液晶屏**提供生动丰富的图形用户界面(GUI)。本项目不仅是一个遥控小车，更是一个功能强大的嵌入式系统开发与学习平台。
@@ -6,9 +8,7 @@
 
 1. **智能避障系统:**
 
-<div align="center">
-  <img src="obstacle_avoidance-1.gif" alt="Obstacle avoidance demonstration" style="max-width:100%;">
-</div>
+![alt text](obstacle_avoidance-1.gif)
 
 - 车身**前后**各集成一个`HC-SR04`超声波传感器。
  
