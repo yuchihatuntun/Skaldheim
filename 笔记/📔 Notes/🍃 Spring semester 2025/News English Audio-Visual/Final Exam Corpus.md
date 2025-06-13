@@ -5,7 +5,7 @@
 >[!tip] 描述
 > 这类题目要求分析政策、趋势、技术或社会现象的影响、利弊，并提供理由支持观点。回答结构通常包括：陈述立场、分析原因、讨论影响/利弊、总结结论。适合模板：开头明确观点 + 2-3个支持理由 + 影响/后果 + 结尾重申
 
-**问题编号:** 1<a href="#topic_01">1</a>，5，6，7，8，9，10，15，20
+**问题编号:** <a href="#topic_01">1</a>，<a href="#topic_05">5</a>，<a href="#topic_06">6</a>，<a href="#topic_07">7</a>，<a href="#topic_08">8</a>，<a href="#topic_09">9</a>，<a href="#topic_10">10</a>，<a href="#topic_15">15</a>，<a href="#topic_20">20</a>
 
 #### 口语模板：C.A.R.E. 分析法
 
@@ -31,13 +31,13 @@
 >
 > Looking at the broader implications, this trend/policy could lead to **[描述其可能带来的长期或广泛影响]**.
 >
-> Of course, we should also acknowledge that **[在此处承认一个反方观点或积极方面，展示你考虑问题很全面]**. However, this benefit/issue seems less critical when compared to the problems I've mentioned.
+> Of course, we should also acknowledge that **[在此处承认一个反方观点或积极方面，展示你考虑问题很全面]**. However, this benefit seems less critical when compared to the problems I've mentioned.
 
-##### 结尾与展望（Ending & Exhoration）
-
-In conclusion, based on the analysis of **[重申论点一]** and **[重申论点二]**, I maintain my position that **[用不同的话再次强调你的核心观点]**.
-
-Therefore, the path forward is not to simply accept or reject **[话题]**, but to **[提出你的建议或解决方案]**. It is crucial that we focus on maximizing its benefits while actively managing its risks.
+> [!note] 结尾与展望（Ending & Exhoration）
+>
+> In conclusion, based on the analysis of **[重申论点一]** and **[重申论点二]**, I maintain my position that **[用不同的话再次强调你的核心观点]**.
+>
+> Therefore, the path forward is not to simply accept or reject **[话题]**, but to **[提出你的建议或解决方案]**. It is crucial that we focus on maximizing its benefits while actively managing its risks.
 
 #### 具体文案
 
@@ -52,3 +52,5 @@ Therefore, the path forward is not to simply accept or reject **[话题]**, but 
 >This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
 >
 >After careful consideration, I believe that <span style="font-weight:bold; color:rgb(255, 177, 10)">this policy, on its own, is unlikely to significantly boost the nation's birth rates due to deep-seated socio-economic reasons.</span>
+
+##### T2: 
