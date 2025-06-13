@@ -43,10 +43,10 @@ Therefore, the path forward is not to simply accept or reject **[话题]**, but 
 
 ##### T1: China has announced that it will allow couples to have up to three children. To what extent will this policy boost birth rates? Provide reasons to support your answer
 
-> [!note] 背景与观点（Context & Claim）
+>[!note] 背景与观点（Context & Claim）
 >
-> The issue of &lt;span style="font-weight:bold; color:rgb(255, 177, 10)">China's three-child policy and its impact on birth rates&lt;/span> has become a major point of discussion recently, reflecting a significant trend in our society.
+>The issue of &lt;span style="font-weight:bold; color:rgb(255, 177, 10)">China's three-child policy and its impact on birth rates&lt;/span> has become a major point of discussion recently, reflecting a significant trend in our society.
 >
-> This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
+>This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
 >
-> After careful consideration, I believe that &lt;span style="font-weight:bold; color:rgb(255, 177, 10)">this policy, on its own, is unlikely to significantly boost the nation's birth rates due to deep-seated socio-economic reasons.&lt;/span>
+>After careful consideration, I believe that &lt;span style="font-weight:bold; color:rgb(255, 177, 10)">this policy, on its own, is unlikely to significantly boost the nation's birth rates due to deep-seated socio-economic reasons.&lt;/span>
