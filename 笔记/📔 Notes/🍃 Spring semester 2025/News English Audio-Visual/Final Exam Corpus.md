@@ -17,21 +17,21 @@
 >
 > After careful consideration, I believe that **[在此处亮明你的核心观点]**. 
 
-##### 分析与论证（Analysis & Arguments）
+> [!note] 分析与论证（Analysis & Arguments）
+>
+> The primary reason for my view is **[阐述你的第一个核心论点]**.
+>
+> To be specific, **[展开解释论点一]**. For instance, **[给出一个具体的例子、数据或事实]**.
+>
+> Another significant factor that supports my position is **[阐述你的第二个核心论点]**.
+>
+> This can be seen in **[展开解释论点二]**. A clear example of this is **[给出一个具体的例子、数据或事实]**.
 
-The primary reason for my view is **[阐述你的第一个核心论点]**.
-
-To be specific, **[展开解释论点一]**. For instance, **[给出一个具体的例子、数据或事实]**.
-
-Another significant factor that supports my position is **[阐述你的第二个核心论点]**.
-
-This can be seen in **[展开解释论点二]**. A clear example of this is **[给出一个具体的例子、数据或事实]**.
-
-##### 结果与反思（Results & Reflection）
-
-Looking at the broader implications, this trend/policy could lead to **[描述其可能带来的长期或广泛影响]**.
-
-Of course, we should also acknowledge that **[在此处承认一个反方观点或积极方面，展示你考虑问题很全面]**. However, this benefit/issue seems less critical when compared to the problems I've mentioned.
+> [!note] 结果与反思（Results & Reflection）
+>
+> Looking at the broader implications, this trend/policy could lead to **[描述其可能带来的长期或广泛影响]**.
+>
+> Of course, we should also acknowledge that **[在此处承认一个反方观点或积极方面，展示你考虑问题很全面]**. However, this benefit/issue seems less critical when compared to the problems I've mentioned.
 
 ##### 结尾与展望（Ending & Exhoration）
 
@@ -45,8 +45,8 @@ Therefore, the path forward is not to simply accept or reject **[话题]**, but 
 
 >[!note] 背景与观点（Context & Claim）
 >
->The issue of &lt;span style="font-weight:bold; color:rgb(255, 177, 10)">China's three-child policy and its impact on birth rates&lt;/span> has become a major point of discussion recently, reflecting a significant trend in our society.
+>The issue of <span style="font-weight:bold; color:rgb(255, 177, 10)">China's three-child policy and its impact on birth rates</span> has become a major point of discussion recently, reflecting a significant trend in our society.
 >
 >This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
 >
->After careful consideration, I believe that &lt;span style="font-weight:bold; color:rgb(255, 177, 10)">this policy, on its own, is unlikely to significantly boost the nation's birth rates due to deep-seated socio-economic reasons.&lt;/span>
+>After careful consideration, I believe that <span style="font-weight:bold; color:rgb(255, 177, 10)">this policy, on its own, is unlikely to significantly boost the nation's birth rates due to deep-seated socio-economic reasons.</span>
