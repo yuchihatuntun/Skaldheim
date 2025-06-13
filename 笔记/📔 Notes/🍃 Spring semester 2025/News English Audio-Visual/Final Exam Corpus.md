@@ -43,7 +43,7 @@
 
 <h2 id="topic_01"></h2>
 
-##### T1: China has announced that it will allow couples to have up to three children. To what extent will this policy boost birth rates? Provide reasons to support your answer
+##### T1: China has announced that it will allow couples to have up to three children. To what extent will this policy boost birth rates? Provide reasons to support your answer (分析三孩政策对生育率的影响)
 
 >[!note] 背景与观点（Context & Claim）
 >
@@ -52,6 +52,28 @@
 >This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
 >
 >After careful consideration, I believe that <span style="font-weight:bold; color:rgb(255, 177, 10)">this policy, on its own, is unlikely to significantly boost the nation's birth rates due to deep-seated socio-economic reasons.</span>
+
+>[!note] 分析与论证（Analysis & Arguments）
+>
+>The primary reason for my view is <span style="font-weight:bold; color:rgb(255, 177, 10)">the prohibitive economic cost of raising children in modern China.</span>
+>
+>To be specific, <span style="font-weight:bold; color:rgb(255, 177, 10)">for many urban families, the financial burdens of housing, healthcare, and particularly education are already immense.</span> For instance, <span style="font-weight:bold; color:rgb(255, 177, 10)">the intense competition in education forces parents to invest heavily in extracurricular activities for even one child, making the idea of stretching these finite resources for a third child financially unfeasible.</span>
+>
+>Another significant factor that supports my position is <span style="font-weight:bold; color:rgb(255, 177, 10)">the profound shift in social norms and individual aspirations.</span>
+>
+>This can be seen in <span style="font-weight:bold; color:rgb(255, 177, 10)">how many young people today prioritize their careers and personal freedom over the traditional value of having a large family.</span> A clear example of this is <span style="font-weight:bold; color:rgb(255, 177, 10)">the "motherhood penalty," where many women are reluctant to have more children for fear of sacrificing their career progression in a society with insufficient childcare support.</span>
+
+>[!note] 结果与反思（Results & Reflection）
+>
+>Looking at the broader implications, this trend/policy could lead to <span style="font-weight:bold; color:rgb(255, 177, 10)">a situation where China's demographic crisis, including an aging population and a shrinking workforce, continues to worsen despite the relaxed policy, potentially leading to long-term economic stagnation.</span>
+>
+>Of course, we should also acknowledge that <span style="font-weight:bold; color:rgb(255, 177, 10)">the policy is a necessary first step to remove legal restrictions and signals the government's serious attention to the population issue. It will help a small fraction of couples who already wished for a third child.</span> However, this benefit seems less critical when compared to the problems I've mentioned.
+
+>[!note] 结尾与展望（Ending & Exhoration）
+>
+>In conclusion, based on the analysis of <span style="font-weight:bold; color:rgb(255, 177, 10)">the prohibitive economic cost of child-rearing</span> and <span style="font-weight:bold; color:rgb(255, 177, 10)">the fundamental shift in social values</span>, I maintain my position that <span style="font-weight:bold; color:rgb(255, 177, 10)">the three-child policy by itself will have a very limited impact on actually boosting birth rates.</span>
+>
+>Therefore, the path forward is not to simply accept or reject <span style="font-weight:bold; color:rgb(255, 177, 10)">this policy</span>, but to <span style="font-weight:bold; color:rgb(255, 177, 10)">accompany it with a comprehensive package of substantive supporting measures, such as financial subsidies, affordable childcare, and stronger protections for working mothers.</span> It is crucial that we focus on maximizing its benefits while actively managing its risks.
 
 <h2 id="topic_05"></h2>
 
