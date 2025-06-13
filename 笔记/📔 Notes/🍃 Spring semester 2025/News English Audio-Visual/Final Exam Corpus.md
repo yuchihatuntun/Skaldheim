@@ -53,4 +53,98 @@
 >
 >After careful consideration, I believe that <span style="font-weight:bold; color:rgb(255, 177, 10)">this policy, on its own, is unlikely to significantly boost the nation's birth rates due to deep-seated socio-economic reasons.</span>
 
-##### T2: 
+<h2 id="topic_05"></h2>
+
+##### T5: Xinhua News Agency reports that the market for plastic surgery in China is expected to grow to US$46 billion by 2022. Is it a positive or negative trend? Provide reasons to support your answer
+
+> [!note] 背景与观点（Context & Claim）
+>
+> The issue of <span style="font-weight:bold; color:rgb(255, 177, 10)">the booming plastic surgery market in China</span> has become a major point of discussion recently, reflecting a significant trend in our society.
+>
+> This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
+>
+> After careful consideration, I believe that <span style="font-weight:bold; color:rgb(255, 177, 10)">this trend is largely negative, because its societal and health-related harms far outweigh its individual benefits.</span>
+
+<h2 id="topic_06"></h2>
+
+##### T6: Do you think today’s college students spend too much time on the social media? Why is that? What are the possible benefits and risks?
+
+>[!note] 背景与观点（Context & Claim）
+>
+>The issue of <span style="font-weight:bold; color:rgb(255, 177, 10)">whether today's college students spend too much time on social media</span> has become a major point of discussion recently, reflecting a significant trend in our society and modern education.
+>
+>This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
+>
+>After careful consideration, I believe that <span style="font-weight:bold; color:rgb(255, 177, 10)">while social media offers some benefits, the time spent is often excessive, and the risks to mental health and productivity are becoming increasingly serious.</span>
+
+<h2 id="topic_07"></h2>
+
+##### T7: Many young college students are suffering from depression. What are the possible causes? What would you suggest to deal with college depression?  
+
+>[!note] 背景与观点（Context & Claim）
+>
+>The issue of <span style="font-weight:bold; color:rgb(255, 177, 10)">the rising issue of depression among college students</span> has become a major point of discussion recently, reflecting a significant trend in our society.
+>
+>This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
+>
+>After careful consideration, I believe that <span style="font-weight:bold; color:rgb(255, 177, 10)">this is a serious problem caused by multiple interwoven factors, and tackling it requires a combination of individual coping strategies and stronger institutional support from universities.</span>
+
+<h2 id="topic_08"></h2>
+
+##### T8: While ChatGPT or DeepSeek is becoming increasingly popular these days, it also poses risks and challenges. What are the major challenges it will pose to the college students? Do you think it should be banned in colleges? Why?
+
+>[!note] 背景与观点（Context & Claim）
+>
+>The issue of <span style="font-weight:bold; color:rgb(255, 177, 10)">the use of powerful AI tools like ChatGPT in colleges</span> has become a major point of discussion recently, reflecting a significant trend in our education system.
+>
+>This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
+>
+>After careful consideration, I believe that <span style="font-weight:bold; color:rgb(255, 177, 10)">these tools should not be banned, but instead must be carefully regulated and responsibly integrated into the curriculum.</span>
+
+<h2 id="topic_09"></h2>
+
+##### T9: What environmental problems have you noticed in everyday life? What are the causes and consequences of these problems? What can we do as individuals to protect the environment?
+
+>[!note] 背景与观点（Context & Claim）
+>
+>The issue of <span style="font-weight:bold; color:rgb(255, 177, 10)">environmental problems we face in our daily lives</span> has become a major point of discussion recently, reflecting a significant trend in our society.
+>
+>This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
+>
+>After careful consideration, I believe that <span style="font-weight:bold; color:rgb(255, 177, 10)">while these problems are severe and caused by large-scale factors, individual actions, when multiplied, can play a meaningful role in creating a sustainable future.</span>
+
+<h2 id="topic_10"></h2>
+
+##### T10: Online education is getting more and more popular all over the world. Do you think it will replace on-campus education one day? Why or why not?
+
+> [!note] 背景与观点（Context & Claim）
+>
+> The issue of <span style="font-weight:bold; color:rgb(255, 177, 10)">whether online education will replace traditional on-campus education</span> has become a major point of discussion recently, reflecting a significant trend in our education system.
+>
+> This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
+>
+> After careful consideration, I believe that <span style="font-weight:bold; color:rgb(255, 177, 10)">online education will not completely replace the on-campus experience, but will instead evolve into an essential and complementary tool within a hybrid learning model.</span>
+
+<h2 id="topic_15"></h2>
+
+##### T15: The U.S. government’s recent tariff threats have sparked widespread criticism. What is your comment on the recent tariff war? How does it impact the U.S. and China?
+
+>[!note] 背景与观点（Context & Claim）
+>
+>The issue of <span style="font-weight:bold; color:rgb(255, 177, 10)">the recent tariff war between the U.S. and China</span> has become a major point of discussion recently, reflecting a significant trend in global trade.
+>
+>This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
+>
+>After careful consideration, I believe that <span style="font-weight:bold; color:rgb(255, 177, 10)">this trade war is a counterproductive, lose-lose strategy that negatively impacts not only both countries' economies but also the stability of the entire global supply chain.</span>
+
+<h2 id="topic_20"></h2>
+
+##### T20: What are the advantages and drawbacks of AI?
+
+>[!note] 背景与观点（Context & Claim）
+>
+>The issue of <span style="font-weight:bold; color:rgb(255, 177, 10)">the rapid development of Artificial Intelligence (AI)</span> has become a major point of discussion recently, reflecting a significant trend in our society and technology.
+>
+>This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
+>
+>After careful consideration, I believe that <span style="font-weight:bold; color:rgb(255, 177, 10)">AI is a powerful double-edged sword, and its development must be managed with great responsibility to maximize its benefits while actively mitigating its significant societal and ethical risks.</span>
