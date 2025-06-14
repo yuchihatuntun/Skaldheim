@@ -382,4 +382,52 @@ $$\overline{I_{n,in}^2} = 4kT\gamma g_{m2} + \frac{K_P g_{m2}^2}{C_{ox}(WL)_2} \
 >**第四步：计算输入参考噪声电流 $\overline{I_{n,in}^2}$**
 >PPT中给出的公式为 $\overline{I_{n,in}^2} = 4kT\gamma g_{m2} + \frac{K_P g_{m2}^2}{C_{ox}(WL)_2 f}$。
 
+##### 源跟随器
 
+(a) **电阻负载源极跟随器**的输入参考噪声
+
+$$\overline{V_{n,in}^2} = 4kT \left( \frac{1}{g_m^2 R_S} + \frac{\gamma}{g_m} \right) + \frac{K}{C_{ox}(WL)_1} \frac{1}{f}$$
+
+>[!note] 推导过程
+>
+>**第一步：识别噪声源及计算增益/输出阻抗**
+>
+>- **噪声源**：
+>  1. M1 的热噪声：电流源 $\overline{i_{n,M1}^2} = 4kT\gamma g_{m1}$
+>  2. M1 的闪烁噪声：输入等效电压源 $\overline{v_{n,f1}^2} = \frac{K}{C_{ox}(WL)_1 f}$
+>  3. $R_S$ 的热噪声：电压源 $\overline{v_{n,RS}^2} = 4kTR_S$
+>
+>- **输出阻抗** $R_{out}$：$R_S$ 和 $1/g_{m1}$ 的并联
+>
+>  $$R_{out} = R_S \| \frac{1}{g_{m1}} = \frac{R_S}{1 + g_{m1}R_S}$$
+>
+>- **电压增益** $A_v$：
+>
+>  $$A_v = \frac{g_{m1}R_S}{1 + g_{m1}R_S}$$
+>
+>**第二步：计算各噪声源在输出端的贡献**
+>
+>1. **M1 热噪声**：
+>   $$S_{v,out,M1,th}(f) = \overline{i_{n,M1}^2} \cdot R_{out}^2 = (4kT\gamma g_{m1}) \left( \frac{R_S}{1 + g_{m1}R_S} \right)^2$$
+>
+>2. **$R_S$ 热噪声**：
+>   $$S_{v,out,RS}(f) = \overline{v_{n,RS}^2} \cdot \left( \frac{1/g_{m1}}{R_S + 1/g_{m1}} \right)^2 = (4kTR_S) \left( \frac{1}{1 + g_{m1}R_S} \right)^2$$
+>
+>3. **M1 闪烁噪声**：
+>   $$S_{v,out,M1,f}(f) = \overline{v_{n,f1}^2} \cdot A_v^2 = \left( \frac{K}{C_{ox}(WL)_1 f} \right) \left( \frac{g_{m1}R_S}{1 + g_{m1}R_S} \right)^2$$
+>
+>**第三步：计算总输入参考噪声**
+>
+>$$\overline{V_{n,in}^2} = \frac{S_{v,out,M1,th} + S_{v,out,RS} + S_{v,out,M1,f}}{A_v^2}$$
+>
+>- M1 热噪声部分：$\frac{S_{v,out,M1,th}}{A_v^2} = \frac{4kT\gamma}{g_{m1}}$
+>
+>- $R_S$ 热噪声部分：$\frac{S_{v,out,RS}}{A_v^2} = \frac{4kT}{g_{m1}^2 R_S}$
+>
+>- M1 闪烁噪声部分：$\frac{S_{v,out,M1,f}}{A_v^2} = \frac{K}{C_{ox}(WL)_1 f}$
+>
+>最终结果：
+>
+>$$\overline{V_{n,in}^2} = 4kT \left( \frac{1}{g_{m1}^2 R_S} + \frac{\gamma}{g_{m1}} \right) + \frac{K}{C_{ox}(WL)_1 f}$$
+
+(b) $\overline{V_{n,in}^2} = 4kT \left( \frac{\gamma g_{m2}}{g_{m1}^2} + \frac{\gamma}{g_{m1}} \right) + \frac{K_N}{C_{ox}} \left[ \frac{1}{(WL)_1} + \frac{g_{m2}^2}{(WL)_2 g_{m1}^2} \right] \frac{1}{f}$
