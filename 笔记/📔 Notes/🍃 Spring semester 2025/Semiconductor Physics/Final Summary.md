@@ -53,7 +53,7 @@
 
 1. 在半导体中，如果温度升高，考虑其对载流子的散射作用，电离杂质散射概率<span style="font-weight:bold; color:rgb(10, 116, 255)">减小</span>和晶格振动散射概率<span style="font-weight:bold; color:rgb(10, 116, 255)">增大</span>。
 
->[!error] 解析
+>[!danger] 解析
 > 由电离杂质散射所限制的迁移率 $\mu_I$ 与温度 $T$ 的关系可以表示为：
 >
 >$$
