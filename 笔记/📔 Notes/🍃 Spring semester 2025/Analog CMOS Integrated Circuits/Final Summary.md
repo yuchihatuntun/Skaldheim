@@ -74,20 +74,20 @@ $$
 ![alt text](image-1.png)
 
 >[!note] 输入参考噪声模型
-> 将电路内部分散的所有噪声源，<span style="font-weight:bold; color:rgb(255, 92, 10)">等效地“移动”到电路的最输入端</span>，变成一个独立的噪声电压源和一个独立的噪声电流源。而原来的电路则被视为一个理想的、完全没有噪声的“黑盒子”。
+> 将电路内部分散的所有噪声源，**等效地“移动”到电路的最输入端**，变成一个独立的噪声电压源和一个独立的噪声电流源。而原来的电路则被视为一个理想的、完全没有噪声的“黑盒子”。
 
->[!note] 输入参考噪声：电压源 $V_{n,in}^2$ + 电流源 $I_{n,in}^2$
+>[!note] 输入参考噪声
 >
-> **输入参考噪声电压源**：与输入信号串联的噪声电压源。它代表了所有那些<span style="font-weight:bold; color:rgb(255, 92, 10)">不依赖于信号源内阻</span>的内部噪声源的等效集合。无论你用什么来驱动这个电路（例如，一个理想电压源），这部分噪声都存在。
+> **输入参考噪声电压源$V_{n,in}^2$**：与输入信号串联的噪声电压源。它代表了所有那些**不依赖于信号源内阻**的内部噪声源的等效集合。无论你用什么来驱动这个电路（例如，一个理想电压源），这部分噪声都存在。
 >
-> **输入参考噪声电流源**：与输入信号并联（或跨接）的噪声电流源。它代表了所有那些其影响<span style="font-weight:bold; color:rgb(255, 92, 10)">与信号源内阻相关</span>的内部噪声源的等效集合。这个电流源产生的噪声大小，取决于它流过了多大的阻抗（通常是你接入的信号源的内阻）。
+> **输入参考噪声电流源$I_{n,in}^2$**：与输入信号并联（或跨接）的噪声电流源。它代表了所有那些其影响**与信号源内阻相关**的内部噪声源的等效集合。这个电流源产生的噪声大小，取决于它流过了多大的阻抗（通常是你接入的信号源的内阻）。
 
 这两个噪声源共同作用，在“无噪声电路”的输出端产生的总噪声，与原来那个“真实、有噪声的电路”在输出端产生的总噪声是**完全一样**的。
 
 输入阻抗大→忽略$I_{n,in}^2$
 
 >[!note]
-> 在我们的理想和低频模型中，MOSFET 的<span style="font-weight:bold; color:rgb(255, 92, 10)">栅极是完全绝缘的</span>，其输入阻抗被认为是无穷大。
+> 在我们的理想和低频模型中，MOSFET 的**栅极是完全绝缘的**，其输入阻抗被认为是无穷大。
 
 ##### 单级放大器
 
@@ -101,7 +101,7 @@ $$\overline{V_n^2} = \overline{I_n^2}/g_m^2$$
 > 
 > MOSFET自身最主要的噪声来源——沟道热噪声。这是由于晶体管导通时，沟道内载流子（电子或空穴）进行不规则热运动所产生的。
 > 
-> 在物理模型上，这个噪声最精确的表示式是<span style="font-weight:bold; color:rgb(255, 92, 10)">一个电流源$\overline{i_n^2}$，连接在晶体管的漏极（Drain）和源极（Source）之间</span>。这就是最左边第一个图所展示的情况。
+> 在物理模型上，这个噪声最精确的表示式是**一个电流源$\overline{i_n^2}$，连接在晶体管的漏极（Drain）和源极（Source）之间**。这就是最左边第一个图所展示的情况。
 >
 > **模型的“痛点”：**
 > 
@@ -109,7 +109,7 @@ $$\overline{V_n^2} = \overline{I_n^2}/g_m^2$$
 > 
 > **解决方案：输入参考噪声等效**
 > 
-> 为了简化分析，我们希望<span style="font-weight:bold; color:rgb(255, 92, 10)">把这个“深埋”在电路内部的噪声源，等效地移动到电路最容易分析的地方——输入端（栅极）</span>。
+> 为了简化分析，我们希望**把这个“深埋”在电路内部的噪声源，等效地移动到电路最容易分析的地方——输入端（栅极）**。
 > 
 > 这就是第二个图所展示的模型。我们把内部的电流源$\overline{i_n^2}$去掉，换成一个等效的电压源$\overline{v_n^2}$，串联在栅极输入端。
 
@@ -158,7 +158,7 @@ $$
 
 ![alt text](image-4.png)
 
-(a) <span style="font-weight:bold; color:rgb(255, 92, 10)">电阻负载共源极放大器</span>的输入等效噪声
+(a) **电阻负载共源极放大器**的输入等效噪声
 
 $$\overline{V_{n,in}^2} = 4kT \left( \frac{1}{g_m^2 R_D} + \frac{\gamma}{g_m} \right) + \frac{K}{C_{ox}(WL)_1} \frac{1}{f}$$
 
@@ -232,8 +232,154 @@ $$\overline{V_{n,in}^2} = 4kT \left( \frac{1}{g_m^2 R_D} + \frac{\gamma}{g_m} \r
 >\overline{V_{n,in}^2} = \frac{4kT}{g_{m1}^2 R_D} + \frac{4kT\gamma}{g_{m1}} + \frac{K_N}{C_{ox}(WL)_1 f}
 >$$
 
-(b) <span style="font-weight:bold; color:rgb(255, 92, 10)">PMOS有源负载共源极放大器</span>的输入有效噪声
+(b) **PMOS有源负载共源极放大器**的输入有效噪声
 
 $$\overline{V_{n,in}^2} = 4kT \left( \frac{\gamma g_{m2}}{g_{m1}^2} + \frac{\gamma}{g_{m1}} \right) + \frac{1}{C_{ox}} \left[ \frac{K_N}{(WL)_1} + \frac{K_P g_{m2}^2}{(WL)_2 g_{m1}^2} \right] \frac{1}{f}$$
+
+>[!note] 推导过程
+>
+>**第一步：识别所有噪声源**
+>这个电路有两个晶体管产生噪声：NMOS 输入管 M1 和 PMOS 负载管 M2。
+>
+>1. 晶体管 M1 (NMOS) 的噪声：
+>   - 热噪声：$\overline{i_{n,M1}^2} = 4kT\gamma g_{m1}$
+>   - 闪烁噪声：$\overline{v_{n,f1}^2} = \frac{K_N}{C_{ox}(WL)_1 f}$
+>
+>2. 晶体管 M2 (PMOS) 的噪声：
+>   - 热噪声：$\overline{i_{n,M2}^2} = 4kT\gamma g_{m2}$
+>   - 闪烁噪声：$\overline{v_{n,f2}^2} = \frac{K_P}{C_{ox}(WL)_2 f}$
+>
+>**第二步：分别计算各噪声源的输入参考噪声**
+>这次我们换一种更直接的思路：分别计算每个管子的噪声折算到输入端的结果，然后相加。
+>
+>1. M1 的输入参考噪声：这个最简单，M1 本身就是输入管，它的噪声可以直接用上一节的定理折算到自己的输入端。
+>
+>   - 热噪声贡献：$\overline{v_{n,in,M1,th}^2} = \frac{\overline{i_{n,M1}^2}}{g_{m1}^2} = \frac{4kT\gamma g_{m1}}{g_{m1}^2} = \frac{4kT\gamma}{g_{m1}}$
+>   - 闪烁噪声贡献：$\overline{v_{n,in,M1,f}^2} = \overline{v_{n,f1}^2} = \frac{K_N}{C_{ox}(WL)_1 f}$
+>
+>2. M2 的输入参考噪声：M2 是负载，它的噪声首先会体现在输出节点，然后我们再把它折算到整个电路的输入端 $V_{in}$。
+>
+>   - M2 的热噪声电流 $\overline{i_{n,M2}^2}$ 和闪烁噪声电流 $\overline{i_{n,f2,current}^2}$ 都直接注入输出节点。
+>   - M2 的等效闪烁噪声电流为：$\overline{i_{n,f2,current}^2} = \overline{v_{n,f2}^2} \cdot g_{m2}^2 = \left( \frac{K_P}{C_{ox}(WL)_2 f} \right) g_{m2}^2$
+>   - 所以，M2 贡献的总输出噪声电流为：
+>
+>     $$
+>     S_{i,out,M2}(f) = \overline{i_{n,M2}^2} + \overline{i_{n,f2,current}^2} = 4kT\gamma g_{m2} + \left( \frac{K_P}{C_{ox}(WL)_2 f} \right) g_{m2}^2
+>     $$
+>
+>**第三步：计算总输入参考噪声**
+>将 M1 和 M2 的输入参考噪声贡献相加：
+>
+>$$
+>\overline{V_{n,in}^2} = (\overline{v_{n,in,M1,th}^2} + \overline{v_{n,in,M1,f}^2}) + \overline{v_{n,in,M2}^2}
+>$$
+>
+>$$
+>\overline{V_{n,in}^2} = \left( \frac{4kT\gamma}{g_{m1}} + \frac{K_N}{C_{ox}(WL)_1 f} \right) + \left( \frac{4kT\gamma g_{m2}}{g_{m1}^2} + \frac{K_P g_{m2}^2}{C_{ox}(WL)_2 g_{m1}^2 f} \right)
+>$$
+>
+>最后，将热噪声项和闪烁噪声项分别合并，整理成PPT中的形式，推导完成：
+>
+>$$
+>\overline{V_{n,in}^2} = 4kT \left( \frac{\gamma g_{m2}}{g_{m1}^2} + \frac{\gamma}{g_{m1}} \right) + \left[ \frac{K_N}{C_{ox}(WL)_1} + \frac{K_P}{C_{ox}(WL)_2} \frac{g_{m2}^2}{g_{m1}^2} \right] \frac{1}{f}
+>$$
+
+##### 共栅极（输入阻抗小，噪声电流不可忽略）
+
+![alt text](image-5.png)
+
+(a) **电阻负载共栅极放大器**的输入参考噪声
+
+$$\overline{V_{n,in}^2} = 4kT \frac{\gamma g_m + 1/R_D}{(g_m + g_{mb} + \frac{1}{r_o})^2} + \frac{K g_m^2}{C_{ox}(WL)_1 (g_m + g_{mb} + \frac{1}{r_o})^2} \frac{1}{f}$$
+
+$$\overline{I_{n,in}^2} = \frac{4kT}{R_D}$$
+
+>[!note] 推导过程
+>
+>**第一步：计算放大器的总跨导 $G_m$**
+>总跨导 $G_m$ 定义为输出短路电流与输入电压之比 ($G_m = i_{out,sc}/v_{in}$)。对于包含体效应和沟道长度调制的共栅放大器，其输入电导（即总跨导）为：
+>
+>$$
+>G_m = g_{m1} + g_{mb1} + \frac{1}{r_{o1}}
+>$$
+>
+>这个值代表了电路将输入电压转换成输出电流的能力。
+>
+>**第二步：计算总输出短路噪声电流**
+>
+>1. M1 的热噪声：M1 的沟道热噪声电流 $\overline{i_{n,M1}^2} = 4kT\gamma g_{m1}$ 直接作为输出电流的一部分。其贡献为：
+>
+>   $$
+>   S_{i,out,M1,th}(f) = 4kT\gamma g_{m1}
+>   $$
+>
+>2. $R_D$ 的热噪声：$R_D$ 的热噪声电压 $\overline{v_{n,RD}^2} = 4kTR_D$ 会产生一个大小为 $v_{n,RD}/R_D$ 的噪声电流。其对输出短路电流的贡献为：
+>
+>   $$
+>   S_{i,out,RD}(f) = \frac{\overline{v_{n,RD}^2}}{R_D^2} = \frac{4kTR_D}{R_D^2} = \frac{4kT}{R_D}
+>   $$
+>
+>3. M1 的闪烁噪声：M1 的闪烁噪声等效为在栅极的电压源 $\overline{v_{n,f1}^2} = \frac{K_N}{C_{ox}(WL)_1 f}$。这个电压会通过 M1 的跨导 $g_{m1}$ 转换成一个输出电流。其贡献为：
+>
+>   $$
+>   S_{i,out,M1,f}(f) = \overline{v_{n,f1}^2} \cdot g_{m1}^2 = \left( \frac{K_N}{C_{ox}(WL)_1 f} \right) g_{m1}^2
+>   $$
+>
+>将三者相加，得到总输出短路噪声电流功率谱：
+>
+>$$
+>S_{i,out,total}(f) = 4kT\gamma g_{m1} + \frac{4kT}{R_D} + \frac{K_N g_{m1}^2}{C_{ox}(WL)_1 f}
+>$$
+>
+>**第三步：计算输入参考噪声电压 $\overline{V_{n,in}^2}$**
+>用总输出噪声电流除以总跨导的平方：
+>
+>$$
+>\overline{V_{n,in}^2} = \frac{S_{i,out,total}(f)}{G_m^2} = \frac{4kT\gamma g_{m1} + \frac{4kT}{R_D} + \frac{K_N g_{m1}^2}{C_{ox}(WL)_1 f}}{(g_{m1} + g_{mb1} + 1/r_{o1})^2}
+>$$
+>
+>整理成PPT中的形式，推导完成：
+>
+>$$
+>\overline{V_{n,in}^2} = 4kT \frac{\gamma g_{m1} + 1/R_D}{(g_{m1} + g_{mb1} + 1/r_{o1})^2} + \frac{K_N g_{m1}^2}{C_{ox}(WL)_1 (g_{m1} + g_{mb1} + 1/r_{o1})^2} \frac{1}{f}
+>$$
+
+(b) **Cascode 负载共栅极放大器**的输入参考噪声
+
+$$\overline{V_{n,in}^2} = 4kT \frac{\gamma g_{m1} + \gamma g_{m2}}{(g_{m1} + g_{mb1} + \frac{1}{r_{o1}})^2} + \frac{1}{C_{ox}(g_{m1} + g_{mb1} + \frac{1}{r_{o1}})^2} \left[ \frac{K_N g_{m1}^2}{(WL)_1} + \frac{K_P g_{m2}^2}{(WL)_2} \right] \frac{1}{f}$$
+
+$$\overline{I_{n,in}^2} = 4kT\gamma g_{m2} + \frac{K_P g_{m2}^2}{C_{ox}(WL)_2} \frac{1}{f}$$
+
+>[!note] 推导过程
+>
+>**第一步：识别噪声源**
+>噪声源为 M1 (NMOS) 和 M2 (PMOS)。
+>
+>**第二步：计算总输出短路噪声电流**
+>与(a)类似，我们把所有噪声源贡献的输出短路电流相加。
+>
+>1. M1 的噪声 (NMOS)：
+>   - 热噪声：$S_{i,out,M1,th}(f) = 4kT\gamma g_{m1}$
+>   - 闪烁噪声：$S_{i,out,M1,f}(f) = \overline{v_{n,f1}^2} \cdot g_{m1}^2 = \left( \frac{K_N}{C_{ox}(WL)_1 f} \right) g_{m1}^2$
+>
+>2. M2 的噪声 (PMOS)：M2 作为负载，其噪声电流也直接注入输出节点。
+>   - 热噪声：$S_{i,out,M2,th}(f) = 4kT\gamma g_{m2}$
+>   - 闪烁噪声：$S_{i,out,M2,f}(f) = \overline{v_{n,f2}^2} \cdot g_{m2}^2 = \left( \frac{K_P}{C_{ox}(WL)_2 f} \right) g_{m2}^2$
+>
+>总输出短路噪声电流为：
+>
+>$$
+>S_{i,out,total}(f) = (4kT\gamma g_{m1} + 4kT\gamma g_{m2}) + \left( \frac{K_N g_{m1}^2}{C_{ox}(WL)_1} + \frac{K_P g_{m2}^2}{C_{ox}(WL)_2} \right) \frac{1}{f}
+>$$
+>
+>**第三步：计算输入参考噪声电压 $\overline{V_{n,in}^2}$**
+>同样，除以总跨导 $G_m^2 = (g_{m1} + g_{mb1} + 1/r_{o1})^2$：
+>
+>$$
+>\overline{V_{n,in}^2} = \frac{S_{i,out,total}(f)}{G_m^2} = \frac{4kT\gamma (g_{m1} + g_{m2})}{(g_{m1} + g_{mb1} + 1/r_{o1})^2} + \frac{K_N g_{m1}^2}{C_{ox}(WL)_1} + \frac{K_P g_{m2}^2}{C_{ox}(WL)_2} \frac{1}{(g_{m1} + g_{mb1} + 1/r_{o1})^2 f}
+>$$
+>
+>**第四步：计算输入参考噪声电流 $\overline{I_{n,in}^2}$**
+>PPT中给出的公式为 $\overline{I_{n,in}^2} = 4kT\gamma g_{m2} + \frac{K_P g_{m2}^2}{C_{ox}(WL)_2 f}$。
 
 
