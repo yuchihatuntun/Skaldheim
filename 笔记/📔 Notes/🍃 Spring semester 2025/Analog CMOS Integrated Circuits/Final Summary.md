@@ -1,5 +1,106 @@
 ### Homework Review
 
+#### 第二章 MOS器件基础
+
+>[!note] 第一题
+> 在饱和区时，推导 MOSFET 器件跨导 $g_m$ 的三种表达式，分析并画出以下三种情况的相应曲线。
+> 
+>    (1) $W/L$ 不变时，$g_m$ 与 $(V_{GS}-V_{TH})$ 的变化曲线；
+> 
+>    (2) $(V_{GS}-V_{TH})$ 不变时，$g_m$ 与 $I_D$ 的变化曲线；
+> 
+>    (3) $I_D$ 不变时，$g_m$ 与 $W/L$ 的变化曲线；
+
+>
+>![](image-6.png)
+>
+>**表达式一**：$g_m$ 与过驱动电压 $(V_{GS} - V_{TH})$ 的关系
+>
+>我们将饱和区电流公式直接对 $V_{GS}$ 求偏导：
+>
+>$$
+>g_m = \frac{\partial}{\partial V_{GS}} \left[ \frac{1}{2} \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_{TH})^2 \right]
+>$$
+>
+>$$
+>g_m = \frac{1}{2} \mu_n C_{ox} \frac{W}{L} \cdot 2 \cdot (V_{GS} - V_{TH})
+>$$
+>
+>于是得到第一个表达式：
+>
+>$$
+>g_m = \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_{TH})
+>$$
+>
+>这个公式表明，$g_m$ 与过驱动电压 $V_{OV} = (V_{GS} - V_{TH})$ 成正比。
+>
+>**表达式二**：$g_m$ 与漏极电流 $I_D$ 的关系
+>
+>从饱和区电流公式中，我们可以解出 $(V_{GS} - V_{TH})$：
+>
+>$$
+>(V_{GS} - V_{TH})^2 = \frac{2I_D}{\mu_n C_{ox} \frac{W}{L}} \Rightarrow (V_{GS} - V_{TH}) = \sqrt{\frac{2I_D}{\mu_n C_{ox} \frac{W}{L}}}
+>$$
+>
+>将这个结果代入到表达式一 $g_m = \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_{TH})$ 中：
+>
+>$$
+>g_m = \mu_n C_{ox} \frac{W}{L} \cdot \sqrt{\frac{2I_D}{\mu_n C_{ox} \frac{W}{L}}}
+>$$
+>
+>$$
+>g_m = \sqrt{(\mu_n C_{ox} \frac{W}{L})^2 \cdot \frac{2I_D}{\mu_n C_{ox} \frac{W}{L}}}
+>$$
+>
+>于是得到第二个表达式：
+>
+>$$
+>g_m = \sqrt{2 \mu_n C_{ox} \frac{W}{L} I_D}
+>$$
+>
+>这个公式表明，$g_m$ 与漏极电流 $I_D$ 的平方根成正比。
+>
+>**表达式三**：$g_m$ 与 $I_D$ 和 $(V_{GS} - V_{TH})$ 的关系
+>
+>这个表达式可以看作是前两个表达式的结合，非常简洁且有启发性。我们将表达式二 $g_m = \sqrt{2 \mu_n C_{ox} \frac{W}{L} I_D}$ 两边平方：
+>
+>$$
+>g_m^2 = 2 \mu_n C_{ox} \frac{W}{L} I_D
+>$$
+>
+>同时，我们将饱和区电流公式 $I_D = \frac{1}{2} \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_{TH})^2$ 两边乘以 $2 \mu_n C_{ox} \frac{W}{L}$：
+>
+>$$
+>2 \mu_n C_{ox} \frac{W}{L} I_D = \left( \mu_n C_{ox} \frac{W}{L} \right)^2 (V_{GS} - V_{TH})^2
+>$$
+>
+>结合上面两个式子，可以得到：
+>
+>$$
+>g_m^2 = \left[ \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_{TH}) \right]^2
+>$$
+>
+>这其实又回到了表达式一。为了得到第三种形式，我们采取更直接的方式。从表达式一 $g_m = \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_{TH})$ 中，我们得到 $\mu_n C_{ox} \frac{W}{L} = \frac{g_m}{V_{GS} - V_{TH}}$。将其代入饱和区电流公式：
+>
+>$$
+>I_D = \frac{1}{2} \left( \frac{g_m}{V_{GS} - V_{TH}} \right) (V_{GS} - V_{TH})^2 = \frac{1}{2} g_m (V_{GS} - V_{TH})
+>$$
+>
+>整理后得到第三个表达式：
+>
+>$$
+>g_m = \frac{2 I_D}{V_{GS} - V_{TH}}
+>$$
+
+>[!note] 第二题
+> 阐述 MOSFET 器件的沟道长度调制效应和体效应，并推导 MOSFET 器件在饱和区时的输出电阻 $r_o$。
+
+
+
+#### 第三章 单级放大器
+
+
+
 #### 第五章 电流镜与偏置技术
 
 >[!note] 5.1
@@ -39,7 +140,42 @@
 >[!note] 5.2
 > 考虑图 5.6 的电路。假设 $I_{REF}$ 是理想的，当 $V_{DD}$ 从 0 变化到 3V 时，画出 $I_{out}\sim V_{DD}$ 的草图。
 
+### Razavi 习题
+
+>[!note] 3.29
+> 在如图所示的共源共栅结构中，偏置电流为 0.5mA，输出电压摆幅为 1.9V。如果 $(W/L)_{1-4} = W/L$ 且 $\gamma = 0$，计算 $V_{b1}$，$V_{b2}$ 与 $W/L$。如果 $L = 0.5\mu m$，求此时的电压增益。
+
+先根据电压摆幅确定偏置电压的一些关系：
+
+$$V_{b1} - V_{TH1} < V_{out} < V_{b2} + V_{TH3} \quad V_{b2} + V_{TH3} - (V_{b1} - V_{TH1}) = 1.9$$
+
+$$V_{b2} + 0.8 - V_{b1} + 0.7 = 1.9 \quad V_{b2} - V_{b1} = 0.4$$
+
+利用串联电流相等，由于默认知道$\mu_p, \mu_n, C_{ox}$的数值，所以可以求解$\frac{W}{L}$：
+
+$$0.5 \times 10^{-3} = \frac{1}{2} \mu_n C_{ox} S (V_{in} - V_{TH1})^2 = \frac{1}{2} \mu_n C_{ox} S (V_{b1} - V_x - V_{TH2})^2 = \frac{1}{2} \mu_p C_{ox} S (V_y - V_{b2} - |V_{TH3}|)^2 = \frac{1}{2} \mu_p C_{ox} S (V_{DD} - V_{b3} - |V_{TH4}|)^2$$
+
+$$1.1 = 2 \sqrt{2 I_D} \left( \frac{1}{\sqrt{\mu_p C_{ox}}} + \frac{1}{\sqrt{\mu_n C_{ox}}} \right) \frac{1}{\sqrt{S}} \Rightarrow S = \frac{8 I_D \left( \frac{1}{\sqrt{\mu_p C_{ox}}} + \frac{1}{\sqrt{\mu_n C_{ox}}} \right)^2}{1.1^2}$$
+
+$$S = \frac{8 \times 0.5 \times 10^{-3} \left( \frac{1}{\sqrt{1.34225 \times 10^{-4}}} + \frac{1}{\sqrt{3.835 \times 10^{-5}}} \right)^2}{1.1^2} = 202.98 \Leftrightarrow S = 203$$
+
+电压摆幅的第二种表示方式：
+
+$V_{DD} - V_{SDmin,4} - V_{SDmin,3} - V_{DSmin,2} - V_{DSmin,1} = 1.9$
+
+
+
 ### Knowledge summary
+
+### 第三章 单级放大器
+
+#### 共源极放大器
+
+##### 电阻负载
+
+![alt text](image-7.png)
+
+
 
 #### 第七章 噪声
 
@@ -431,3 +567,30 @@ $$\overline{V_{n,in}^2} = 4kT \left( \frac{1}{g_m^2 R_S} + \frac{\gamma}{g_m} \r
 >$$\overline{V_{n,in}^2} = 4kT \left( \frac{1}{g_{m1}^2 R_S} + \frac{\gamma}{g_{m1}} \right) + \frac{K}{C_{ox}(WL)_1 f}$$
 
 (b) $\overline{V_{n,in}^2} = 4kT \left( \frac{\gamma g_{m2}}{g_{m1}^2} + \frac{\gamma}{g_{m1}} \right) + \frac{K_N}{C_{ox}} \left[ \frac{1}{(WL)_1} + \frac{g_{m2}^2}{(WL)_2 g_{m1}^2} \right] \frac{1}{f}$
+
+#### 第九章 运算放大器
+
+##### 概述
+
+**1. 增益 (Gain) → 决定闭环精度**
+
+运放自身的开环增益 ($A_0$) 越大，我们搭建的闭环放大电路就越接近理想情况，精度也越高。
+
+**闭环系统分析**
+
+- 经典负反馈系统的闭环增益表达式：
+
+  $$
+  G_{cl} = \frac{V_{out}}{V_{in}} = \frac{A_0}{1 + \beta A_0}
+  $$
+
+  其中，$A_0$ 是运放的开环增益（$Op-Amp$本身不加任何反馈时的放大倍数），$\beta$ 是反馈系数，由外围的反馈网络（通常是电阻或电容网络）决定。
+
+- 在一个理想的运放电路中，我们期望 $A_0$ 是无穷大，这样上面的公式就简化为：
+
+  $$
+  G_{cl} \approx \frac{A_0}{\beta A_0} = \frac{1}{\beta}
+  $$
+
+  这意味着<span style="font-weight:bold; color:rgb(255, 177, 10)">闭环增益完全由外部的无源器件（电阻、电容）决定，非常稳定和精确</span>。
+

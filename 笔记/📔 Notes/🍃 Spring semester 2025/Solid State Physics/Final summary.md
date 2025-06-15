@@ -1,7 +1,17 @@
-### Chapter 01 Crystal Structure
+### Knowledge Summary
+
+#### 第二章 固体的结合
+
+>[!note] 内聚能
+> 原子 (离子) 结合为晶体，必须使结合为晶体后系统的能量有所降低，晶体结合才是稳定的。相距无限远的自由原子 (或自由离子) 的总能量与它们形成晶体的能量之差，称为晶体的内聚能。换句话说，<span style="font-weight:bold; color:rgb(255, 177, 10)">内聚能也就是把晶体分离成它们的组成单元所需要的能量</span>。
+
+ n
 
 
-#### Homework
+
+### 作业习题
+
+#### 第一章 晶体的结构
 
 <h2 id="homework_1"></h2>
 
@@ -18,9 +28,12 @@
 > 晶胞强调晶体的<span style="font-weight:bold; color:rgb(255, 177, 10)">对称性</span>，是可以完整反映原子排列和对称性的重复单元，其内部可能含有多个原胞。
 >
 > 原胞强调周期性，是晶体最小的重复单元，仅仅反映了晶体的平移对称性。
-#### The Blue Book
 
 
+
+### 课后习题
+
+#### 第一章 晶体的结构
 
 <h2 id="exercise_1.1"></h2>
 
@@ -106,13 +119,7 @@ $$
 v^* = \frac{(2\pi)^3}{v_c^3} (\boldsymbol{a}_2 \times \boldsymbol{a}_3) \cdot \boldsymbol{a}_1 v_c = \frac{(2\pi)^3}{v_c}
 $$
 
-
-
-### Chapter 03 Lattice Vibration and Crystal Thermodynamics
-
-#### Knowledge Summary
-
-#### The Blue Book
+#### 第三章 晶体振动与热学性质
 
 > [!note] 3.1
 >
@@ -377,27 +384,7 @@ $$
 >
 > Therefore, $\omega = \left( \frac{ca^2}{M} \right)^{1/2} k$.
 
-#### The Physics Dictionary
-
-### Chapter 04 Band theory
-
-#### Knowledge Summary
-
-> [!info] Learning Objectives
->
-> 1. Master and apply the Bloch theorem;
->
-> 2. Understand the characteristics of electron motion in one-dimensional and three-dimensional periodic fields under the approximation of nearly free electrons;
->
-> 3. Understand and master the method of calculating energy bands using the tight-binding approximation;
->
-> 4. Understand the symmetry of crystal energy bands;
->
-> 5. Master the calculation of the density of states;
->
-> 6. Understand the concepts of Fermi surface, Fermi velocity, Fermi temperature, and Fermi radius;
->
-> 7. Understand the characteristics of electron states in surface electron states and disordered systems.
+### 物理大题典
 
 ##### The Bloch Theorem
 
