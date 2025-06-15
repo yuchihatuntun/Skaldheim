@@ -183,11 +183,33 @@
 
 >[!note] 背景与观点（Context & Claim）
 >
->The issue of **the use of powerful AI tools like ChatGPT in colleges** has become a major point of discussion recently, reflecting a significant trend in our education system.
+>The issue of **the use of powerful AI tools like ChatGPT and DeepSeek in colleges** has become a major point of discussion recently, reflecting a significant trend in our education system.
 >
 >This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
 >
 >After careful consideration, I believe that **these tools should not be banned, but instead must be carefully regulated and responsibly integrated into the curriculum.**
+
+>[!note] 分析与论证（Analysis & Arguments）
+>
+>The primary reason for my view is **that AI tools create serious problems for academic honesty and real learning.**
+>
+>To be specific, **many students might use ChatGPT to write their essays or solve homework problems without actually understanding the material. This means they miss out on developing critical thinking and writing skills that are essential for their future careers.** For instance, **a student could submit a perfect-looking research paper written entirely by AI, but when they face a job interview or real work situation, they won't have the knowledge or skills they claimed to have.**
+>
+>Another significant factor that supports my position is **that completely banning these tools would be unrealistic and actually harmful to students' future success.**
+>
+>This can be seen in **how AI is becoming a normal part of many workplaces. Students need to learn how to use these tools properly and ethically, rather than being kept away from them completely.** A clear example of this is **that many companies now expect their employees to know how to work with AI tools effectively. If colleges ban them entirely, students will graduate unprepared for the modern workplace.**
+
+>[!note] 结果与反思（Results & Reflection）
+>
+>Looking at the broader implications, this trend could lead to **a generation of students who either become overly dependent on AI without developing their own skills, or who are completely unprepared for a world where AI is everywhere.**
+>
+>Of course, we should also acknowledge that **AI tools can be incredibly helpful for learning when used correctly. They can help students understand difficult concepts, practice language skills, or get feedback on their ideas.** However, this benefit seems less critical when compared to the problems I've mentioned.
+
+>[!note] 结尾与展望（Ending & Exhoration）
+>
+>In conclusion, based on the analysis of **the risks to academic integrity and genuine learning** and **the need to prepare students for an AI-integrated future**, I maintain my position that **the solution is not to ban these tools, but to teach students how to use them responsibly and appropriately.**
+>
+>Therefore, the path forward is not to simply accept or reject **AI in education**, but to **create clear guidelines about when and how students can use AI tools, while focusing on assignments that require original thinking and personal reflection that AI cannot replicate.** It is crucial that we focus on maximizing its benefits while actively managing its risks.
 
 <h2 id="topic_09"></h2>
 
@@ -201,21 +223,65 @@
 >
 >After careful consideration, I believe that **while these problems are severe and caused by large-scale factors, individual actions, when multiplied, can play a meaningful role in creating a sustainable future.**
 
+>[!note] 分析与论证（Analysis & Arguments）
+>
+>The primary reason for my view is **that I notice serious pollution problems every day in my city.**
+>
+>To be specific, **the air quality is often poor, especially during winter when many people burn coal for heating. I also see a lot of plastic waste in rivers and on streets, and many people still throw trash anywhere they want.** For instance, **when I walk to school, I often see the sky covered with thick smog, and I have to wear a mask to protect myself from breathing dirty air.**
+>
+>Another significant factor that supports my position is **that these problems are mainly caused by our modern lifestyle and lack of environmental awareness.**
+>
+>This can be seen in **how people buy too many things they don't really need, use cars instead of walking or biking, and many factories still pollute water and air to save money.** A clear example of this is **that most people in my neighborhood drive cars even for very short trips, and many stores still give out plastic bags for everything, creating huge amounts of unnecessary waste.**
+
+>[!note] 结果与反思（Results & Reflection）
+>
+>Looking at the broader implications, this trend could lead to **serious health problems for everyone, especially children and elderly people. Climate change will also make extreme weather more common, affecting food production and making life harder for future generations.**
+>
+>Of course, we should also acknowledge that **big companies and governments need to make the biggest changes, and individual efforts might seem small compared to industrial pollution.** However, this benefit seems less critical when compared to the problems I've mentioned.
+
+>[!note] 结尾与展望（Ending & Exhoration）
+>
+>In conclusion, based on the analysis of **the daily pollution I observe** and **the lifestyle choices that cause these problems**, I maintain my position that **we all have a responsibility to protect our environment, even if our individual actions seem small.**
+>
+>Therefore, the path forward is not to simply accept or reject **environmental responsibility**, but to **start with simple changes like using less plastic, walking or biking more, saving electricity at home, and properly sorting our garbage. We should also support businesses that care about the environment.** It is crucial that we focus on maximizing our positive impact while actively reducing our environmental footprint.
+
 <h2 id="topic_10"></h2>
 
 ##### T10: Online education is getting more and more popular all over the world. Do you think it will replace on-campus education one day? Why or why not?
 
-> [!note] 背景与观点（Context & Claim）
+>[!note] 背景与观点（Context & Claim）
 >
-> The issue of **whether online education will replace traditional on-campus education** has become a major point of discussion recently, reflecting a significant trend in our education system.
+>The issue of **whether online education will replace traditional on-campus education** has become a major point of discussion recently, reflecting a significant trend in our education system.
 >
-> This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
+>This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
 >
-> After careful consideration, I believe that **online education will not completely replace the on-campus experience, but will instead evolve into an essential and complementary tool within a hybrid learning model.**
+>After careful consideration, I believe that **online education will not completely replace the on-campus experience, but will instead evolve into an essential and complementary tool within a hybrid learning model.**
+
+>[!note] 分析与论证（Analysis & Arguments）
+>
+>The primary reason for my view is **that online education lacks the important human connections and social experiences that make college special.**
+>
+>To be specific, **while you can learn facts and skills online, it's much harder to build friendships, work in teams, or get personal guidance from teachers through a computer screen.** For instance, **a chemistry student might watch lab experiments online, but they can't actually touch the equipment or work with classmates to solve problems together, which are key parts of real learning.**
+>
+>Another significant factor that supports my position is **that online education actually works best when it's combined with traditional classroom learning.**
+>
+>This can be seen in **how many successful online courses now include live video calls, group projects, and even occasional in-person meetings. Students can watch lectures at home but still meet with classmates for discussions.** A clear example of this is **that during COVID-19, the most effective schools didn't just move everything online - they found creative ways to mix online tools with real human interaction.**
+
+>[!note] 结果与反思（Results & Reflection）
+>
+>Looking at the broader implications, this trend could lead to **a future where education becomes more flexible and accessible to people everywhere, but we still keep the valuable parts of campus life that help students grow as complete human beings.**
+>
+>Of course, we should also acknowledge that **online education has made learning much more convenient and affordable for many people who couldn't attend traditional colleges before.** However, this benefit seems less critical when compared to the problems I've mentioned.
+
+>[!note] 结尾与展望（Ending & Exhoration）
+>
+>In conclusion, based on the analysis of **the importance of human connections in learning** and **the success of combining online and offline methods**, I maintain my position that **the future of education lies in smart combination of both approaches rather than one completely replacing the other.**
+>
+>Therefore, the path forward is not to simply accept or reject **online education**, but to **use technology to make learning better while keeping the social and personal parts of traditional education that are so important for student development.** It is crucial that we focus on maximizing its benefits while actively managing its risks.
 
 <h2 id="topic_15"></h2>
 
-##### T15: The U.S. government’s recent tariff threats have sparked widespread criticism. What is your comment on the recent tariff war? How does it impact the U.S. and China?
+##### T15: The U.S. government's recent tariff threats have sparked widespread criticism. What is your comment on the recent tariff war? How does it impact the U.S. and China?
 
 >[!note] 背景与观点（Context & Claim）
 >
@@ -224,6 +290,28 @@
 >This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
 >
 >After careful consideration, I believe that **this trade war is a counterproductive, lose-lose strategy that negatively impacts not only both countries' economies but also the stability of the entire global supply chain.**
+
+>[!note] 分析与论证（Analysis & Arguments）
+>
+>The primary reason for my view is **that tariffs ultimately hurt consumers in both countries by making everyday products more expensive.**
+>
+>To be specific, **when the U.S. puts tariffs on Chinese goods, American companies and consumers end up paying higher prices for everything from electronics to clothing. Similarly, when China responds with its own tariffs, Chinese consumers face higher costs for American products.** For instance, **a smartphone that used to cost $500 might now cost $600 because of these tariffs, which means ordinary families have less money to spend on other things they need.**
+>
+>Another significant factor that supports my position is **that this trade war disrupts the global supply chain that has been built over decades.**
+>
+>This can be seen in **how many companies rely on parts and materials from both countries to make their products. When tariffs make these materials more expensive, it affects businesses worldwide.** A clear example of this is **that a car company might use Chinese steel and American technology to build cars in Mexico. When tariffs increase costs, the company might have to raise prices or cut jobs, affecting workers in all three countries.**
+
+>[!note] 结果与反思（Results & Reflection）
+>
+>Looking at the broader implications, this trend could lead to **a world where countries become more isolated economically, which could slow down global economic growth and make it harder for developing countries to improve their living standards.**
+>
+>Of course, we should also acknowledge that **some people argue that tariffs can protect local jobs and industries from unfair competition, and both countries might want to reduce their dependence on each other for important goods.** However, this benefit seems less critical when compared to the problems I've mentioned.
+
+>[!note] 结尾与展望（Ending & Exhoration）
+>
+>In conclusion, based on the analysis of **the higher costs for consumers** and **the disruption to global business**, I maintain my position that **the tariff war creates more problems than it solves and hurts the economic interests of both nations.**
+>
+>Therefore, the path forward is not to simply accept or reject **these trade policies**, but to **find better ways for both countries to cooperate and solve their disagreements through dialogue and negotiation rather than economic punishment.** It is crucial that we focus on maximizing the benefits of trade while actively managing any unfair practices through diplomatic means.
 
 <h2 id="topic_20"></h2>
 
@@ -236,6 +324,28 @@
 >This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
 >
 >After careful consideration, I believe that **AI is a powerful double-edged sword, and its development must be managed with great responsibility to maximize its benefits while actively mitigating its significant societal and ethical risks.**
+
+>[!note] 分析与论证（Analysis & Arguments）
+>
+>The primary reason for my view is **that AI brings amazing benefits that can improve many aspects of our daily lives.**
+>
+>To be specific, **AI can help doctors diagnose diseases faster and more accurately, help students learn through personalized teaching programs, and make our work more efficient by handling routine tasks.** For instance, **AI translation tools like Google Translate have made it much easier for people from different countries to communicate, breaking down language barriers that existed for centuries.**
+>
+>Another significant factor that supports my position is **that AI also creates serious risks that we cannot ignore.**
+>
+>This can be seen in **how AI might replace many human jobs, leading to unemployment, and how it can be used to spread false information or invade people's privacy.** A clear example of this is **that deepfake technology can create fake videos of people saying things they never said, which could damage reputations or mislead the public during important events like elections.**
+
+>[!note] 结果与反思（Results & Reflection）
+>
+>Looking at the broader implications, this trend could lead to **a future where AI either becomes a great tool that helps humanity solve major problems like climate change and poverty, or creates a society with massive inequality and loss of human control over important decisions.**
+>
+>Of course, we should also acknowledge that **many of the risks I mentioned are not guaranteed to happen, and with proper planning and regulation, we might be able to enjoy AI's benefits while avoiding most of its dangers.** However, this benefit seems less critical when compared to the problems I've mentioned.
+
+>[!note] 结尾与展望（Ending & Exhoration）
+>
+>In conclusion, based on the analysis of **AI's incredible potential to improve our lives** and **its serious risks to employment and society**, I maintain my position that **AI development requires careful balance - we should embrace its benefits while being very careful about its risks.**
+>
+>Therefore, the path forward is not to simply accept or reject **AI technology**, but to **create strong rules and ethical guidelines for AI development, invest in retraining workers for new jobs, and ensure that AI serves humanity rather than replacing it.** It is crucial that we focus on maximizing its benefits while actively managing its risks.
 
 ### 个人经历与偏好描述类 (Personal Experience/Preference Description Questions)
 
@@ -339,7 +449,7 @@
 > [!note] 描述细节（Description & Details）
 To give you some context, **Jay Chou is famous for mixing modern music like R&B and hip-hop with traditional Chinese sounds**.
 >
-> Specifically, I was most impressed by **his creation of what is known as "Zhongguo Feng," or "Chinese Style" music**. For example: **In his famous song, "Blue and White Porcelain" (青花瓷), you can hear a modern R&B rhythm combined with beautiful melodies played on traditional instruments, and the lyrics are just like ancient poetry. This fusion was revolutionary**.
+> Specifically, I was most impressed by **his creation of what is known as "Chinese Style" music**. For example: **In his famous song, "Blue and White Porcelain" (青花瓷), you can hear a modern R&B rhythm played on traditional instruments, and the lyrics are just like ancient poetry.**.
 
 > [!note] 解释情感（Explanation & Emotion）
 >
