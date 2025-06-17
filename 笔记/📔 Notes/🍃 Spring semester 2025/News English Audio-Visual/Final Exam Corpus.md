@@ -466,3 +466,217 @@ To give you some context, **Jay Chou is famous for mixing modern music like R&B 
 <h2 id="topic_19"></h2>
 
 #### T19: How often do you feel stressed? How do you deal with stress?
+
+
+
+### 人物或公司介绍类 (Introduction of Person/Company Questions)
+
+>[!tip] 描述
+> 这类题目要求介绍特定人物（如名人、运动员）或公司，重点描述其成就、贡献或策略。回答结构通常包括：背景介绍、关键成就/策略、社会影响、个人观点。适合模板：开头简要介绍 + 详细成就/策略（按时间或类别组织） + 贡献/影响 + 为什么值得敬佩或成功。
+
+**问题编号:** <a href="#topic_17">17</a>，<a href="#topic_18">18</a>
+
+#### 口语模板：P.A.I.R. 人物或公司介绍法
+
+> [!note] 简介与定位（Profile & Position）
+>
+> The person/company I would like to introduce is **[在此处插入人名或公司名]**, a prominent figure/a leading company in the field of **[在此处插入领域，如: technology, sports, e-commerce]**.
+>
+> They are widely recognized as **[一句话概括其核心身份或地位，如: a visionary entrepreneur, a dominant athlete, a disruptive innovator]**.
+>
+> In my introduction, I will focus on their key achievements/strategies and the significant impact they have had on their industry and society at large.
+
+> [!note] 成就与行动（Achievements & Actions）
+>
+> First, one of their most significant achievements is **[阐述关键成就或策略一]**.
+>
+> To be specific, they successfully **[详细说明这个成就或策略的具体做法和过程]**. This move was groundbreaking at the time because **[解释其在当时为何具有突破性意义]**.
+>
+> Second, they are also celebrated for **[阐述关键成就或策略二]**.
+>
+> This involved **[详细说明这个成就或策略的具体做法和过程]**. As a direct result, they were able to **[解释该策略带来的直接成果，如: capture a new market, solve a major technical problem]**.
+
+> [!note] 影响与贡献（Impact & Influence）
+>
+> The impact of **[人名/公司名]** extends far beyond their own success. Their work has fundamentally changed the landscape of the **[阐述其影响的行业]** industry.
+>
+> Their primary contribution to society is **[总结其核心社会贡献，如: accelerating a technological shift, inspiring millions of people, creating a new business ecosystem]**. They have effectively shown that **[阐述其贡献所证明的道理或可能性]**.
+
+> [!note] 受认可原因（Reason for Recognition）
+>
+> In conclusion, **[人名/公司名]** is more than just a successful person/company; they are a true game-changer in their domain.
+>
+> What makes them so remarkable and worthy of admiration is their ability to **[总结其最值得敬佩的特质或能力，如: combine vision with execution, challenge the status quo, persevere through adversity]**. Their legacy is defined by **[一句话总结其最终的历史地位或影响]**, which is why they continue to be a subject of great interest and respect.
+
+
+<h2 id="topic_17"></h2>
+
+#### T17: Introduce a successful Chinese company. What are the business strategies that lead to its success? You can consider factors like management, marketing, finance, public relation, and more.
+
+> [!note] 简介与定位（Profile & Position）
+>
+> The company I would like to introduce is **Alibaba Group**, a prominent company in the field of **e-commerce and digital technology**.
+>
+> They are widely recognized as **a visionary e-commerce giant that fundamentally transformed how business is conducted in China and beyond**.
+>
+> In my introduction, I will focus on their key strategies and the significant impact they have had on their industry and society at large.
+
+> [!note] 成就与行动（Achievements & Actions）
+>
+> First, one of their most significant strategies is **creating a complete ecosystem of interconnected services rather than just a single platform**.
+>
+> To be specific, they successfully **built multiple platforms like Taobao for consumer shopping, Tmall for premium brands, and Alipay for payments, all working together seamlessly**. This move was groundbreaking at the time because **most companies focused on just one service, but Alibaba created an entire digital economy where users never needed to leave their ecosystem**.
+>
+> Second, they are also celebrated for **their innovative approach to reaching China's massive rural market**.
+>
+> This involved **launching the "Rural Taobao" program, which set up service centers in small villages and trained local people to help villagers shop online and receive deliveries**. As a direct result, they were able to **bring millions of rural consumers into the digital economy and create new income opportunities for people in remote areas**.
+
+> [!note] 影响与贡献（Impact & Influence）
+>
+> The impact of **Alibaba** extends far beyond their own success. Their work has fundamentally changed the landscape of the **global e-commerce** industry.
+>
+> Their primary contribution to society is **democratizing commerce by making it possible for small businesses and individuals to reach customers worldwide through simple online tools**. They have effectively shown that **technology can create opportunities for everyone, not just big corporations, and that innovation can solve real social and economic problems**.
+
+> [!note] 受认可原因（Reason for Recognition）
+>
+> In conclusion, **Alibaba** is more than just a successful company; they are a true game-changer in their domain.
+>
+> What makes them so remarkable and worthy of admiration is their ability to **combine technological innovation with deep understanding of social needs, always thinking about how to serve both businesses and consumers better**. Their legacy is defined by **their role in creating China's digital economy and proving that Chinese companies can lead global innovation**, which is why they continue to be a subject of great interest and respect.
+
+
+<h2 id="topic_18"></h2>
+
+#### T18: Introduce a Chinese or foreign celebrity in the areas of politics, business, fashion, IT industry or science. What are his/her achievements? How has he/she contributed to the society?
+
+> [!note] 简介与定位（Profile & Position）
+>
+> The person I would like to introduce is **Tu Youyou**, a prominent figure in the field of **medical science and pharmaceutical research**.
+>
+> She is widely recognized as **a groundbreaking scientist who saved millions of lives through her discovery of artemisinin, a revolutionary malaria treatment**.
+>
+> In my introduction, I will focus on her key achievements and the significant impact she has had on global health and medical science.
+
+> [!note] 成就与行动（Achievements & Actions）
+>
+> First, one of her most significant achievements is **discovering artemisinin, an effective treatment for malaria, derived from traditional Chinese medicine**.
+>
+> To be specific, she successfully **led a research team that screened over 2,000 traditional Chinese medicine recipes and tested more than 380 herbal extracts before finally isolating the active compound from sweet wormwood (qinghao)**. This move was groundbreaking at the time because **malaria parasites had developed resistance to existing drugs, and her discovery provided a completely new approach to treating this deadly disease**.
+>
+> Second, she is also celebrated for **becoming the first Chinese woman to win a Nobel Prize in Physiology or Medicine in 2015**.
+>
+> This involved **decades of persistent research under extremely difficult conditions, including testing the drug on herself to ensure its safety before clinical trials**. As a direct result, she was able to **bring international recognition to Chinese traditional medicine and demonstrate how ancient wisdom can be combined with modern scientific methods**.
+
+> [!note] 影响与贡献（Impact & Influence）
+>
+> The impact of **Tu Youyou** extends far beyond her own success. Her work has fundamentally changed the landscape of the **global fight against malaria** industry.
+>
+> Her primary contribution to society is **saving millions of lives worldwide, particularly in developing countries where malaria is most prevalent**. She has effectively shown that **traditional medicine, when properly researched and developed, can provide solutions to modern medical challenges and that scientific breakthroughs can come from unexpected sources**.
+
+> [!note] 受认可原因（Reason for Recognition）
+>
+> In conclusion, **Tu Youyou** is more than just a successful scientist; she is a true game-changer in her domain.
+>
+> What makes her so remarkable and worthy of admiration is her ability to **combine respect for traditional knowledge with rigorous scientific methodology, and her unwavering dedication to finding solutions for humanity's health challenges**. Her legacy is defined by **her role in bridging Eastern and Western medicine and proving that scientific innovation can emerge from any cultural tradition**, which is why she continues to be a subject of great interest and respect.
+
+### 演讲与说服类 (Persuasive Speech/Argument Questions)
+
+>[!tip] 描述
+> 这类题目要求准备结构化演讲或说服性论点，强调逻辑论证和情感呼吁。回答结构通常包括：开场陈述、2-3个主要论点（支持证据）、反驳反方（可选）、结尾号召。适合模板：开场吸引注意 + 论点1（事实/数据） + 论点2（例子/故事） + 结尾强调重要性。
+
+**问题编号:** <a href="#topic_14">14</a>，<a href="#topic_16">16</a>
+
+#### 口语模板：H.E.A.R. 演讲与说服法
+
+> [!note] 挂钩与标题（Hook & Headline）
+>
+> **[在此处使用一个引人深思的问题或一个有力的陈述]**? This is a question/statement that touches upon a core issue in our society today: **[点明话题的核心]**.
+>
+> Today, I want to share my perspective with you. I firmly believe that **[一句话清晰地阐述你的核心论点或主张]**.
+
+> [!note] 证据与情感（Evidence & Emotion）
+>
+> Let's first look at the facts. The primary reason we should support this idea is that **[提出你的第一个基于事实、数据或逻辑的论点]**.
+>
+> For instance, research/data shows that **[引用一个具体的数据、研究发现或逻辑推理来支撑论点一]**. This clearly demonstrates that **[总结该证据如何证明你的论点]**.
+>
+> But this is not just about numbers and logic; it's about people and our shared values. Consider this story/scenario: **[讲述一个能引发共鸣的简短故事、个人经历或场景假设]**.
+>
+> This story illustrates **[这个故事所揭示的道理或情感]**. It appeals to our sense of **[你想唤起的情感，如: compassion, fairness, responsibility, empathy]**.
+
+> [!note] 承认与回应（Acknowledgment & Answer）（可选，用于高级回答）
+>
+> Now, some people might argue that **[简要、公平地陈述一个常见的反对观点]**.
+>
+> While I understand this concern, this viewpoint often overlooks the fact that **[针对反方观点，提出你的回应或反驳的理由]**. In reality, **[用一句话总结你的反驳]**.
+
+> [!note] 决议与请求（Resolution & Request）
+>
+> So, when we consider both the logical evidence and the human element, the conclusion becomes clear: **[用一句强有力的话重申你的核心主张]**.
+>
+> Therefore, I urge each of us to **[明确你希望听众做什么或思考什么]**. Let's work together to **[描述一个共同的美好愿景]**. Thank you.
+
+#### 具体文案
+
+<h2 id="topic_14"></h2>
+
+##### T14: Prepare a speech entitled "The importance of the rich helping the poor in a harmonious society."
+
+> [!note] 挂钩与标题（Hook & Headline）
+>
+> **What kind of society do we truly want to live in - one where success is hoarded by a few, or one where prosperity lifts everyone up**? This is a question that touches upon a core issue in our society today: **the growing wealth gap and our collective responsibility to address it**.
+>
+> Today, I want to share my perspective with you. I firmly believe that **the wealthy have both a moral obligation and a practical incentive to help those less fortunate, as this is essential for building a truly harmonious and sustainable society**.
+
+> [!note] 证据与情感（Evidence & Emotion）
+>
+> Let's first look at the facts. The primary reason we should support this idea is that **extreme inequality poses serious threats to social stability and economic growth**.
+>
+> For instance, research shows that **societies with high levels of inequality experience more crime, social unrest, and political instability. Studies also demonstrate that when the poor have more spending power, it stimulates economic growth that benefits everyone, including the wealthy**. This clearly demonstrates that **helping the poor is not just charity - it's an investment in a safer, more prosperous society for all**.
+>
+> But this is not just about numbers and logic; it's about people and our shared values. Consider this story: **Imagine a successful entrepreneur who grew up in poverty. Through education and opportunity, she built a thriving business. Now, she uses her wealth to fund scholarships for disadvantaged children, knowing that one of them might become the next innovator, doctor, or teacher who serves the community**.
+>
+> This story illustrates **that when we lift others up, we create a cycle of opportunity and progress that enriches our entire society**. It appeals to our sense of **compassion, justice, and shared humanity**.
+
+> [!note] 承认与回应（Acknowledgment & Answer）
+>
+> Now, some people might argue that **the wealthy already pay taxes and that additional charitable giving should be purely voluntary, not a social expectation**.
+>
+> While I understand this concern, this viewpoint often overlooks the fact that **current systems often fail to address the root causes of poverty, and that voluntary action by those with resources can be far more effective and targeted than government programs alone**. In reality, **when the wealthy actively participate in solving social problems, they help create the kind of society where everyone, including themselves, can thrive**.
+
+> [!note] 决议与请求（Resolution & Request）
+>
+> So, when we consider both the logical evidence and the human element, the conclusion becomes clear: **a harmonious society is not just a noble ideal - it's a practical necessity that requires the active participation of those who have succeeded**.
+>
+> Therefore, I urge each of us to **recognize that true success is measured not just by what we accumulate, but by what we contribute to others**. Let's work together to **build a society where prosperity is shared, opportunity is accessible to all, and everyone has the chance to reach their full potential**. Thank you.
+
+<h2 id="topic_16"></h2>
+
+##### T16: South Korea is one of the largest markets for men's cosmetics. Some reports suggest that these Korean men use makeup in order to get ahead in job competitions. Should men apply makeup? Does makeup make men less masculine? What do you think?
+
+> [!note] 挂钩与标题（Hook & Headline）
+>
+> **What does it truly mean to be masculine in the 21st century - is it about rigid adherence to outdated stereotypes, or is it about the confidence to make choices that serve your goals and well-being**? This is a question that touches upon a core issue in our society today: **the evolving definitions of gender expression and personal freedom**.
+>
+> Today, I want to share my perspective with you. I firmly believe that **men should absolutely have the freedom to use makeup if they choose to, and that doing so does not diminish their masculinity in any way - instead, it demonstrates confidence and adaptability in a changing world**.
+
+> [!note] 证据与情感（Evidence & Emotion）
+>
+> Let's first look at the facts. The primary reason we should support this idea is that **throughout history, the standards of masculine appearance have constantly evolved, and makeup has often been part of men's grooming**.
+>
+> For instance, research shows that **in ancient Egypt, both men and women wore makeup for protection and status. Even in recent history, male actors, musicians, and public figures have used makeup professionally. In South Korea, the male cosmetics industry is worth billions of dollars, proving this is not just a trend but a significant cultural shift**. This clearly demonstrates that **makeup use is not inherently gendered - it's simply a tool for personal presentation and self-care**.
+>
+> But this is not just about numbers and logic; it's about people and our shared values. Consider this story: **Imagine a young man preparing for his dream job interview. He has worked hard for years, but he's concerned about some acne scars that make him feel self-conscious. By using a little concealer, he walks into that interview feeling confident and focused on showcasing his skills rather than worrying about his appearance**.
+>
+> This story illustrates **that makeup can be an empowering tool that helps people present their best selves to the world**. It appeals to our sense of **equality, personal freedom, and the right to make choices about our own bodies**.
+
+> [!note] 承认与回应（Acknowledgment & Answer）
+>
+> Now, some people might argue that **men using makeup goes against traditional masculine values and could confuse gender roles in society**.
+>
+> While I understand this concern, this viewpoint often overlooks the fact that **true masculinity should be about strength of character, integrity, and the courage to be authentic - not about following arbitrary rules about appearance. Moreover, some of the most traditionally "masculine" professions, like military and sports, regularly use face paint and grooming products**. In reality, **confident masculinity means being secure enough to make personal choices without fear of judgment**.
+
+> [!note] 决议与请求（Resolution & Request）
+>
+> So, when we consider both the logical evidence and the human element, the conclusion becomes clear: **men's use of makeup is not a threat to masculinity - it's an expression of personal freedom and self-care that should be celebrated, not criticized**.
+>
+> Therefore, I urge each of us to **challenge outdated stereotypes and support every individual's right to express themselves authentically, regardless of gender**. Let's work together to **create a society where people are judged by their character and abilities, not by whether their choices conform to arbitrary gender expectations**. Thank you.
