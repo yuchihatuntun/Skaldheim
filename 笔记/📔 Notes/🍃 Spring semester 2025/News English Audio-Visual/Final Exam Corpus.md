@@ -623,31 +623,31 @@ To give you some context, **Jay Chou is famous for mixing modern music like R&B 
 
 > [!note] 挂钩与标题（Hook & Headline）
 >
-> **What kind of society do we truly want to live in - one where success is hoarded by a few, or one where prosperity lifts everyone up**? This is a question that touches upon a core issue in our society today: **the growing wealth gap and our collective responsibility to address it**.
+> **What kind of society do we really want to live in - one where a few people keep all the money, or one where everyone gets a fair chance**? This is a question that touches upon a core issue in our society today: **the growing gap between rich and poor people**.
 >
-> Today, I want to share my perspective with you. I firmly believe that **the wealthy have both a moral obligation and a practical incentive to help those less fortunate, as this is essential for building a truly harmonious and sustainable society**.
+> Today, I want to share my thoughts with you. I firmly believe that **rich people should help poor people because this is the right thing to do and it makes society better for everyone**.
 
 > [!note] 证据与情感（Evidence & Emotion）
 >
-> Let's first look at the facts. The primary reason we should support this idea is that **extreme inequality poses serious threats to social stability and economic growth**.
+> Let's first look at the facts. The main reason we should support this idea is that **when there's a huge gap between rich and poor, it causes serious problems for everyone**.
 >
-> For instance, research shows that **societies with high levels of inequality experience more crime, social unrest, and political instability. Studies also demonstrate that when the poor have more spending power, it stimulates economic growth that benefits everyone, including the wealthy**. This clearly demonstrates that **helping the poor is not just charity - it's an investment in a safer, more prosperous society for all**.
+> For example, studies show that **countries with big gaps between rich and poor have more crime, more social problems, and less stability. Research also shows that when poor people have more money to spend, it helps the economy grow, which benefits everyone, including rich people**. This clearly shows that **helping poor people isn't just being nice - it's smart business that makes life better for all of us**.
 >
-> But this is not just about numbers and logic; it's about people and our shared values. Consider this story: **Imagine a successful entrepreneur who grew up in poverty. Through education and opportunity, she built a thriving business. Now, she uses her wealth to fund scholarships for disadvantaged children, knowing that one of them might become the next innovator, doctor, or teacher who serves the community**.
+> But this isn't just about numbers and facts; it's about people and what we believe is right. Think about this story: **A successful business owner grew up very poor. Through education and hard work, she built a great company. Now, she uses her money to pay for poor children to go to school, knowing that one of them might become the next great inventor, doctor, or teacher**.
 >
-> This story illustrates **that when we lift others up, we create a cycle of opportunity and progress that enriches our entire society**. It appeals to our sense of **compassion, justice, and shared humanity**.
+> This story shows **that when we help others succeed, we create a circle of opportunity that makes our whole society better**. It speaks to our feelings of **kindness, fairness, and caring about each other**.
 
 > [!note] 承认与回应（Acknowledgment & Answer）
 >
-> Now, some people might argue that **the wealthy already pay taxes and that additional charitable giving should be purely voluntary, not a social expectation**.
+> Now, some people might say that **rich people already pay taxes and shouldn't be forced to give more money away**.
 >
-> While I understand this concern, this viewpoint often overlooks the fact that **current systems often fail to address the root causes of poverty, and that voluntary action by those with resources can be far more effective and targeted than government programs alone**. In reality, **when the wealthy actively participate in solving social problems, they help create the kind of society where everyone, including themselves, can thrive**.
+> While I understand this worry, this way of thinking often forgets that **government programs alone can't solve all problems, and when rich people choose to help, they can often do it better and faster than the government**. In reality, **when wealthy people actively work to solve social problems, they help create the kind of society where everyone can do well**.
 
 > [!note] 决议与请求（Resolution & Request）
 >
-> So, when we consider both the logical evidence and the human element, the conclusion becomes clear: **a harmonious society is not just a noble ideal - it's a practical necessity that requires the active participation of those who have succeeded**.
+> So, when we think about both the facts and the human side, the answer becomes clear: **a peaceful, happy society isn't just a nice dream - it's something we really need, and it requires help from people who have been successful**.
 >
-> Therefore, I urge each of us to **recognize that true success is measured not just by what we accumulate, but by what we contribute to others**. Let's work together to **build a society where prosperity is shared, opportunity is accessible to all, and everyone has the chance to reach their full potential**. Thank you.
+> So, I ask each of us to **remember that real success isn't just about how much money we make, but about how much we help others**. Let's work together to **build a society where everyone shares in success, where all people get fair chances, and where everyone can reach their dreams**. Thank you.
 
 <h2 id="topic_16"></h2>
 
