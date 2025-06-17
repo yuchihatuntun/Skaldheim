@@ -59,89 +59,66 @@
 >
 >To be specific, **for many urban families, the financial burdens of housing, healthcare, and particularly education are already immense.** For instance, **the intense competition in education forces parents to invest heavily in extracurricular activities for even one child, making the idea of stretching these finite resources for a third child financially unfeasible.**
 >
->Another significant factor that supports my position is **the profound shift in social norms and individual aspirations.**
+>Another significant factor that supports my position is **the major change in what young people want from life today.**
 >
->This can be seen in **how many young people today prioritize their careers and personal freedom over the traditional value of having a large family.** A clear example of this is **the "motherhood penalty," where many women are reluctant to have more children for fear of sacrificing their career progression in a society with insufficient childcare support.**
-
->[!note] 结果与反思（Results & Reflection）
->
->Looking at the broader implications, this trend/policy could lead to **a situation where China's demographic crisis, including an aging population and a shrinking workforce, continues to worsen despite the relaxed policy, potentially leading to long-term economic stagnation.**
->
->Of course, we should also acknowledge that **the policy is a necessary first step to remove legal restrictions and signals the government's serious attention to the population issue. It will help a small fraction of couples who already wished for a third child.** However, this benefit seems less critical when compared to the problems I've mentioned.
+>This can be seen in **how today's young people care more about their jobs and personal freedom than having many children.** A clear example of this is **that many women worry that having more children will hurt their career chances, especially when there isn't enough help with childcare.**
 
 >[!note] 结尾与展望（Ending & Exhoration）
 >
->In conclusion, based on the analysis of **the prohibitive economic cost of child-rearing** and **the fundamental shift in social values**, I maintain my position that **the three-child policy by itself will have a very limited impact on actually boosting birth rates.**
->
->Therefore, the path forward is not to simply accept or reject **this policy**, but to **accompany it with a comprehensive package of substantive supporting measures, such as financial subsidies, affordable childcare, and stronger protections for working mothers.** It is crucial that we focus on maximizing its benefits while actively managing its risks.
+>In conclusion, based on the analysis of **the high cost of raising children** and **the major change in what young people want from life**, I maintain my position that **the three-child policy by itself will not greatly increase China's birth rates.**
+
 
 <h2 id="topic_05"></h2>
 
-##### T5: Xinhua News Agency reports that the market for plastic surgery in China is expected to grow to US$46 billion by 2022. Is it a positive or negative trend? Provide reasons to support your answer
+##### T5: Xinhua News Agency reports that the market for plastic surgery in China is expected to grow to US$46 billion by 2022. Is it a positive or negative trend? Provide reasons to support your answer（膨胀的整容市场）
 
-> [!note] 背景与观点（Context & Claim）
+>[!note] 背景与观点（Context & Claim）
 >
-> The issue of **the booming plastic surgery market in China** has become a major point of discussion recently, reflecting a significant trend in our society.
+>The issue of **China's growing plastic surgery market** has become a major point of discussion recently, reflecting a significant trend in our society.
 >
-> This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
+>This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
 >
-> After careful consideration, I believe that **this trend is largely negative, because its societal and health-related harms far outweigh its individual benefits.**
+>After careful consideration, I believe that **this trend is mostly bad for society because the dangers and problems it creates are much bigger than any benefits it might bring.**
 
 >[!note] 分析与论证（Analysis & Arguments）
 >
->The primary reason for my view is **that it promotes a very narrow and often harmful standard of beauty.**
+>The primary reason for my view is **that the plastic surgery boom creates unhealthy beauty standards.**
 >
->To be specific, **social media and advertising constantly push a single type of look—often called the "internet-celebrity face"—which makes many young people feel anxious and insecure about their own natural appearance.** For instance, **we see a growing number of people pursuing the exact same features, like a high-bridged nose or unnaturally large eyes, which erodes individuality and aesthetic diversity.**
+>To be specific, **social media and ads keep showing the same "perfect" look, which makes many young people feel bad about how they naturally look.** For instance, **more and more people want the exact same features, like a thin nose or big eyes, which means everyone starts looking the same instead of being unique.**
 >
->Another significant factor that supports my position is **that the explosive growth of this market has led to serious health and safety risks.**
+>Another significant factor that supports my position is **that this fast-growing industry has created serious safety problems.**
 >
->This can be seen in **how the huge demand has outpaced effective government regulation. This has resulted in a large number of unlicensed clinics and unqualified practitioners operating illegally.** A clear example of this is **that news reports frequently expose tragic stories of botched surgeries that cause permanent damage or even death, highlighting the real dangers that many vulnerable consumers face.**
-
->[!note] 结果与反思（Results & Reflection）
->
->Looking at the broader implications, this trend/policy could lead to **a society where more and more people, especially the youth, suffer from low self-esteem and body image issues. It risks creating a vicious cycle where individuals constantly feel the need to "fix" themselves to meet an impossible and uniform standard.**
->
->Of course, we should also acknowledge that **for a small group of people, such as accident victims or those with congenital defects, corrective plastic surgery can be a very positive and life-changing tool to rebuild confidence.** However, this benefit seems less critical when compared to the problems I've mentioned.
+>This can be seen in **how there are now many illegal clinics and fake doctors because the government can't control everything that's happening so quickly.** A clear example of this is **that we often hear terrible news stories about surgeries that go wrong and hurt people badly or even kill them, showing how dangerous this trend can be.**
 
 >[!note] 结尾与展望（Ending & Exhoration）
 >
 >In conclusion, based on the analysis of **the promotion of toxic beauty standards** and **the severe public health risks**, I maintain my position that **the widespread social anxiety and physical dangers associated with this trend make it more of a problem than a solution for our society.**
->
->Therefore, the path forward is not to simply accept or reject **this trend**, but to **actively promote more diverse beauty standards in our media and education, and for the government to enforce much stricter regulations on the entire industry to protect its citizens.** It is crucial that we focus on maximizing its benefits while actively managing its risks.
 
 <h2 id="topic_06"></h2>
 
-##### T6: Do you think today’s college students spend too much time on the social media? Why is that? What are the possible benefits and risks?
+##### T6: Do you think today’s college students spend too much time on the social media? Why is that? What are the possible benefits and risks?（使用过多社交媒体）
 
 >[!note] 背景与观点（Context & Claim）
 >
->The issue of **whether today's college students spend too much time on social media** has become a major point of discussion recently, reflecting a significant trend in our society and modern education.
+>The issue of **whether today's college students spend too much time on social media** has become a major point of discussion recently, reflecting a significant trend in our society.
 >
 >This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
 >
->After careful consideration, I believe that **while social media offers some benefits, the time spent is often excessive, and the risks to mental health and productivity are becoming increasingly serious.**
+>After careful consideration, I believe that **while social media has some good points, most students spend way too much time on it, and this is causing serious problems for their mental health and studies.**
 
 >[!note] 分析与论证（Analysis & Arguments）
 >
->The primary reason for my view is **that social media, despite its risks, serves as an essential tool for information access and social connection for students.**
+>The primary reason for my view is **that social media can be helpful for students to get information and stay connected with others.**
 >
->To be specific, **students use these platforms to stay updated on news, join academic discussion groups, and maintain contact with friends and family, which is crucial for their support system.** For instance, **a student might be in a WeChat or WhatsApp group for a class project while also following experts in their field on other platforms, showing its dual role in social and academic life.**
+>To be specific, **students use these apps to read news, join study groups, and talk with friends and family, which helps them feel supported and connected.** For instance, **a student might be in a WeChat group for homework help while also following teachers or experts on other apps, showing how it can be useful for both social life and learning.**
 >
->Another significant factor that supports my position is **the serious negative impact that excessive use can have on mental health and academic focus.**
+>Another significant factor that supports my position is **that spending too much time on social media can really hurt students' mental health and ability to focus on schoolwork.**
 >
->This can be seen in **how the curated, perfect lives displayed online can lead to social comparison, anxiety, and a "Fear of Missing Out," or FOMO. The endless scrolling is also a major distraction from deep work.** A clear example of this is **that numerous studies have shown a correlation between high social media usage and increased rates of depression. Also, many students find they've lost hours to apps like TikTok when they should have been studying.**
-
->[!note] 结果与反思（Results & Reflection）
->
->Looking at the broader implications, this trend/policy could lead to **a generation with shorter attention spans and potentially weaker face-to-face communication skills. The constant need for online validation could also negatively affect long-term self-esteem.**
->
->Of course, we should also acknowledge that **in today's world, a certain amount of social media engagement is almost necessary for networking, joining communities, and even for professional development.** However, this benefit seems less critical when compared to the problems I've mentioned.
+>This can be seen in **how seeing other people's "perfect" lives online makes many students feel bad about themselves and worry they're missing out on something. Also, scrolling through apps for hours stops them from focusing on important work.** A clear example of this is **that many studies show that students who use social media a lot are more likely to feel depressed. Plus, lots of students realize they've wasted hours on apps like TikTok when they should have been studying.**
 
 >[!note] 结尾与展望（Ending & Exhoration）
 >
->In conclusion, based on the analysis of **its role as a vital tool for connection** and **its serious risks to mental well-being and productivity**, I maintain my position that **for many students, the balance has tipped too far, where the excessive time spent online results in more harm than good.**
->
->Therefore, the path forward is not to simply accept or reject **social media**, but to **actively develop better 'digital wellness' habits. It is crucial that we focus on using these platforms more consciously, for example by setting time limits, and prioritizing real-life interactions.** It is crucial that we focus on maximizing its benefits while actively managing its risks.
+>In conclusion, based on the analysis of **social media's helpful role in keeping people connected** and **its serious harm to mental health and school performance**, I maintain my position that **most students are spending too much time online, and this is causing more problems than benefits.**
 
 <h2 id="topic_07"></h2>
 
@@ -149,67 +126,51 @@
 
 >[!note] 背景与观点（Context & Claim）
 >
->The issue of **the rising issue of depression among college students** has become a major point of discussion recently, reflecting a significant trend in our society.
+>The issue of **depression becoming more common among college students** has become a major point of discussion recently, reflecting a significant trend in our society.
 >
 >This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
 >
->After careful consideration, I believe that **this is a serious problem caused by multiple interwoven factors, and tackling it requires a combination of individual coping strategies and stronger institutional support from universities.**
+>After careful consideration, I believe that **this is a serious problem caused by many different reasons working together, and solving it requires both students learning to cope better and universities providing more support.**
 
 >[!note] 分析与论证（Analysis & Arguments）
 >
->The primary reason for my view is **the intense and unprecedented academic and career pressure that students face today.**
+>The primary reason for my view is **the huge stress from schoolwork and worrying about finding jobs after graduation.**
 >
->To be specific, **students are not only stressed about exams and maintaining a high GPA, but they also feel immense anxiety about finding a good job in a highly competitive market after graduation.** For instance, **a student might feel overwhelmed trying to balance difficult coursework with the pressure to secure internships, leading to burnout and feelings of hopelessness.**
+>To be specific, **students feel stressed not just about tests and getting good grades, but also about whether they can find a good job in today's tough job market.** For instance, **a student might feel completely overwhelmed trying to handle difficult classes while also trying to get internships, which can lead to feeling burned out and hopeless.**
 >
->Another significant factor that supports my position is **a growing sense of social isolation, which is often made worse by social media.**
+>Another significant factor that supports my position is **that many students feel lonely and disconnected from others, and social media often makes this worse.**
 >
->This can be seen in **how students, despite being digitally connected, may lack deep, meaningful real-life interactions. Social media often contributes to feelings of inadequacy through constant social comparison.** A clear example of this is **a student seeing curated, "perfect" lives of their peers online, which can make them feel like their own life is not good enough, contributing directly to depressive symptoms.**
-
->[!note] 结果与反思（Results & Reflection）
->
->Looking at the broader implications, this trend/policy could lead to **a generation of young adults entering the workforce with significant mental health challenges, affecting their long-term well-being, productivity, and placing a heavy burden on the public health system.**
->
->Of course, we should also acknowledge that **a certain amount of stress is a normal part of life and can even be a motivator for achievement. The problem isn't the existence of stress, but when it becomes chronic and overwhelming without adequate support.** However, this benefit seems less critical when compared to the problems I've mentioned.
+>This can be seen in **how students might have many online friends but lack close, real friendships in person. Social media makes students compare themselves to others all the time.** A clear example of this is **when students see other people's "perfect" lives online, they start feeling like their own life isn't good enough, which directly leads to feeling depressed.**
 
 >[!note] 结尾与展望（Ending & Exhoration）
 >
->In conclusion, based on the analysis of **the immense pressure from academics and career uncertainty** and **the growing sense of social isolation**, I maintain my position that **depression among students is a critical issue that demands a multi-faceted solution, combining both personal effort and strong institutional support.**
->
->Therefore, the path forward is not to simply accept or reject **this mental health challenge**, but to **encourage students to proactively seek help and practice self-care, while simultaneously calling on universities to invest more in accessible, non-stigmatized mental health services like counseling and wellness programs.** It is crucial that we focus on maximizing its benefits while actively managing its risks.
+>In conclusion, based on the analysis of **the huge pressure from school and job worries** and **the growing problem of loneliness**, I maintain my position that **depression among students is a serious problem that needs different types of solutions, including both students learning better ways to handle stress and schools providing more help.**
 
 <h2 id="topic_08"></h2>
 
-##### T8: While ChatGPT or DeepSeek is becoming increasingly popular these days, it also poses risks and challenges. What are the major challenges it will pose to the college students? Do you think it should be banned in colleges? Why?
+##### T8: While ChatGPT or DeepSeek is becoming increasingly popular these days, it also poses risks and challenges. What are the major challenges it will pose to the college students? Do you think it should be banned in colleges? Why?（大学生使用人工智能）
 
 >[!note] 背景与观点（Context & Claim）
 >
->The issue of **the use of powerful AI tools like ChatGPT and DeepSeek in colleges** has become a major point of discussion recently, reflecting a significant trend in our education system.
+>The issue of **students using AI tools like ChatGPT and DeepSeek in college** has become a major point of discussion recently, reflecting a significant trend in our education system.
 >
 >This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
 >
->After careful consideration, I believe that **these tools should not be banned, but instead must be carefully regulated and responsibly integrated into the curriculum.**
+>After careful consideration, I believe that **these tools should not be banned, but colleges need to make clear rules about how students can use them.**
 
 >[!note] 分析与论证（Analysis & Arguments）
 >
->The primary reason for my view is **that AI tools create serious problems for academic honesty and real learning.**
+>The primary reason for my view is **that AI tools can make students cheat and stop them from really learning.**
 >
->To be specific, **many students might use ChatGPT to write their essays or solve homework problems without actually understanding the material. This means they miss out on developing critical thinking and writing skills that are essential for their future careers.** For instance, **a student could submit a perfect-looking research paper written entirely by AI, but when they face a job interview or real work situation, they won't have the knowledge or skills they claimed to have.**
+>To be specific, **many students might ask ChatGPT to write their homework or essays instead of doing the work themselves. This means they don't actually learn how to think or write, which are very important skills for their jobs later.** For instance, **a student could turn in a great-looking paper that was completely written by AI, but when they go to job interviews or start working, they won't know how to do things properly.**
 >
->Another significant factor that supports my position is **that completely banning these tools would be unrealistic and actually harmful to students' future success.**
+>Another significant factor that supports my position is **that completely stopping students from using these tools would be impossible and would actually hurt their chances of success later.**
 >
->This can be seen in **how AI is becoming a normal part of many workplaces. Students need to learn how to use these tools properly and ethically, rather than being kept away from them completely.** A clear example of this is **that many companies now expect their employees to know how to work with AI tools effectively. If colleges ban them entirely, students will graduate unprepared for the modern workplace.**
-
->[!note] 结果与反思（Results & Reflection）
->
->Looking at the broader implications, this trend could lead to **a generation of students who either become overly dependent on AI without developing their own skills, or who are completely unprepared for a world where AI is everywhere.**
->
->Of course, we should also acknowledge that **AI tools can be incredibly helpful for learning when used correctly. They can help students understand difficult concepts, practice language skills, or get feedback on their ideas.** However, this benefit seems less critical when compared to the problems I've mentioned.
+>This can be seen in **how AI is now used in many workplaces. Students need to learn the right way to use these tools, not be kept away from them completely.** A clear example of this is **that many companies now expect their workers to know how to use AI tools well. If colleges ban them completely, students will finish school without knowing how to work in today's world.**
 
 >[!note] 结尾与展望（Ending & Exhoration）
 >
->In conclusion, based on the analysis of **the risks to academic integrity and genuine learning** and **the need to prepare students for an AI-integrated future**, I maintain my position that **the solution is not to ban these tools, but to teach students how to use them responsibly and appropriately.**
->
->Therefore, the path forward is not to simply accept or reject **AI in education**, but to **create clear guidelines about when and how students can use AI tools, while focusing on assignments that require original thinking and personal reflection that AI cannot replicate.** It is crucial that we focus on maximizing its benefits while actively managing its risks.
+>In conclusion, based on the analysis of **the danger of cheating and not learning properly** and **the need to prepare students for jobs that use AI**, I maintain my position that **the answer is not to ban these tools, but to teach students the right way to use them.**
 
 <h2 id="topic_09"></h2>
 
@@ -233,17 +194,9 @@
 >
 >This can be seen in **how people buy too many things they don't really need, use cars instead of walking or biking, and many factories still pollute water and air to save money.** A clear example of this is **that most people in my neighborhood drive cars even for very short trips, and many stores still give out plastic bags for everything, creating huge amounts of unnecessary waste.**
 
->[!note] 结果与反思（Results & Reflection）
->
->Looking at the broader implications, this trend could lead to **serious health problems for everyone, especially children and elderly people. Climate change will also make extreme weather more common, affecting food production and making life harder for future generations.**
->
->Of course, we should also acknowledge that **big companies and governments need to make the biggest changes, and individual efforts might seem small compared to industrial pollution.** However, this benefit seems less critical when compared to the problems I've mentioned.
-
 >[!note] 结尾与展望（Ending & Exhoration）
 >
 >In conclusion, based on the analysis of **the daily pollution I observe** and **the lifestyle choices that cause these problems**, I maintain my position that **we all have a responsibility to protect our environment, even if our individual actions seem small.**
->
->Therefore, the path forward is not to simply accept or reject **environmental responsibility**, but to **start with simple changes like using less plastic, walking or biking more, saving electricity at home, and properly sorting our garbage. We should also support businesses that care about the environment.** It is crucial that we focus on maximizing our positive impact while actively reducing our environmental footprint.
 
 <h2 id="topic_10"></h2>
 
@@ -267,17 +220,9 @@
 >
 >This can be seen in **how many successful online courses now include live video calls, group projects, and even occasional in-person meetings. Students can watch lectures at home but still meet with classmates for discussions.** A clear example of this is **that during COVID-19, the most effective schools didn't just move everything online - they found creative ways to mix online tools with real human interaction.**
 
->[!note] 结果与反思（Results & Reflection）
->
->Looking at the broader implications, this trend could lead to **a future where education becomes more flexible and accessible to people everywhere, but we still keep the valuable parts of campus life that help students grow as complete human beings.**
->
->Of course, we should also acknowledge that **online education has made learning much more convenient and affordable for many people who couldn't attend traditional colleges before.** However, this benefit seems less critical when compared to the problems I've mentioned.
-
 >[!note] 结尾与展望（Ending & Exhoration）
 >
 >In conclusion, based on the analysis of **the importance of human connections in learning** and **the success of combining online and offline methods**, I maintain my position that **the future of education lies in smart combination of both approaches rather than one completely replacing the other.**
->
->Therefore, the path forward is not to simply accept or reject **online education**, but to **use technology to make learning better while keeping the social and personal parts of traditional education that are so important for student development.** It is crucial that we focus on maximizing its benefits while actively managing its risks.
 
 <h2 id="topic_15"></h2>
 
@@ -285,33 +230,25 @@
 
 >[!note] 背景与观点（Context & Claim）
 >
->The issue of **the recent tariff war between the U.S. and China** has become a major point of discussion recently, reflecting a significant trend in global trade.
+>The issue of **the recent trade war between the U.S. and China** has become a major point of discussion recently, reflecting a significant trend in world trade.
 >
 >This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
 >
->After careful consideration, I believe that **this trade war is a counterproductive, lose-lose strategy that negatively impacts not only both countries' economies but also the stability of the entire global supply chain.**
+>After careful consideration, I believe that **this trade war is bad for everyone and hurts both countries' economies as well as businesses around the world.**
 
 >[!note] 分析与论证（Analysis & Arguments）
 >
->The primary reason for my view is **that tariffs ultimately hurt consumers in both countries by making everyday products more expensive.**
+>The primary reason for my view is **that these trade taxes make things more expensive for regular people in both countries.**
 >
->To be specific, **when the U.S. puts tariffs on Chinese goods, American companies and consumers end up paying higher prices for everything from electronics to clothing. Similarly, when China responds with its own tariffs, Chinese consumers face higher costs for American products.** For instance, **a smartphone that used to cost $500 might now cost $600 because of these tariffs, which means ordinary families have less money to spend on other things they need.**
+>To be specific, **when the U.S. puts extra taxes on Chinese products, American companies and people end up paying more money for things like phones, clothes, and household items. When China does the same thing back, Chinese people have to pay more for American products.** For instance, **a phone that used to cost $500 might now cost $600 because of these extra taxes, which means families have less money left over for other important things.**
 >
->Another significant factor that supports my position is **that this trade war disrupts the global supply chain that has been built over decades.**
+>Another significant factor that supports my position is **that this trade war messes up the way companies around the world work together.**
 >
->This can be seen in **how many companies rely on parts and materials from both countries to make their products. When tariffs make these materials more expensive, it affects businesses worldwide.** A clear example of this is **that a car company might use Chinese steel and American technology to build cars in Mexico. When tariffs increase costs, the company might have to raise prices or cut jobs, affecting workers in all three countries.**
-
->[!note] 结果与反思（Results & Reflection）
->
->Looking at the broader implications, this trend could lead to **a world where countries become more isolated economically, which could slow down global economic growth and make it harder for developing countries to improve their living standards.**
->
->Of course, we should also acknowledge that **some people argue that tariffs can protect local jobs and industries from unfair competition, and both countries might want to reduce their dependence on each other for important goods.** However, this benefit seems less critical when compared to the problems I've mentioned.
+>This can be seen in **how many companies need parts from both countries to make their products. When extra taxes make these parts cost more, it hurts businesses everywhere.** A clear example of this is **that a car company might use Chinese steel and American computer parts to build cars in Mexico. When taxes make everything more expensive, the company might have to charge more for cars or fire workers, which hurts people in all three countries.**
 
 >[!note] 结尾与展望（Ending & Exhoration）
 >
->In conclusion, based on the analysis of **the higher costs for consumers** and **the disruption to global business**, I maintain my position that **the tariff war creates more problems than it solves and hurts the economic interests of both nations.**
->
->Therefore, the path forward is not to simply accept or reject **these trade policies**, but to **find better ways for both countries to cooperate and solve their disagreements through dialogue and negotiation rather than economic punishment.** It is crucial that we focus on maximizing the benefits of trade while actively managing any unfair practices through diplomatic means.
+>In conclusion, based on the analysis of **higher prices for everyday people** and **problems for businesses worldwide**, I maintain my position that **the trade war creates more problems than it fixes and hurts both the U.S. and China.**
 
 <h2 id="topic_20"></h2>
 
@@ -319,33 +256,26 @@
 
 >[!note] 背景与观点（Context & Claim）
 >
->The issue of **the rapid development of Artificial Intelligence (AI)** has become a major point of discussion recently, reflecting a significant trend in our society and technology.
+>The issue of **Artificial Intelligence (AI) getting better and better** has become a major point of discussion recently, reflecting a significant trend in our society and technology.
 >
 >This topic is complex, with various viewpoints and potential impacts. It presents both clear opportunities and significant challenges.
 >
->After careful consideration, I believe that **AI is a powerful double-edged sword, and its development must be managed with great responsibility to maximize its benefits while actively mitigating its significant societal and ethical risks.**
+>After careful consideration, I believe that **AI has both good and bad sides, and we need to be very careful about how we use it to get the benefits while avoiding the problems.**
 
 >[!note] 分析与论证（Analysis & Arguments）
 >
->The primary reason for my view is **that AI brings amazing benefits that can improve many aspects of our daily lives.**
+>The primary reason for my view is **that AI can help us in many wonderful ways in our everyday lives.**
 >
->To be specific, **AI can help doctors diagnose diseases faster and more accurately, help students learn through personalized teaching programs, and make our work more efficient by handling routine tasks.** For instance, **AI translation tools like Google Translate have made it much easier for people from different countries to communicate, breaking down language barriers that existed for centuries.**
+>To be specific, **AI can help doctors find illnesses more quickly and correctly, help students learn better through programs that fit their needs, and make our work easier by doing boring tasks for us.** For instance, **AI translation apps like Google Translate have made it much easier for people who speak different languages to talk to each other, solving communication problems that existed for hundreds of years.**
 >
->Another significant factor that supports my position is **that AI also creates serious risks that we cannot ignore.**
+>Another significant factor that supports my position is **that AI also brings serious dangers that we must worry about.**
 >
->This can be seen in **how AI might replace many human jobs, leading to unemployment, and how it can be used to spread false information or invade people's privacy.** A clear example of this is **that deepfake technology can create fake videos of people saying things they never said, which could damage reputations or mislead the public during important events like elections.**
-
->[!note] 结果与反思（Results & Reflection）
->
->Looking at the broader implications, this trend could lead to **a future where AI either becomes a great tool that helps humanity solve major problems like climate change and poverty, or creates a society with massive inequality and loss of human control over important decisions.**
->
->Of course, we should also acknowledge that **many of the risks I mentioned are not guaranteed to happen, and with proper planning and regulation, we might be able to enjoy AI's benefits while avoiding most of its dangers.** However, this benefit seems less critical when compared to the problems I've mentioned.
+>This can be seen in **how AI might take away many people's jobs, causing them to lose work, and how bad people can use it to spread lies or spy on others.** A clear example of this is **that some AI can make fake videos of people saying things they never really said, which could hurt their reputation or trick people during important times like elections.**
 
 >[!note] 结尾与展望（Ending & Exhoration）
 >
->In conclusion, based on the analysis of **AI's incredible potential to improve our lives** and **its serious risks to employment and society**, I maintain my position that **AI development requires careful balance - we should embrace its benefits while being very careful about its risks.**
->
->Therefore, the path forward is not to simply accept or reject **AI technology**, but to **create strong rules and ethical guidelines for AI development, invest in retraining workers for new jobs, and ensure that AI serves humanity rather than replacing it.** It is crucial that we focus on maximizing its benefits while actively managing its risks.
+>In conclusion, based on the analysis of **AI's amazing ability to make our lives better** and **its serious dangers to jobs and society**, I maintain my position that **we need to be smart about AI - we should use its good parts while being very careful about the bad parts.**
+
 
 ### 个人经历与偏好描述类 (Personal Experience/Preference Description Questions)
 
@@ -463,52 +393,6 @@ To give you some context, **Jay Chou is famous for mixing modern music like R&B 
 >
 > The key lesson I learned from this is that **true innovation often comes from blending different ideas, and that you can be modern while still being proud of your own roots**. Ever since **listening to his music throughout the years**, I've tried to apply this idea to my own life by **being more creative and open-minded in my work. For example, when I approach a new project, I try to think about how I can combine different perspectives to create something unique**. It has truly shaped my perspective on **creativity and cultural identity**.
 
-<h2 id="topic_19"></h2>
-
-#### T19: How often do you feel stressed? How do you deal with stress?
-
-
-
-### 人物或公司介绍类 (Introduction of Person/Company Questions)
-
->[!tip] 描述
-> 这类题目要求介绍特定人物（如名人、运动员）或公司，重点描述其成就、贡献或策略。回答结构通常包括：背景介绍、关键成就/策略、社会影响、个人观点。适合模板：开头简要介绍 + 详细成就/策略（按时间或类别组织） + 贡献/影响 + 为什么值得敬佩或成功。
-
-**问题编号:** <a href="#topic_17">17</a>，<a href="#topic_18">18</a>
-
-#### 口语模板：P.A.I.R. 人物或公司介绍法
-
-> [!note] 简介与定位（Profile & Position）
->
-> The person/company I would like to introduce is **[在此处插入人名或公司名]**, a prominent figure/a leading company in the field of **[在此处插入领域，如: technology, sports, e-commerce]**.
->
-> They are widely recognized as **[一句话概括其核心身份或地位，如: a visionary entrepreneur, a dominant athlete, a disruptive innovator]**.
->
-> In my introduction, I will focus on their key achievements/strategies and the significant impact they have had on their industry and society at large.
-
-> [!note] 成就与行动（Achievements & Actions）
->
-> First, one of their most significant achievements is **[阐述关键成就或策略一]**.
->
-> To be specific, they successfully **[详细说明这个成就或策略的具体做法和过程]**. This move was groundbreaking at the time because **[解释其在当时为何具有突破性意义]**.
->
-> Second, they are also celebrated for **[阐述关键成就或策略二]**.
->
-> This involved **[详细说明这个成就或策略的具体做法和过程]**. As a direct result, they were able to **[解释该策略带来的直接成果，如: capture a new market, solve a major technical problem]**.
-
-> [!note] 影响与贡献（Impact & Influence）
->
-> The impact of **[人名/公司名]** extends far beyond their own success. Their work has fundamentally changed the landscape of the **[阐述其影响的行业]** industry.
->
-> Their primary contribution to society is **[总结其核心社会贡献，如: accelerating a technological shift, inspiring millions of people, creating a new business ecosystem]**. They have effectively shown that **[阐述其贡献所证明的道理或可能性]**.
-
-> [!note] 受认可原因（Reason for Recognition）
->
-> In conclusion, **[人名/公司名]** is more than just a successful person/company; they are a true game-changer in their domain.
->
-> What makes them so remarkable and worthy of admiration is their ability to **[总结其最值得敬佩的特质或能力，如: combine vision with execution, challenge the status quo, persevere through adversity]**. Their legacy is defined by **[一句话总结其最终的历史地位或影响]**, which is why they continue to be a subject of great interest and respect.
-
-
 <h2 id="topic_17"></h2>
 
 #### T17: Introduce a successful Chinese company. What are the business strategies that lead to its success? You can consider factors like management, marketing, finance, public relation, and more.
@@ -531,18 +415,9 @@ To give you some context, **Jay Chou is famous for mixing modern music like R&B 
 >
 > This involved **launching the "Rural Taobao" program, which set up service centers in small villages and trained local people to help villagers shop online and receive deliveries**. As a direct result, they were able to **bring millions of rural consumers into the digital economy and create new income opportunities for people in remote areas**.
 
-> [!note] 影响与贡献（Impact & Influence）
->
-> The impact of **Alibaba** extends far beyond their own success. Their work has fundamentally changed the landscape of the **global e-commerce** industry.
->
-> Their primary contribution to society is **democratizing commerce by making it possible for small businesses and individuals to reach customers worldwide through simple online tools**. They have effectively shown that **technology can create opportunities for everyone, not just big corporations, and that innovation can solve real social and economic problems**.
-
 > [!note] 受认可原因（Reason for Recognition）
 >
 > In conclusion, **Alibaba** is more than just a successful company; they are a true game-changer in their domain.
->
-> What makes them so remarkable and worthy of admiration is their ability to **combine technological innovation with deep understanding of social needs, always thinking about how to serve both businesses and consumers better**. Their legacy is defined by **their role in creating China's digital economy and proving that Chinese companies can lead global innovation**, which is why they continue to be a subject of great interest and respect.
-
 
 <h2 id="topic_18"></h2>
 
@@ -566,17 +441,9 @@ To give you some context, **Jay Chou is famous for mixing modern music like R&B 
 >
 > This involved **decades of persistent research under extremely difficult conditions, including testing the drug on herself to ensure its safety before clinical trials**. As a direct result, she was able to **bring international recognition to Chinese traditional medicine and demonstrate how ancient wisdom can be combined with modern scientific methods**.
 
-> [!note] 影响与贡献（Impact & Influence）
->
-> The impact of **Tu Youyou** extends far beyond her own success. Her work has fundamentally changed the landscape of the **global fight against malaria** industry.
->
-> Her primary contribution to society is **saving millions of lives worldwide, particularly in developing countries where malaria is most prevalent**. She has effectively shown that **traditional medicine, when properly researched and developed, can provide solutions to modern medical challenges and that scientific breakthroughs can come from unexpected sources**.
-
 > [!note] 受认可原因（Reason for Recognition）
 >
 > In conclusion, **Tu Youyou** is more than just a successful scientist; she is a true game-changer in her domain.
->
-> What makes her so remarkable and worthy of admiration is her ability to **combine respect for traditional knowledge with rigorous scientific methodology, and her unwavering dedication to finding solutions for humanity's health challenges**. Her legacy is defined by **her role in bridging Eastern and Western medicine and proving that scientific innovation can emerge from any cultural tradition**, which is why she continues to be a subject of great interest and respect.
 
 ### 演讲与说服类 (Persuasive Speech/Argument Questions)
 
@@ -637,49 +504,26 @@ To give you some context, **Jay Chou is famous for mixing modern music like R&B 
 >
 > This story shows **that when we help others succeed, we create a circle of opportunity that makes our whole society better**. It speaks to our feelings of **kindness, fairness, and caring about each other**.
 
-> [!note] 承认与回应（Acknowledgment & Answer）
->
-> Now, some people might say that **rich people already pay taxes and shouldn't be forced to give more money away**.
->
-> While I understand this worry, this way of thinking often forgets that **government programs alone can't solve all problems, and when rich people choose to help, they can often do it better and faster than the government**. In reality, **when wealthy people actively work to solve social problems, they help create the kind of society where everyone can do well**.
-
-> [!note] 决议与请求（Resolution & Request）
->
-> So, when we think about both the facts and the human side, the answer becomes clear: **a peaceful, happy society isn't just a nice dream - it's something we really need, and it requires help from people who have been successful**.
->
-> So, I ask each of us to **remember that real success isn't just about how much money we make, but about how much we help others**. Let's work together to **build a society where everyone shares in success, where all people get fair chances, and where everyone can reach their dreams**. Thank you.
-
 <h2 id="topic_16"></h2>
 
 ##### T16: South Korea is one of the largest markets for men's cosmetics. Some reports suggest that these Korean men use makeup in order to get ahead in job competitions. Should men apply makeup? Does makeup make men less masculine? What do you think?
 
 > [!note] 挂钩与标题（Hook & Headline）
 >
-> **What does it truly mean to be masculine in the 21st century - is it about rigid adherence to outdated stereotypes, or is it about the confidence to make choices that serve your goals and well-being**? This is a question that touches upon a core issue in our society today: **the evolving definitions of gender expression and personal freedom**.
+> **What does it really mean to be a man today - should men follow old rules about how they should look, or should they be free to make choices that help them succeed**? This is a question that touches upon a core issue in our society today: **how we think about what men and women should do**.
 >
-> Today, I want to share my perspective with you. I firmly believe that **men should absolutely have the freedom to use makeup if they choose to, and that doing so does not diminish their masculinity in any way - instead, it demonstrates confidence and adaptability in a changing world**.
+> Today, I want to share my thoughts with you. I firmly believe that **men should be free to use makeup if they want to, and this doesn't make them less manly - it shows they are confident and smart about adapting to the modern world**.
 
 > [!note] 证据与情感（Evidence & Emotion）
 >
-> Let's first look at the facts. The primary reason we should support this idea is that **throughout history, the standards of masculine appearance have constantly evolved, and makeup has often been part of men's grooming**.
+> Let's first look at the facts. The main reason we should support this idea is that **throughout history, ideas about how men should look have always changed, and makeup has often been normal for men**.
 >
-> For instance, research shows that **in ancient Egypt, both men and women wore makeup for protection and status. Even in recent history, male actors, musicians, and public figures have used makeup professionally. In South Korea, the male cosmetics industry is worth billions of dollars, proving this is not just a trend but a significant cultural shift**. This clearly demonstrates that **makeup use is not inherently gendered - it's simply a tool for personal presentation and self-care**.
+> For example, studies show that **in ancient Egypt, both men and women wore makeup for protection and to show their status. Even today, male actors, singers, and famous people use makeup for their work. In South Korea, men spend billions of dollars on cosmetics, showing this is not just a small trend but a big change in society**. This clearly shows that **makeup is not just for women - it's simply a tool to help people look and feel their best**.
 >
-> But this is not just about numbers and logic; it's about people and our shared values. Consider this story: **Imagine a young man preparing for his dream job interview. He has worked hard for years, but he's concerned about some acne scars that make him feel self-conscious. By using a little concealer, he walks into that interview feeling confident and focused on showcasing his skills rather than worrying about his appearance**.
+> But this is not just about facts and logic; it's about people and what we believe is right. Think about this story: **Imagine a young man getting ready for his dream job interview. He has worked hard for years, but he feels worried about some acne scars on his face. By using a little makeup to cover them, he walks into that interview feeling confident and can focus on showing his skills instead of worrying about how he looks**.
 >
-> This story illustrates **that makeup can be an empowering tool that helps people present their best selves to the world**. It appeals to our sense of **equality, personal freedom, and the right to make choices about our own bodies**.
+> This story shows **that makeup can help people feel more confident and present themselves better to the world**. It speaks to our feelings of **fairness, personal freedom, and the right to make choices about our own lives**.
 
-> [!note] 承认与回应（Acknowledgment & Answer）
->
-> Now, some people might argue that **men using makeup goes against traditional masculine values and could confuse gender roles in society**.
->
-> While I understand this concern, this viewpoint often overlooks the fact that **true masculinity should be about strength of character, integrity, and the courage to be authentic - not about following arbitrary rules about appearance. Moreover, some of the most traditionally "masculine" professions, like military and sports, regularly use face paint and grooming products**. In reality, **confident masculinity means being secure enough to make personal choices without fear of judgment**.
-
-> [!note] 决议与请求（Resolution & Request）
->
-> So, when we consider both the logical evidence and the human element, the conclusion becomes clear: **men's use of makeup is not a threat to masculinity - it's an expression of personal freedom and self-care that should be celebrated, not criticized**.
->
-> Therefore, I urge each of us to **challenge outdated stereotypes and support every individual's right to express themselves authentically, regardless of gender**. Let's work together to **create a society where people are judged by their character and abilities, not by whether their choices conform to arbitrary gender expectations**. Thank you.
 
 
 ### 创意设计与角色扮演类 (Creative Design/Role-play Questions)
@@ -729,12 +573,6 @@ To give you some context, **Jay Chou is famous for mixing modern music like R&B 
 >
 > The context is **that we have fewer young people to care for more elderly citizens, which creates both practical challenges and opportunities for innovation**, which means I need to **create a career that bridges this generational gap while leveraging my personal strengths**.
 
-> [!note] 任务与目标（Task & Target）
->
-> My specific goal in this situation is to **design a career that combines my passion for technology and education to create practical solutions for seniors while building intergenerational connections**.
->
-> To achieve this effectively, I would focus on **creating a "Digital Life Coach" service for seniors** while ensuring that **both elderly people gain practical skills and young people develop empathy and responsibility**.
-
 > [!note] 行动与应用（Action & Application）
 >
 > Here's exactly what I would do: **I would establish a service called "Tech Grandparents Academy" where I teach seniors how to use smartphones, social media, and digital payment systems through one-on-one sessions and small group classes**.
@@ -746,8 +584,6 @@ To give you some context, **Jay Chou is famous for mixing modern music like R&B 
 > [!note] 结果与反思（Result & Reflection）
 >
 > The expected outcome of this approach would be **that seniors become more independent and connected to the digital world, while young people develop patience, communication skills, and a deeper appreciation for older generations**.
->
-> What makes this solution particularly effective is that **it transforms the "burden" of an aging society into an opportunity for mutual learning and support. Instead of just providing care, we're creating a system where both generations benefit and contribute**. Through this experience, I would learn **that meaningful work comes from solving real social problems while using your unique talents**, which demonstrates **how individual careers can contribute to broader social harmony and progress**.
 
 <h2 id="topic_12"></h2>
 
@@ -759,11 +595,6 @@ To give you some context, **Jay Chou is famous for mixing modern music like R&B 
 >
 > The context is **that my friend thinks vaping is a harmless, trendy activity that makes them look cool**, which means I need to **share information that might change their perspective while maintaining a supportive, non-judgmental tone**.
 
-> [!note] 任务与目标（Task & Target）
->
-> My specific goal in this situation is to **help my friend make a more informed decision about vaping by sharing one compelling fact and offering one practical suggestion**.
->
-> To achieve this effectively, I would focus on **having a genuine, caring conversation rather than lecturing** while ensuring that **I respect their autonomy while expressing my concern as a friend**.
 
 > [!note] 行动与应用（Action & Application）
 >
@@ -776,8 +607,6 @@ To give you some context, **Jay Chou is famous for mixing modern music like R&B 
 > [!note] 结果与反思（Result & Reflection）
 >
 > The expected outcome of this approach would be **that my friend feels supported rather than judged, and they have concrete information to consider along with a practical way to assess their own usage**.
->
-> What makes this solution particularly effective is that **I'm offering facts without being condescending, and providing support rather than ultimatums. This approach respects their decision-making ability while expressing genuine care**. Through this experience, I would learn **that the most effective way to help friends make better choices is through honest conversation and ongoing support**, which demonstrates **how good friendships involve looking out for each other's long-term wellbeing, not just immediate happiness**.
 
 <h2 id="topic_13"></h2>
 
@@ -788,12 +617,6 @@ To give you some context, **Jay Chou is famous for mixing modern music like R&B 
 > Let me set the scene for you. In this scenario, I am **a student participating in my school's "10-Yuan Challenge"** facing **the challenge of planning an entire day's expenses with only 10 yuan to understand the value of money and budgeting**.
 >
 > The context is **that this exercise is designed to teach us practical money management skills and help us appreciate the importance of careful financial planning**, which means I need to **make strategic choices about how to allocate this limited budget while still meeting my basic needs**.
-
-> [!note] 任务与目标（Task & Target）
->
-> My specific goal in this situation is to **successfully navigate a full day using only 10 yuan while learning valuable lessons about prioritizing needs versus wants**.
->
-> To achieve this effectively, I would focus on **careful planning, smart choices, and creative solutions** while ensuring that **I meet my essential needs for food and transportation without overspending**.
 
 > [!note] 行动与应用（Action & Application）
 >
@@ -806,6 +629,8 @@ To give you some context, **Jay Chou is famous for mixing modern music like R&B 
 > [!note] 结果与反思（Result & Reflection）
 >
 > The expected outcome of this approach would be **that I successfully complete the challenge while gaining a deeper appreciation for careful budgeting and the value of money**.
->
-> What makes this solution particularly effective is that **it forces me to distinguish between needs and wants, and to find creative alternatives to expensive habits. It also shows me how much I normally spend without thinking**. Through this experience, I would learn **that living on a tight budget requires planning and creativity, but it's absolutely possible. It also made me more grateful for the financial security my family provides and more aware of how some people live with these constraints every day**, which demonstrates **how financial literacy and empathy are both essential life skills that will serve me well in the future**.
+
+<h2 id="topic_19"></h2>
+
+##### T19: How often do you feel stressed? How do you deal with stress?
 
