@@ -680,3 +680,132 @@ To give you some context, **Jay Chou is famous for mixing modern music like R&B 
 > So, when we consider both the logical evidence and the human element, the conclusion becomes clear: **men's use of makeup is not a threat to masculinity - it's an expression of personal freedom and self-care that should be celebrated, not criticized**.
 >
 > Therefore, I urge each of us to **challenge outdated stereotypes and support every individual's right to express themselves authentically, regardless of gender**. Let's work together to **create a society where people are judged by their character and abilities, not by whether their choices conform to arbitrary gender expectations**. Thank you.
+
+
+### 创意设计与角色扮演类 (Creative Design/Role-play Questions)
+
+>[!tip] 描述
+> 这类题目要求进行创意设计、角色扮演或模拟场景对话。回答结构通常包括：设定背景、具体设计/对话内容、解释选择原因、总结效果。适合模板：情境设定 + 详细方案/对话 + 理由分析 + 预期结果。
+
+**问题编号:** <a href="#topic_11">11</a>，<a href="#topic_12">12</a>，<a href="#topic_13">13</a>
+
+#### 口语模板：S.T.A.R. 创意设计与角色扮演法
+
+> [!note] 情境设定（Situation & Setting）
+>
+> Let me set the scene for you. In this scenario, I am **[描述你的角色或身份]** facing **[描述具体情境或挑战]**.
+>
+> The context is **[提供必要的背景信息]**, which means I need to **[明确你要解决的问题或要达成的目标]**.
+
+> [!note] 任务与目标（Task & Target）
+>
+> My specific goal/task in this situation is to **[明确描述你的具体任务或目标]**.
+>
+> To achieve this effectively, I would focus on **[概述你的主要策略或方法]** while ensuring that **[提到你需要考虑的重要因素]**.
+
+> [!note] 行动与应用（Action & Application）
+>
+> Here's exactly what I would do: **[详细描述你的具体行动计划、设计方案或对话内容]**.
+>
+> Specifically, I would **[详细展开第一个具体行动]**. For example, **[给出具体例子说明]**.
+>
+> Additionally, I would **[详细展开第二个具体行动]**. This would involve **[进一步说明具体做法]**.
+
+> [!note] 结果与反思（Result & Reflection）
+>
+> The expected outcome of this approach would be **[描述预期的积极结果]**.
+>
+> What makes this solution/approach particularly effective is that **[解释为什么你的方法会成功]**. Through this experience, I would learn **[总结个人收获或启发]**, which demonstrates **[联系到更广泛的意义或价值]**.
+
+#### 具体文案
+
+<h2 id="topic_11"></h2>
+
+##### T11: Imagine designing your ideal career in a world where fewer young workers support more elderly. How would you shape a dream job that brings practical solutions and joy to aging communities? You should: Describe one concrete way your job assists seniors, Explain how it helps both elderly people and younger generations, Connect it to your unique skill/hobby
+
+> [!note] 情境设定（Situation & Setting）
+>
+> Let me set the scene for you. In this scenario, I am **a social entrepreneur designing my ideal career in a society facing rapid population aging** facing **the challenge of creating meaningful connections and support between generations**.
+>
+> The context is **that we have fewer young people to care for more elderly citizens, which creates both practical challenges and opportunities for innovation**, which means I need to **create a career that bridges this generational gap while leveraging my personal strengths**.
+
+> [!note] 任务与目标（Task & Target）
+>
+> My specific goal in this situation is to **design a career that combines my passion for technology and education to create practical solutions for seniors while building intergenerational connections**.
+>
+> To achieve this effectively, I would focus on **creating a "Digital Life Coach" service for seniors** while ensuring that **both elderly people gain practical skills and young people develop empathy and responsibility**.
+
+> [!note] 行动与应用（Action & Application）
+>
+> Here's exactly what I would do: **I would establish a service called "Tech Grandparents Academy" where I teach seniors how to use smartphones, social media, and digital payment systems through one-on-one sessions and small group classes**.
+>
+> Specifically, I would **visit seniors in their homes or community centers to provide personalized tech training. I'd help them video call their grandchildren, order groceries online, and access telehealth services**. For example, **I might spend an afternoon teaching Mrs. Wang how to use WeChat to stay connected with her family abroad, or help Mr. Li set up online banking so he can manage his finances independently**.
+>
+> Additionally, I would **create an intergenerational mentorship program where young volunteers assist with the teaching while learning life skills and wisdom from the seniors**. This would involve **pairing each senior with a young "tech buddy" who provides ongoing support while the senior shares their life experiences and practical knowledge**.
+
+> [!note] 结果与反思（Result & Reflection）
+>
+> The expected outcome of this approach would be **that seniors become more independent and connected to the digital world, while young people develop patience, communication skills, and a deeper appreciation for older generations**.
+>
+> What makes this solution particularly effective is that **it transforms the "burden" of an aging society into an opportunity for mutual learning and support. Instead of just providing care, we're creating a system where both generations benefit and contribute**. Through this experience, I would learn **that meaningful work comes from solving real social problems while using your unique talents**, which demonstrates **how individual careers can contribute to broader social harmony and progress**.
+
+<h2 id="topic_12"></h2>
+
+##### T12: Role-play: You're talking to a friend who thinks vaping is cool. Share one fact and one suggestion to help them think differently.
+
+> [!note] 情境设定（Situation & Setting）
+>
+> Let me set the scene for you. In this scenario, I am **talking to my close friend who has recently started vaping** facing **the delicate challenge of expressing concern without being preachy or damaging our friendship**.
+>
+> The context is **that my friend thinks vaping is a harmless, trendy activity that makes them look cool**, which means I need to **share information that might change their perspective while maintaining a supportive, non-judgmental tone**.
+
+> [!note] 任务与目标（Task & Target）
+>
+> My specific goal in this situation is to **help my friend make a more informed decision about vaping by sharing one compelling fact and offering one practical suggestion**.
+>
+> To achieve this effectively, I would focus on **having a genuine, caring conversation rather than lecturing** while ensuring that **I respect their autonomy while expressing my concern as a friend**.
+
+> [!note] 行动与应用（Action & Application）
+>
+> Here's exactly what I would say: **"Hey, I know you've been vaping recently, and I'm not here to lecture you - I just care about you and wanted to share something I learned. Did you know that one vape pod can contain as much nicotine as an entire pack of cigarettes? I was really surprised when I found that out because vaping is marketed as being so much 'lighter' than smoking."**
+>
+> Specifically, I would **continue with genuine concern: "I totally get that it seems less harmful and way more socially acceptable, but the nicotine addiction can develop just as quickly. I've seen some of our classmates who started vaping casually but now feel like they need it to get through the day."**
+>
+> Additionally, I would **offer a practical suggestion: "I'm not asking you to quit immediately, but maybe you could try keeping track of how often you vape for a week? Just to see if it's becoming more of a habit than you realized. And if you ever want to try cutting back, I'd be happy to hang out more often as a distraction - we could go to the gym or try that new coffee shop instead."**
+
+> [!note] 结果与反思（Result & Reflection）
+>
+> The expected outcome of this approach would be **that my friend feels supported rather than judged, and they have concrete information to consider along with a practical way to assess their own usage**.
+>
+> What makes this solution particularly effective is that **I'm offering facts without being condescending, and providing support rather than ultimatums. This approach respects their decision-making ability while expressing genuine care**. Through this experience, I would learn **that the most effective way to help friends make better choices is through honest conversation and ongoing support**, which demonstrates **how good friendships involve looking out for each other's long-term wellbeing, not just immediate happiness**.
+
+<h2 id="topic_13"></h2>
+
+##### T13: Your school has launched a "10-Yuan Challenge" to improve money management skills. As a participant, plan your day using only 10 yuan and share your reflections.
+
+> [!note] 情境设定（Situation & Setting）
+>
+> Let me set the scene for you. In this scenario, I am **a student participating in my school's "10-Yuan Challenge"** facing **the challenge of planning an entire day's expenses with only 10 yuan to understand the value of money and budgeting**.
+>
+> The context is **that this exercise is designed to teach us practical money management skills and help us appreciate the importance of careful financial planning**, which means I need to **make strategic choices about how to allocate this limited budget while still meeting my basic needs**.
+
+> [!note] 任务与目标（Task & Target）
+>
+> My specific goal in this situation is to **successfully navigate a full day using only 10 yuan while learning valuable lessons about prioritizing needs versus wants**.
+>
+> To achieve this effectively, I would focus on **careful planning, smart choices, and creative solutions** while ensuring that **I meet my essential needs for food and transportation without overspending**.
+
+> [!note] 行动与应用（Action & Application）
+>
+> Here's exactly what I would do: **I would start by making a priority list and budget plan. My essential needs are: breakfast (2 yuan for steamed buns), lunch (4 yuan for a simple meal in the school cafeteria), and bus fare home (2 yuan), leaving me with 2 yuan for unexpected expenses or a small snack**.
+>
+> Specifically, I would **skip my usual morning coffee shop visit and bring water from home instead of buying drinks. For lunch, I'd choose the most economical option in the cafeteria rather than my preferred meal**. For example, **instead of my usual 8-yuan lunch combo, I'd get plain rice with one vegetable dish for 4 yuan, and I'd walk to school instead of taking the bus there to save 2 yuan**.
+>
+> Additionally, I would **use creative strategies like borrowing a book from the library instead of buying magazines, and meeting friends at the park instead of going to a café**. This would involve **finding free or low-cost entertainment options and discovering that many enjoyable activities don't require spending money**.
+
+> [!note] 结果与反思（Result & Reflection）
+>
+> The expected outcome of this approach would be **that I successfully complete the challenge while gaining a deeper appreciation for careful budgeting and the value of money**.
+>
+> What makes this solution particularly effective is that **it forces me to distinguish between needs and wants, and to find creative alternatives to expensive habits. It also shows me how much I normally spend without thinking**. Through this experience, I would learn **that living on a tight budget requires planning and creativity, but it's absolutely possible. It also made me more grateful for the financial security my family provides and more aware of how some people live with these constraints every day**, which demonstrates **how financial literacy and empathy are both essential life skills that will serve me well in the future**.
+
