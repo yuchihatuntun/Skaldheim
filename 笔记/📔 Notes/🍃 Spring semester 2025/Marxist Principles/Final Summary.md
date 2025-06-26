@@ -1,3 +1,5 @@
+![alt text](wallhaven-nmzjv9_2560x1440.png)
+
 ### 导论
 
 #### 什么是马克思主义
