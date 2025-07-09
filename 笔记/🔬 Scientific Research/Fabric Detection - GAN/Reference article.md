@@ -1,3 +1,4 @@
+![alt text](image-5.png)
 
 ### 关于布匹瑕疵检测的GAN或者扩散模型
 
