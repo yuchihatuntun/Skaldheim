@@ -250,5 +250,91 @@ GAN生成的是带有逼真瑕疵的“图像数据”，这种数据可以被�
 
     如果工厂中出现了一种全新的瑕疵类型，这套GAN系统无法生成这种新类型瑕疵。用“已知的瑕疵类型+新的背景”数据来微调模型，是否会反而让模型对真正“未知的瑕疵类型”检测能力下降（即产生过拟合）？
 
-#### Fabric Defect Segmentation System Based on a Lightweight GAN for Industrial Internet of Things
+#### GAN-based Defect Synthesis for Anomaly Detection in Fabrics（基于GAN的缺陷合成用于织物异常检测）
 
+| 属性 | 内容 |
+|------|------|
+| 领域 | 计算机视觉 (Computer Vision)<br>异常检测 (Anomaly Detection)<br>图像到图像翻译 (Image-to-Image Translation)<br>缺陷合成 (Defect Synthesis) |
+| 期刊/会议 | 2020 25th International Conference on Pattern Recognition (ICPR) |
+| 发表年份 | 2020 |
+
+#### Open-Set Fabric Defect Detection With Defect Generation and Transfer（结合缺陷生成与迁移的开放集织物缺陷检测）
+
+| 属性 | 内容 |
+|------|------|
+| 领域 | 织物缺陷检测 (Fabric Defect Detection)<br>缺陷生成与迁移 (Defect Generation and Transfer)<br>开放集识别 (Open-Set Recognition)<br>计算机视觉 (Computer Vision) |
+| 期刊/会议 | IEEE TRANSACTIONS ON INSTRUMENTATION AND MEASUREMENT (TIM) |
+| 发表年份 | 2025 |
+
+##### 实现逻辑
+
+论文提出DGT-DIS-DFC三模块架构：
+
+**1. 缺陷生成与迁移(DGT模块)**
+- **输入**：少量真实缺陷样本 + 大量正常布料
+- **核心机制**：通过条件编码控制生成
+    - 前景编码：$\tilde{E}_{fore}^i = w_d(G(k_d) \odot (M^i \otimes E_{fore}^i))$ 
+    - 背景编码：$\tilde{E}_{back}^i = w_n(G(k_n) \odot (M^i \otimes E_{back}^i))$
+    - 生成器输入：$\hat{X}^i = [\tilde{E}_{fore}^i, \tilde{E}_{back}^i, N^i]$
+- **输出**：大量逼真的合成缺陷样本
+
+**2. 缺陷检测(DIS模块)**  
+- **架构**：U-Net编码-解码结构
+- **检测原理**：对比原始图像与重建图像差异定位缺陷
+- **输出**：像素级缺陷热力图
+
+**3. 缺陷分类(DFC模块)**
+- **创新**：基于韦伯分布建模已知缺陷类别特征
+- **开放集机制**：计算测试样本与各类特征匹配度，低匹配度判定为未知缺陷
+- **输出**：已知类型分类结果或未知缺陷报警
+
+1. **输入编码 (Input Encoding)**
+
+为了实现可控的、高质量的缺陷生成，DGT模块首先对输入信息进行精细的编码：
+
+- **前景缺陷编码 ($E_{fore}$)**：为了表征缺陷的类型信息，系统为每种已知的缺陷类型分配一个标签向量 $y^i \in \mathbb{R}^{1 \times S}$。该向量被扩展成一个 $H \times W$ 的矩阵，从而构成前景缺陷编码 $E_{fore}^i \in \mathbb{R}^{H \times W \times S}$，它携带了缺陷的类别语义。
+
+- **背景纹理编码 ($E_{back}$)**：为了表征背景，使用一个所有值均为1的矩阵作为背景法线编码 $E_{back}^i \in \mathbb{R}^{H \times W \times 1}$。
+
+- **位置与形状注入**：为了控制生成缺陷的位置和形状，系统引入了一个二值缺陷掩码 (Mask) $M^i$。通过哈达玛积 (Hadamard product, $\otimes$)，将掩码信息分别注入到前景和背景编码中：
+  $$
+  \hat{E}_{fore}^i = M^i \otimes E_{fore}^i 
+  $$
+  $$
+  \hat{E}_{back}^i = M^i \otimes E_{back}^i 
+  $$
+
+- **平滑过渡处理**：为了使生成的缺陷与背景之间过渡自然，系统采用随机高斯滤波 (stochastic Gaussian filtering, $\odot$) 对编码进行平滑处理：
+  $$
+  \tilde{E}_{fore}^i = w_d(G(k_d) \odot \hat{E}_{fore}^i)
+  $$
+  $$
+  \tilde{E}_{back}^i = w_n(G(k_n) \odot \hat{E}_{back}^i)
+  $$
+  其中 $w_d$ 和 $w_n$ 是随机权重参数。
+
+- **最终生成器输入**：将处理后的前景编码、背景编码与一张无瑕疵图像 $N^i$ 在通道维度上进行拼接 (concatenate)，构成生成器 G 的最终输入 $\hat{X}^i \in \mathbb{R}^{H \times W \times (S+1+3)}$。
+
+2. **生成器 (Generator, G) 的设计与优化**
+
+- **架构**：生成器 G 采用**编码器-解码器 (encoder-decoder)** 结构，并引入**跳跃连接 (skip connections)**，以在生成图像时同时保留背景纹理的细节信息和高级语义信息。
+
+- **损失函数**：生成器的优化目标 $\mathcal{L}_G$ 是一个包含多个部分的复合损失函数。
+
+  1. **像素重构损失**：使用 $L_1$ 范数来约束生成图像 $X_{fake}^i$ 的前景、背景和混合区域，使其与真实图像 $D^i$ 和无瑕疵图像 $N^i$ 保持一致。
+  $$
+  \mathcal{L}_{fore}^{con} = \| [cite_{start}] X_{fake}^i - D^i \otimes \tilde{E}_{fore}^i \|_1 
+  $$
+  $$
+  \mathcal{L}_{back}^{con} = \| [cite_{start}] X_{fake}^i - N^i \otimes (1 - \tilde{E}_{fore}^i) \|_1 
+  $$
+  $$
+  \mathcal{L}_{mix} = \| [cite_{start}] X_{fake}^i - ((D^i \otimes \tilde{E}_{fore}^i) + N^i \otimes (1 - \tilde{E}_{fore}^i))(1 - \tilde{E}_{back}^i) + N^i \otimes \tilde{E}_{back}^i \|_1 
+  $$
+
+  2. **下游任务损失**：这是该框架的一个关键创新。生成器的优化不仅依赖于像素保真度，还受到下游DIS和DFC模块的监督。具体来说，来自DIS模块的分割损失 ($\mathcal{L}_{fake}^{seg}, \mathcal{L}_{real\_fore}^{seg}, \mathcal{L}_{real\_back}^{seg}$) 和来自DFC模块的分类损失 ($\mathcal{L}_{fake}^{cls}, \mathcal{L}_{real}^{cls}$) 被反向传播回来，共同优化生成器 G。这确保了G生成的样本不仅“看起来真”，而且对下游的分割和分类任务是“有用的”。
+
+  3. **总损失**：生成器的总损失是上述所有损失的加权和：
+  $$
+  \mathcal{L}_G = \alpha_1 \mathcal{L}_{fore}^{con} + \alpha_2 \mathcal{L}_{back}^{con} + \alpha_3 \mathcal{L}_{mix} + \alpha_4 \mathcal{L}_{fake}^{seg} + \alpha_5 \mathcal{L}_{real\_fore}^{seg} + \alpha_6 \mathcal{L}_{real\_back}^{seg} + \alpha_7 \mathcal{L}_{fake}^{cls} + \alpha_8 \mathcal{L}_{real}^{cls}
+  $$
