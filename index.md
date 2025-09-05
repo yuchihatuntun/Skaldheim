@@ -10,7 +10,7 @@ hero:               # 定义英雄/横幅区域
   text: ようこそ！にゃんぱす～♪   # 英雄区域的主要文本
   tagline: Ciallo～(∠・ω< )⌒★    # 英雄区域的标语
   image:            # 英雄区域的图片设置
-    src: /logo.gif  # 图片源路径
+    src: /cover.svg  # 图片源路径
     alt: Vitest     # 图片替代文本
   actions:          # 英雄区域的按钮动作
     - theme: brand  # 第一个按钮使用品牌主题
