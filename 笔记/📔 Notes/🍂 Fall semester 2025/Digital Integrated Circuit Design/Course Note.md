@@ -295,3 +295,10 @@ $$ V_T = \phi_{ms} - 2\phi_F - \frac{Q_B}{C_{ox}} - \frac{Q_{SS}}{C_{ox}} - \fra
     $$
     （$\phi_{ms}$ 为金属 - 半导体功函数差，$\phi_F$ 为费米电势，$Q_{B0}$ 为零衬偏时耗尽区电荷，$Q_{SS}$ 为氧化层表面电荷，$Q_I$ 为注入电荷）。
 
+ ---
+ 以下为B站视频[【西电】 数字集成电路](https://www.bilibili.com/video/BV1gE41137qD/?spm_id_from=333.337.search-card.all.click)课程笔记
+ 
+### 集成电路技术概述
+
+#### CMOS反相器
+
