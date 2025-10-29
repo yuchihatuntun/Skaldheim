@@ -40,3 +40,8 @@
 
 
 
+```bash
+python -m src.main --config configs/models/qwen/Qwen2-VL-2B-Instruct.yaml --device cuda --debug
+```
+
+
