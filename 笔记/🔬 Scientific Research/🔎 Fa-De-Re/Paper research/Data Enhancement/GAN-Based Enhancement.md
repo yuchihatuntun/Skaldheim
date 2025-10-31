@@ -15,8 +15,6 @@
 
 论文最创新的部分。他们不满足于仅仅检测已知的瑕疵，而是要**让模型能适应全新的布料**，旨在合成更多具有不同纹理（即背景）的有缺陷样本。因此，这些合成的有缺陷样本可被视为检测模型的额外训练样本，以进一步提高其性能。
 
-![alt text](image-1.png)
-
 具体来说，就是用一个GAN来“伪造”带有瑕疵的新布料图片，然后把这些伪造的图片喂给第一部分的检测网络，对其进行**微调 (Fine-tuning)**，让它获得识别新布料上瑕疵的能力 。
 
 论文的三阶段实现逻辑：
@@ -69,63 +67,11 @@ $$\min_G \max_D V(D, G) = \mathbb{E}_{x \sim p_{data}}[\log D(x)] + \mathbb{E}_{
 
 ###### PyTorch实现示例
 
-```python
-import torch
-import torch.nn as nn
-import torch.optim as optim
-
-# 定义损失函数
-criterion = nn.BCELoss()  # Binary Cross Entropy Loss
-
-# 优化器
-optimizer_D = optim.Adam(discriminator.parameters(), lr=0.0002, betas=(0.5, 0.999))
-optimizer_G = optim.Adam(generator.parameters(), lr=0.0002, betas=(0.5, 0.999))
-
-# 训练循环
-for epoch in range(num_epochs):
-    for i, (real_images, _) in enumerate(dataloader):
-        batch_size = real_images.size(0)
-        
-        # 创建标签
-        real_labels = torch.ones(batch_size, 1)   # 真实图像标签 = 1
-        fake_labels = torch.zeros(batch_size, 1)  # 生成图像标签 = 0
-        
-        # ============= 训练判别器 =============
-        optimizer_D.zero_grad()
-        
-        # 计算真实图像的损失: log(D(x))
-        outputs_real = discriminator(real_images)
-        d_loss_real = criterion(outputs_real, real_labels)
-        
-        # 生成假图像
-        noise = torch.randn(batch_size, latent_dim)
-        fake_images = generator(noise)
-        
-        # 计算生成图像的损失: log(1-D(G(z)))
-        outputs_fake = discriminator(fake_images.detach())  # detach()防止梯度传播到G
-        d_loss_fake = criterion(outputs_fake, fake_labels)
-        
-        # 判别器总损失
-        d_loss = d_loss_real + d_loss_fake
-        d_loss.backward()
-        optimizer_D.step()
-        
-        # ============= 训练生成器 =============
-        optimizer_G.zero_grad()
-        
-        # 生成器希望判别器将假图像判定为真
-        outputs_fake = discriminator(fake_images)
-        g_loss = criterion(outputs_fake, real_labels)  # 注意这里用real_labels!
-        
-        g_loss.backward()
-        optimizer_G.step()
-```
-
 ##### 多阶段GAN
 
 ###### 阶段一：基于cGAN的纹理条件化瑕疵生成
 
-![alt text](image.png)
+
 
 该阶段的核心目标是学习一个条件概率分布 (conditional probability distribution) $p(\text{defect}|\text{texture})$。换言之，我们不寻求生成任意的、随机的瑕疵，而是期望根据输入的一个具体布料纹理（texture），**生成一个在视觉上与该纹理相匹配的瑕疵（defect）**。为此，系统采用了一个条件生成对抗网络 (Conditional GAN, **cGAN**)。
 
@@ -163,7 +109,7 @@ $$
 
 ###### 阶段二：基于对抗性学习的瑕疵融合网络
 
-![alt text](image-2.png)
+
 
 在阶段一生成了与特定纹理风格相匹配的、独立的瑕疵块之后，若直接将其通过简单的图像叠加（如“剪切-粘贴”）方式放置于无瑕疵的布料图像上，会产生明显的边缘伪影和不自然的过渡，无法生成用于训练的高保真样本 。阶段二的目标就是解决这个问题，通过一个专门设计的**瑕疵融合网络 (Defect-fusing Network)**，记为**T**，将生成的瑕疵无缝地、逼真地融入到目标背景中 。
 
@@ -206,8 +152,6 @@ $$
 
 在简单纹理布料上获得显著优势：
 
-![alt text](image-3.png)
-
 | 缺陷类型 | 本文方法(F-measure) | FCSDA[11] | NCSR[9] | FFT[7] |
 | --- | --- | --- | --- | --- |
 | 色斑 | 98.0% | 92.0% | 83.0% | 78.4% |
@@ -217,8 +161,6 @@ $$
 | 平均 | 96.2% | 91.9% | 82.6% | 75.0% |
 
 在复杂纹理上，展现独特优势：
-
-![alt text](image-4.png)
 
 | 缺陷类型 | 本文方法(F-measure) | 对比方法 |
 | --- | --- | --- |
@@ -411,8 +353,6 @@ DefectFill 的实现逻辑分为两步：
 - **修复模型**：修复模型在LDM的基础上，额外接收一个掩码（mask）$\mathbf{M}$ 和被掩码处理过的背景图像 (background image) $\mathbf{B}$ 作为输入。这些信息被拼接后送入U-Net，引导模型仅在掩码指定的区域内生成内容，同时保持背景不变。
 
 DefectFill 的精髓在于它如何微调这个预训练的修复模型，使其学会一个特定的 **“缺陷概念”**，并将其与一个特殊的文本标记（token）$[V*]$ 关联起来。为了实现这一点，作者设计了一个由三个部分组成的复合损失函数：
-
-![alt text](image-6.png)
 
 **缺陷损失** ($\mathcal{L}_{def}$)
 
