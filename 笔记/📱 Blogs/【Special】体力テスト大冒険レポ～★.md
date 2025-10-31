@@ -41,7 +41,10 @@
 
 
 ```bash
-python -m src.main --config configs/models/qwen/Qwen2-VL-2B-Instruct.yaml --device cuda --debug
+python src/main.py --config configs/models/qwen/Qwen2-VL-7B-Instruct.yaml --log-named-modules
 ```
 
 
+```bash
+python -m src.main -a qwen -m Qwen/Qwen2-VL-7B-Instruct -l
+```
