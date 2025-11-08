@@ -1857,6 +1857,81 @@ JNE ERR           ; 未找到则跳转到 ERR
 ##### 处理器控制类 (Processor Control)
 
 
+### 拓展章节 -- 指令
+
+
+#### C, assembly, machine code
+
+C语言项目是**模块化 (Modular)** 的，其源代码被分离在两个不同的`.c`文件中。
+
+```bash
+gcc -Og p1.c p2.c -o p
+```
+
+- `gcc`: `gcc` (GNU Compiler Collection) 并非一个单一的程序，而是作为一个**工具链驱动程序 (Toolchain Driver)**。它的职责是根据输入文件类型和命令行标志，依次调用<span style="background:rgba(74, 82, 199, 0.2)">编译、汇编、链接</span>等一系列后台工具。
+    
+- `-Og`: **优化级别 (Optimization Level)** 标志。指示编译器 (`cc1`) 启用基础的优化，同时保证生成的代码易于调试 (debuggable)_。
+    
+- `-o p`: **输出 (output)** 标志，指定**最终链接产物**的名称为`p`。
+
+##### 编译流程 (Compilation Pipeline)
+
+###### 阶段 1: C 程序 (Source Code)
+
+- **输入**: `C program (p1.c p2.c)`
+    
+- **格式**: `text` (人类可读的ASCII/UTF-8文本)。
+    
+- **描述**: **高级语言源程序**，包含了用C语言语法定义的抽象逻辑、函数和变量。
+    
+- **处理工具**: **Compiler (编译器)**，在`gcc`工具链中通常是`cc1`程序。
+    
+- **操作**: 编译器执行**词法分析**、**语法分析**、**语义分析**，并根据`-Og`标志进行**优化**。将高级的C语言结构（如`if`, `while`, `for`）“翻译”成特定目标架构（例如x86-64）的**汇编语言**。
+
+###### 阶段 2: 汇编程序 (Assembly Program)
+
+- **输出**: `Asm program (p1.s p2.s)`
+    
+- **格式**: `text` (人类可读的文本)。
+    
+- **描述**: C程序的**汇编语言表示**。它由**指令助记符 (Mnemonics)**（如`MOV`, `ADD`, `CALL`）、**寄存器 (Registers)**（如`%rax`, `%rdi`）和**伪指令 (Pseudo-instructions)**（如`.data`, `.text`）组成。
+    
+- **处理工具**: **Assembler (汇编器)**，在`gcc`工具链中是`as`程序。
+    
+- **操作**: 将`.s`文件中的文本助记符**一一对应**地翻译成其二进制的**机器码 (Machine Code)**。
+
+###### 阶段 3: 目标程序 (Object Program)
+
+- **输出**: `Object program (p1.o p2.o)`
+    
+- **格式**: `binary` (二进制，非人类可读)。
+    
+- **描述**: 这是**可重定位的目标文件 (Relocatable Object File)**。
+    
+    - 包含了已翻译的二进制机器码，但代码是**不完整**的。
+        
+    - **可重定位 (Relocatable)**: 目标文件中的地址是**相对地址**，它并不知道自己将被加载到内存的哪个绝对地址。
+        
+    - **符号表 (Symbol Table)**: 包含一个符号表，列出了此文件**定义 (Define)** 的全局函数和变量（例如`p1.o`定义了`main`），以及它**引用 (Reference)** 但未定义的外部符号（例如`p1.o`引用了`printf`）。
+        
+    - **重定位表 (Relocation Table)**: 它记录了代码中所有需要“修复”的地址引用（如对`printf`的`CALL`指令）。
+        
+- **处理工具**: **Linker (链接器)**，在`gcc`工具链中是`ld`程序。
+
+###### 阶段 4: 可执行程序 (Executable Program)
+
+- **输出**: `Executable program (p)` (在Linux上是**ELF**格式，Windows上是**PE**格式)。
+    
+- **格式**: `binary` (二进制)。
+    
+- **描述**: **完整的、可直接执行**的程序映像。链接器`ld`执行了两个关键操作来生成它：
+    
+    1. **符号解析 (Symbol Resolution)**: 链接器扫描所有输入的`.o`文件。当它在`p1.o`中看到对`printf`的引用时，它会去查找`printf`的定义。
+        
+    2. **静态链接 (Static Linking)**: 如流程图所示，链接器在`Static libraries (.a)`（静态库，如 `libc.a`）中找到了`printf`的定义。它将`printf`的`.o`模块（以及`printf`所依赖的所有其他模块）从库中**复制**到最终的`p`文件中。
+        
+    3. **重定位 (Relocation)**: 链接器将`p1.o`, `p2.o`以及从库中提取的所有模块合并，并为它们分配**虚拟内存地址**。然后，它遍历重定位表，将代码中所有不确定的地址（如`CALL printf`）“修补”为`printf`在可执行文件中的**最终绝对地址**。
+
 ### 第四章 汇编语言程序设计
 
 #### 汇编语言概述

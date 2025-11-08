@@ -41,10 +41,20 @@
 
 
 ```bash
-python src/main.py --config configs/models/qwen/Qwen2-VL-7B-Instruct.yaml --log-named-modules
+python -m src.main --config configs/models/qwen/Qwen2-VL-7B-Instruct.yaml --device cuda --debug
 ```
 
 
 ```bash
 python -m src.main -a qwen -m Qwen/Qwen2-VL-7B-Instruct -l
 ```
+
+
+git clone https://gh.llkk.cc/https://github.com/compling-wat/vlm-lens.git
+
+pip install -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple -r envs/base/requirements.txt
+
+conda create -n llavanext_env python=3.10
+
+
+python -m src.main --config configs/models/llavanext/llava-v1.6-vicuna-13b-hf.yaml --device cuda --debug
