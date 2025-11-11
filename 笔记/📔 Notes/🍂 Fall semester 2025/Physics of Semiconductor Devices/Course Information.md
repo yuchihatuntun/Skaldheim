@@ -13,3 +13,11 @@
 | ------------------------ | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Regular Performance**​ | **40%**​  | **Class Attendance: <mark>10%</mark>**  <br>- 1 point will be deducted for each absence. The maximum deduction is 10 points.  <br>**Homework: <mark>20%</mark>**  <br>- 4 assignments on key content. Each assignment contributes 5% to the final grade.  <br>**In-class Quiz: <mark>10%</mark>** <br>- One 60-minute quiz during the semester, contributing 10% to the final grade. |
 | **Final Exam**​          | **60%**​  | Closed-book exam (complex formulas will be provided on the exam paper).                                                                                                                                                                                                                                                                                                              |
+
+### Holy artifact
+
+- **Note**：
+
+- **Cheatsheet**：**[Cheatsheet_MidtermEdition](https://vip.123pan.cn/1823290578/21860569)**
+
+>Please excuse my poor handwriting—several of my classmates have already commented on it.
