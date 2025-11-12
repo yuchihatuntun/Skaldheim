@@ -126,7 +126,7 @@ const ExtendedTheme: Theme = {
           {
             key: 'wordCount',
             type: 'dynamic',
-            title: '字数',
+            title: 'Words count',
             options: {
               type: 'wordsCount',
             },
@@ -134,7 +134,7 @@ const ExtendedTheme: Theme = {
           {
             key: 'readingTime',
             type: 'dynamic',
-            title: '阅读时间',
+            title: 'Reading time',
             options: {
               type: 'readingTime',
               dateFnsLocaleName: 'zhCN',
