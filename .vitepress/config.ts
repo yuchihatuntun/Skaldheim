@@ -124,10 +124,10 @@ export default defineConfig({
     // Proxying Plausible through Netlify | Plausible docs
     // https://plausible.io/docs/proxy/guides/netlify
     ['script', { 'defer': 'true', 'data-domain': 'nolebase.ayaka.io', 'data-api': '/api/v1/page-external-data/submit', 'src': '/assets/page-external-data/js/script.js' }],
-  ],
-  themeConfig: {
-    outline: { label: '页面大纲', level: 'deep' },
-    darkModeSwitchLabel: '切换主题',
+    ],
+    themeConfig: {
+    outline: { label: 'Page Outline', level: 'deep' },
+    darkModeSwitchLabel: 'Switch theme',
     editLink: {
       pattern: `${githubRepoLink}/tree/main/:path`,
       text: 'Edit this note (on GitHub)',
@@ -139,29 +139,29 @@ export default defineConfig({
     footer: {
       message: 'Written with <span style="color: #e25555;">&#9829;</span>',
       copyright:
-        '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT The creators of Skaldheim',
+      '<a class="footer-cc-link" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> © 2022-PRESENT The creators of Skaldheim',
     },
     search: {
       provider: 'local',
       options: {
-        locales: {
-          root: {
-            translations: {
-              button: {
-                buttonText: 'Search for documents',
-                buttonAriaLabel: 'Search for documents',
-              },
-              modal: {
-                noResultsText: '无法找到相关结果',
-                resetButtonTitle: '清除查询条件',
-                footer: {
-                  selectText: '选择',
-                  navigateText: '切换',
-                },
-              },
-            },
+      locales: {
+        root: {
+        translations: {
+          button: {
+          buttonText: 'Search for documents',
+          buttonAriaLabel: 'Search for documents',
+          },
+          modal: {
+          noResultsText: 'No relevant results found',
+          resetButtonTitle: 'Clear search query',
+          footer: {
+            selectText: 'Select',
+            navigateText: 'Navigate',
+          },
           },
         },
+        },
+      },
 
         // Add title ang tags field in frontmatter to search
         // You can exclude a page from search by adding search: false to the page's frontmatter.
