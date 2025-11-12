@@ -1,11 +1,10 @@
-![[笔记/pic/index_1.png]]
+I began this to pay attention. To the way light falls on a thought, to the echoes left by a good sentence, to the quiet questions that have no urgent answers. This is a record of that attention.
 
-<center>I began this to pay attention. To the way light falls on a thought, to the echoes left by a good sentence, to the quiet questions that have no urgent answers. This is a record of that attention.</center>
+![[笔记/pic/index_1.png]]
 
 I once treated this place as my treasure hoard, where each article was a gold coin I clutched tightly. I was Smaug, lying atop my pile of knowledge, blind to the emptiness within. Now, I choose a different path. 
 
 Here, you'll find the irregular rhythms of my daily life. My notes and learnings will still grow, but as links to shared files—no longer coins to be guarded, but seeds scattered to the wind.
-[[笔记/Blogs/【Special】体力テスト大冒険レポ～★]]
 ### Contact Me
 
 Comments and feedback are welcome! You can also reach me at:
