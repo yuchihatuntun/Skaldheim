@@ -10,13 +10,15 @@
 
 ### Grade Composition
 
-| Grade Type             | Weighting | Specific Description                                               |
-| ---------------------- | --------- | ------------------------------------------------------------------ |
-| **Usual Performance**​ | 15%       | Includes homework and attendance                                   |
-| **Final Exam**​        | 85%       | **Closed-book exam** , including a mid-term exam and a final exam  |
+| Grade Type             | Weighting | Specific Description                                              |
+| ---------------------- | --------- | ----------------------------------------------------------------- |
+| **Usual Performance**​ | 40%       | Includes homework, mid-term exam (easy) and attendance            |
+| **Final Exam**​        | 60%       | **Closed-book exam** , including a mid-term exam and a final exam |
 
 ### Holy artifact
 
-- **Past Final Exam Papers**：
+- **Note**：
 
-- 
+- **Cheatsheet**：
+
+>You might be wondering why a closed-book exam comes with a cheat sheet. Well, this one was made by the professor himself! The exam tests exactly these formulas. Memorize them, and getting a 90%+ is practically in the bag.
